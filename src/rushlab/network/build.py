@@ -130,11 +130,18 @@ def _edge_attributes(data: dict[str, Any], travel_time: float) -> dict[str, Any]
     }
 
 
-def build_analysis_graph(source: Path | nx.MultiDiGraph, *, area: Area | None = None) -> nx.DiGraph:
+def build_analysis_graph(
+    source: Path | nx.MultiDiGraph,
+    *,
+    area: Area | None = None,
+    sink_capacity_override: float | None = None,
+    sink_delay_s: float | None = None,
+) -> nx.DiGraph:
     """Simplify an osmnx MultiDiGraph into a directed travel-time graph.
 
     Parallel edges collapse to the fastest one; all other attributes come from
-    that edge. When ``area`` has border metadata, a synthetic sink is attached.
+    that edge. When ``area`` has border metadata, a synthetic sink is attached;
+    calibrated capacity and delay can override the placeholders.
     """
     graph = load_osm_graph(source) if isinstance(source, Path) else source.copy()
     graph = ox.add_edge_speeds(graph, hwy_speeds=DEFAULT_SPEEDS, fallback=FALLBACK_SPEED_KPH)
@@ -151,12 +158,22 @@ def build_analysis_graph(source: Path | nx.MultiDiGraph, *, area: Area | None = 
         digraph.add_edge(u, v, **_edge_attributes(data, travel_time))
 
     if area is not None and area.border is not None:
-        attach_border_sink(digraph, area)
+        attach_border_sink(
+            digraph,
+            area,
+            capacity_veh_h=sink_capacity_override,
+            delay_s=sink_delay_s,
+        )
     return digraph
 
 
 def attach_border_sink(
-    graph: nx.DiGraph, area: Area, *, radius_m: float = SINK_SEARCH_RADIUS_M
+    graph: nx.DiGraph,
+    area: Area,
+    *,
+    radius_m: float = SINK_SEARCH_RADIUS_M,
+    capacity_veh_h: float | None = None,
+    delay_s: float | None = None,
 ) -> list[Any]:
     """Attach ``BORDER_SINK`` to the road nodes nearest each crossing point."""
     if area.border is None:
@@ -184,12 +201,16 @@ def attach_border_sink(
         highway="border",
         street_count=len(connectors),
     )
-    capacity_each = area.border.sink_capacity_veh_h / len(connectors)
+    sink_capacity = (
+        capacity_veh_h if capacity_veh_h is not None else area.border.sink_capacity_veh_h
+    )
+    connector_delay = delay_s if delay_s is not None else SINK_CONNECTOR_DELAY_S
+    capacity_each = sink_capacity / len(connectors)
     for node in connectors:
         graph.add_edge(
             node,
             BORDER_SINK,
-            travel_time_s=SINK_CONNECTOR_DELAY_S,
+            travel_time_s=connector_delay,
             length_m=0.0,
             speed_kph=0.0,
             name=area.border.name,

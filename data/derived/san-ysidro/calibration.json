@@ -1,0 +1,53 @@
+{
+  "area": "san-ysidro",
+  "generated_at": "2026-09-15T23:42:32+00:00",
+  "volume": {
+    "measure": "Personal Vehicles",
+    "months": 12,
+    "bts_vintage": "2026-07",
+    "trailing_daily_average_veh": 43057.2
+  },
+  "profile": {
+    "name": "northbound-commuter",
+    "peak_window": "06:00-10:00",
+    "peak_window_share": 0.3306,
+    "source": "Documented commuter profile: shape informed by CBP morning wait-time peaks (San Ysidro general lanes) and typical cross-border commuting patterns; to be refined from committed CBP snapshots as they accumulate."
+  },
+  "peak_hour_demand_veh_h": 4151.5,
+  "lanes": {
+    "max_pov": 34,
+    "snapshot_open": {
+      "general": 4,
+      "ready": 8,
+      "sentri": 15
+    }
+  },
+  "service_time_seconds": {
+    "low": 60.0,
+    "central": 45.0,
+    "high": 30.0
+  },
+  "capacity_veh_h": {
+    "low": 2040.0,
+    "central": 2720.0,
+    "high": 4080.0
+  },
+  "utilisation_vs_peak": {
+    "low": 2.04,
+    "central": 1.53,
+    "high": 1.02
+  },
+  "observed": {
+    "general_wait_s": 10200,
+    "general_lanes_open": 4,
+    "snapshot_date": "9/15/2026",
+    "snapshot_time": "16:38:30"
+  },
+  "method": "Demand-anchored estimate: BTS trailing daily volume x documented hourly profile -> peak-hour arrivals; capacity = max POV lanes x 3600/service_time with a service-time range. Not a fitted queueing model.",
+  "assumptions": [
+    "BTS monthly volumes are inbound crossings; no outbound data exists.",
+    "Hourly shape is the documented profile, not measured hourly demand.",
+    "Max POV lanes are design capacity; snapshot open lanes reflect one moment.",
+    "Service times bracket CBP primary inspection; not fitted to queue data."
+  ]
+}

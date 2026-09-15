@@ -1,0 +1,82 @@
+[
+  {
+    "port_number": "250401",
+    "border": "Mexican Border",
+    "port_name": "San Ysidro",
+    "crossing_name": "",
+    "hours": "24 hrs/day",
+    "date": "9/15/2026",
+    "time": "13:00:00",
+    "port_status": "Open",
+    "commercial_vehicle_lanes": {
+      "maximum_lanes": "N/A",
+      "cv_automation_type": "Manual",
+      "cv_segment_from": "",
+      "cv_segment_to": "",
+      "cv_standard_tolerance": "",
+      "cv_fast_tolerance": "",
+      "standard_lanes": {
+        "update_time": "",
+        "operational_status": "N/A",
+        "delay_minutes": "",
+        "lanes_open": ""
+      },
+      "FAST_lanes": {
+        "update_time": "",
+        "operational_status": "N/A",
+        "delay_minutes": "",
+        "lanes_open": ""
+      }
+    },
+    "passenger_vehicle_lanes": {
+      "maximum_lanes": "34",
+      "pv_automation_type": "Manual",
+      "pv_segment_from": "",
+      "pv_segment_to": "",
+      "pv_standard_tolerance": "120",
+      "pv_nexus_sentri_tolerance": "30",
+      "pv_ready_tolerance": "90",
+      "standard_lanes": {
+        "update_time": "At 1:00 pm PDT",
+        "operational_status": "delay",
+        "delay_minutes": "170",
+        "lanes_open": "4"
+      },
+      "NEXUS_SENTRI_lanes": {
+        "update_time": "At 1:00 pm PDT",
+        "operational_status": "delay",
+        "delay_minutes": "20",
+        "lanes_open": "15"
+      },
+      "ready_lanes": {
+        "update_time": "At 1:00 pm PDT",
+        "operational_status": "delay",
+        "delay_minutes": "150",
+        "lanes_open": "8"
+      }
+    },
+    "pedestrian_lanes": {
+      "maximum_lanes": "22",
+      "ped_automation_type": "Manual",
+      "ped_segment_from": "",
+      "ped_segment_to": "",
+      "ped_standard_tolerance": "",
+      "ped_ready_tolerance": "",
+      "standard_lanes": {
+        "update_time": "At 1:00 pm PDT",
+        "operational_status": "delay",
+        "delay_minutes": "30",
+        "lanes_open": "19"
+      },
+      "ready_lanes": {
+        "update_time": "At 1:00 pm PDT",
+        "operational_status": "delay",
+        "delay_minutes": "10",
+        "lanes_open": "2"
+      }
+    },
+    "construction_notice": "",
+    "automation": "0",
+    "automation_enabled": "0"
+  }
+]

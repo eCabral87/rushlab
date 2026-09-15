@@ -9,8 +9,8 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 28,
-      "community_name": "config/__init__.py",
+      "community": 27,
+      "community_name": "build.py",
       "file_type": "code",
       "norm_label": "borderconfig",
       "source_file": "src/rushlab/config/__init__.py",
@@ -27,7 +27,7 @@
       "file_type": "code",
       "norm_label": "terminal",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L27"
+      "source_location": "L29"
     },
     {
       "id": "src_rushlab_config_init_area",
@@ -40,7 +40,7 @@
       "file_type": "code",
       "norm_label": "area",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L35"
+      "source_location": "L37"
     },
     {
       "id": "opencode_plugins_graphify_graphifyplugin",
@@ -223,18 +223,6 @@
       "source_location": "L32"
     },
     {
-      "id": "tests_test_network_build_test_travel_time_to_sink",
-      "label": "test_travel_time_to_sink()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 26,
-      "community_name": "metrics.py",
-      "file_type": "code",
-      "norm_label": "test_travel_time_to_sink()",
-      "source_file": "tests/test_network_build.py",
-      "source_location": "L72"
-    },
-    {
       "id": "tests_test_network_metrics_bidirected",
       "label": "bidirected()",
       "_callable": true,
@@ -340,7 +328,7 @@
       "file_type": "code",
       "norm_label": "attach_border_sink()",
       "source_file": "src/rushlab/network/build.py",
-      "source_location": "L158"
+      "source_location": "L170"
     },
     {
       "id": "src_rushlab_network_build_build_analysis_graph",
@@ -547,6 +535,18 @@
       "source_location": "L48"
     },
     {
+      "id": "tests_test_network_build_test_travel_time_to_sink",
+      "label": "test_travel_time_to_sink()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "build.py",
+      "file_type": "code",
+      "norm_label": "test_travel_time_to_sink()",
+      "source_file": "tests/test_network_build.py",
+      "source_location": "L72"
+    },
+    {
       "id": "tests_test_network_build_test_travel_times_and_capacity",
       "label": "test_travel_times_and_capacity()",
       "_callable": true,
@@ -568,7 +568,7 @@
       "file_type": "code",
       "norm_label": "get_area()",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L102"
+      "source_location": "L106"
     },
     {
       "id": "src_rushlab_config_init_load_areas",
@@ -580,7 +580,7 @@
       "file_type": "code",
       "norm_label": "load_areas()",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L96"
+      "source_location": "L100"
     },
     {
       "id": "src_rushlab_config_init_parse_area",
@@ -592,7 +592,7 @@
       "file_type": "code",
       "norm_label": "_parse_area()",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L77"
+      "source_location": "L81"
     },
     {
       "id": "src_rushlab_config_init_parse_border",
@@ -604,7 +604,7 @@
       "file_type": "code",
       "norm_label": "_parse_border()",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L66"
+      "source_location": "L68"
     },
     {
       "id": "src_rushlab_config_init_parse_coordinate",
@@ -616,7 +616,7 @@
       "file_type": "code",
       "norm_label": "_parse_coordinate()",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L60"
+      "source_location": "L62"
     },
     {
       "id": "src_rushlab_config_init_validate_bbox",
@@ -628,7 +628,7 @@
       "file_type": "code",
       "norm_label": "_validate_bbox()",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L49"
+      "source_location": "L51"
     },
     {
       "id": "tests_test_areas_test_border_metadata_parsed",
@@ -652,7 +652,7 @@
       "file_type": "code",
       "norm_label": "test_invalid_bbox_rejected()",
       "source_file": "tests/test_areas.py",
-      "source_location": "L43"
+      "source_location": "L45"
     },
     {
       "id": "tests_test_areas_test_load_areas_includes_san_ysidro",
@@ -676,7 +676,7 @@
       "file_type": "code",
       "norm_label": "test_osmnx_bbox_conversion()",
       "source_file": "tests/test_areas.py",
-      "source_location": "L34"
+      "source_location": "L36"
     },
     {
       "id": "tests_test_areas_test_terminals_parsed",
@@ -688,7 +688,7 @@
       "file_type": "code",
       "norm_label": "test_terminals_parsed()",
       "source_file": "tests/test_areas.py",
-      "source_location": "L29"
+      "source_location": "L31"
     },
     {
       "id": "tests_test_areas_test_unknown_area_lists_available",
@@ -700,7 +700,7 @@
       "file_type": "code",
       "norm_label": "test_unknown_area_lists_available()",
       "source_file": "tests/test_areas.py",
-      "source_location": "L38"
+      "source_location": "L40"
     },
     {
       "id": "tests_test_network_fetch_test_fetch_area_downloads_and_caches",
@@ -724,7 +724,7 @@
       "file_type": "code",
       "norm_label": "analyze()",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L94"
+      "source_location": "L154"
     },
     {
       "id": "src_rushlab_cli_area_or_exit",
@@ -736,7 +736,7 @@
       "file_type": "code",
       "norm_label": "_area_or_exit()",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L48"
+      "source_location": "L62"
     },
     {
       "id": "src_rushlab_cli_areas",
@@ -748,7 +748,7 @@
       "file_type": "code",
       "norm_label": "areas()",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L57"
+      "source_location": "L80"
     },
     {
       "id": "src_rushlab_cli_build_area_command",
@@ -760,7 +760,31 @@
       "file_type": "code",
       "norm_label": "build_area_command()",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L78"
+      "source_location": "L131"
+    },
+    {
+      "id": "src_rushlab_cli_calibration_path",
+      "label": "_calibration_path()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "_calibration_path()",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L70"
+    },
+    {
+      "id": "src_rushlab_cli_demand",
+      "label": "demand()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "demand()",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L101"
     },
     {
       "id": "src_rushlab_cli_fetch_area_command",
@@ -772,7 +796,7 @@
       "file_type": "code",
       "norm_label": "fetch_area_command()",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L67"
+      "source_location": "L90"
     },
     {
       "id": "src_rushlab_cli_main",
@@ -784,7 +808,19 @@
       "file_type": "code",
       "norm_label": "main()",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L36"
+      "source_location": "L50"
+    },
+    {
+      "id": "src_rushlab_cli_print_calibration",
+      "label": "_print_calibration()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "_print_calibration()",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L179"
     },
     {
       "id": "src_rushlab_cli_print_report",
@@ -796,7 +832,19 @@
       "file_type": "code",
       "norm_label": "_print_report()",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L112"
+      "source_location": "L204"
+    },
+    {
+      "id": "src_rushlab_cli_sink_overrides",
+      "label": "_sink_overrides()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "_sink_overrides()",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L74"
     },
     {
       "id": "src_rushlab_cli_version_callback",
@@ -808,7 +856,7 @@
       "file_type": "code",
       "norm_label": "_version_callback()",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L29"
+      "source_location": "L43"
     },
     {
       "id": "src_rushlab_config_init_area_osmnx_bbox",
@@ -820,7 +868,91 @@
       "file_type": "code",
       "norm_label": ".osmnx_bbox()",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L43"
+      "source_location": "L45"
+    },
+    {
+      "id": "src_rushlab_demand_bts_fetch_volumes",
+      "label": "fetch_volumes()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "fetch_volumes()",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L31"
+    },
+    {
+      "id": "src_rushlab_demand_bts_latest_month",
+      "label": "latest_month()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "latest_month()",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L77"
+    },
+    {
+      "id": "src_rushlab_demand_bts_load_volumes",
+      "label": "load_volumes()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "load_volumes()",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L56"
+    },
+    {
+      "id": "src_rushlab_demand_bts_trailing_daily_average",
+      "label": "trailing_daily_average()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "trailing_daily_average()",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L67"
+    },
+    {
+      "id": "src_rushlab_demand_bts_volumes_from_rows",
+      "label": "volumes_from_rows()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "volumes_from_rows()",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L20"
+    },
+    {
+      "id": "src_rushlab_demand_calibration_load_calibration",
+      "label": "load_calibration()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "load_calibration()",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L110"
+    },
+    {
+      "id": "src_rushlab_demand_calibration_write_calibration",
+      "label": "write_calibration()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "write_calibration()",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L104"
     },
     {
       "id": "src_rushlab_network_fetch_area_cache_dir",
@@ -845,6 +977,18 @@
       "norm_label": "fetch_area()",
       "source_file": "src/rushlab/network/fetch.py",
       "source_location": "L21"
+    },
+    {
+      "id": "tests_test_demand_test_bts_parsing_and_daily_average",
+      "label": "test_bts_parsing_and_daily_average()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "test_bts_parsing_and_daily_average()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L75"
     },
     {
       "id": "scripts_agent_doctor_check",
@@ -1036,7 +1180,7 @@
       "file_type": "code",
       "norm_label": "test_analyze_writes_report()",
       "source_file": "tests/test_cli.py",
-      "source_location": "L41"
+      "source_location": "L42"
     },
     {
       "id": "tests_test_cli_test_areas_lists_study_area",
@@ -1063,6 +1207,18 @@
       "source_location": "L34"
     },
     {
+      "id": "tests_test_cli_test_demand_writes_calibration",
+      "label": "test_demand_writes_calibration()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 30,
+      "community_name": "test_cli.py",
+      "file_type": "code",
+      "norm_label": "test_demand_writes_calibration()",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L51"
+    },
+    {
       "id": "tests_test_cli_test_unknown_area_exits_with_error",
       "label": "test_unknown_area_exits_with_error()",
       "_callable": true,
@@ -1085,6 +1241,306 @@
       "norm_label": "test_version_flag()",
       "source_file": "tests/test_cli.py",
       "source_location": "L16"
+    },
+    {
+      "id": "src_rushlab_demand_calibration_calibrate",
+      "label": "calibrate()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "calibrate()",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L35"
+    },
+    {
+      "id": "src_rushlab_demand_calibration_capacity_range",
+      "label": "capacity_range()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "capacity_range()",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L28"
+    },
+    {
+      "id": "src_rushlab_demand_calibration_sink_overrides",
+      "label": "sink_overrides()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "sink_overrides()",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L92"
+    },
+    {
+      "id": "src_rushlab_demand_profile_hourly_demand",
+      "label": "hourly_demand()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "hourly_demand()",
+      "source_file": "src/rushlab/demand/profile.py",
+      "source_location": "L55"
+    },
+    {
+      "id": "src_rushlab_demand_profile_normalized_profile",
+      "label": "normalized_profile()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "normalized_profile()",
+      "source_file": "src/rushlab/demand/profile.py",
+      "source_location": "L42"
+    },
+    {
+      "id": "src_rushlab_demand_profile_peak_hour_demand",
+      "label": "peak_hour_demand()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "peak_hour_demand()",
+      "source_file": "src/rushlab/demand/profile.py",
+      "source_location": "L60"
+    },
+    {
+      "id": "src_rushlab_demand_profile_peak_share",
+      "label": "peak_share()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "peak_share()",
+      "source_file": "src/rushlab/demand/profile.py",
+      "source_location": "L47"
+    },
+    {
+      "id": "tests_test_demand_area",
+      "label": "area()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "area()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L37"
+    },
+    {
+      "id": "tests_test_demand_bts_frame",
+      "label": "bts_frame()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "bts_frame()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L42"
+    },
+    {
+      "id": "tests_test_demand_snapshot",
+      "label": "snapshot()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "snapshot()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L51"
+    },
+    {
+      "id": "tests_test_demand_test_bts_requires_expected_columns",
+      "label": "test_bts_requires_expected_columns()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "test_bts_requires_expected_columns()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L80"
+    },
+    {
+      "id": "tests_test_demand_test_calibration_math_and_overrides",
+      "label": "test_calibration_math_and_overrides()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "test_calibration_math_and_overrides()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L102"
+    },
+    {
+      "id": "tests_test_demand_test_calibration_roundtrip",
+      "label": "test_calibration_roundtrip()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "test_calibration_roundtrip()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L118"
+    },
+    {
+      "id": "tests_test_demand_test_capacity_range_math",
+      "label": "test_capacity_range_math()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "test_capacity_range_math()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L94"
+    },
+    {
+      "id": "tests_test_demand_test_cbp_normalization",
+      "label": "test_cbp_normalization()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "test_cbp_normalization()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L85"
+    },
+    {
+      "id": "tests_test_demand_test_peak_hour_demand_uses_max_hour",
+      "label": "test_peak_hour_demand_uses_max_hour()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "test_peak_hour_demand_uses_max_hour()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L69"
+    },
+    {
+      "id": "tests_test_demand_test_peak_share_in_plausible_range",
+      "label": "test_peak_share_in_plausible_range()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "test_peak_share_in_plausible_range()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L65"
+    },
+    {
+      "id": "tests_test_demand_test_profile_is_normalized",
+      "label": "test_profile_is_normalized()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "test_profile_is_normalized()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L59"
+    },
+    {
+      "id": "src_rushlab_demand_cbp_append_snapshot",
+      "label": "append_snapshot()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "cbp.py",
+      "file_type": "code",
+      "norm_label": "append_snapshot()",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L82"
+    },
+    {
+      "id": "src_rushlab_demand_cbp_clean_lane",
+      "label": "_clean_lane()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "cbp.py",
+      "file_type": "code",
+      "norm_label": "_clean_lane()",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L25"
+    },
+    {
+      "id": "src_rushlab_demand_cbp_fetch_snapshot",
+      "label": "fetch_snapshot()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "cbp.py",
+      "file_type": "code",
+      "norm_label": "fetch_snapshot()",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L57"
+    },
+    {
+      "id": "src_rushlab_demand_cbp_normalize_port",
+      "label": "normalize_port()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "cbp.py",
+      "file_type": "code",
+      "norm_label": "normalize_port()",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L34"
+    },
+    {
+      "id": "src_rushlab_demand_cbp_to_int",
+      "label": "_to_int()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "cbp.py",
+      "file_type": "code",
+      "norm_label": "_to_int()",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L18"
+    },
+    {
+      "id": "tests_test_demand_fetch_test_live_demand_sources",
+      "label": "test_live_demand_sources()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "cbp.py",
+      "file_type": "code",
+      "norm_label": "test_live_demand_sources()",
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L15"
+    },
+    {
+      "id": "tests_test_demand_test_snapshot_series_deduplicates",
+      "label": "test_snapshot_series_deduplicates()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "cbp.py",
+      "file_type": "code",
+      "norm_label": "test_snapshot_series_deduplicates()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L130"
     },
     {
       "id": "tests_test_agent_configs_load_json",
@@ -1352,7 +1808,7 @@
       "node_kind": "heading",
       "norm_label": "data sources",
       "source_file": "AGENTS.md",
-      "source_location": "L77"
+      "source_location": "L78"
     },
     {
       "id": "agents_domain_rules",
@@ -1364,7 +1820,7 @@
       "node_kind": "heading",
       "norm_label": "domain rules",
       "source_file": "AGENTS.md",
-      "source_location": "L57"
+      "source_location": "L58"
     },
     {
       "id": "agents_knowledge_graph",
@@ -1376,7 +1832,7 @@
       "node_kind": "heading",
       "norm_label": "knowledge graph",
       "source_file": "AGENTS.md",
-      "source_location": "L68"
+      "source_location": "L69"
     },
     {
       "id": "agents_rushlab_agent_guide",
@@ -1400,7 +1856,7 @@
       "node_kind": "heading",
       "norm_label": "working rules",
       "source_file": "AGENTS.md",
-      "source_location": "L38"
+      "source_location": "L39"
     },
     {
       "id": "agent_skills_run_scenario_study_skill",
@@ -2121,6 +2577,78 @@
       "source_location": "L13"
     },
     {
+      "id": "docs_decisions_0004_demand_model",
+      "label": "0004-demand-model.md",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "RushLab",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "0004-demand-model.md",
+      "source_file": "docs/decisions/0004-demand-model.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_decisions_0004_demand_model_0004_demand_model_and_sink_calibration",
+      "label": "0004 \u2014 Demand model and sink calibration",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "RushLab",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "0004 \u2014 demand model and sink calibration",
+      "source_file": "docs/decisions/0004-demand-model.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_decisions_0004_demand_model_calibrated_baseline_2026_09_15",
+      "label": "Calibrated baseline (2026-09-15)",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "RushLab",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "calibrated baseline (2026-09-15)",
+      "source_file": "docs/decisions/0004-demand-model.md",
+      "source_location": "L42"
+    },
+    {
+      "id": "docs_decisions_0004_demand_model_consequences",
+      "label": "Consequences",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "RushLab",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "consequences",
+      "source_file": "docs/decisions/0004-demand-model.md",
+      "source_location": "L54"
+    },
+    {
+      "id": "docs_decisions_0004_demand_model_context",
+      "label": "Context",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "RushLab",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "context",
+      "source_file": "docs/decisions/0004-demand-model.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "docs_decisions_0004_demand_model_decisions",
+      "label": "Decisions",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "RushLab",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "decisions",
+      "source_file": "docs/decisions/0004-demand-model.md",
+      "source_location": "L19"
+    },
+    {
       "id": "readme",
       "label": "README.md",
       "_origin": "ast",
@@ -2142,7 +2670,19 @@
       "node_kind": "heading",
       "norm_label": "data",
       "source_file": "README.md",
-      "source_location": "L102"
+      "source_location": "L123"
+    },
+    {
+      "id": "readme_demand_baseline_2026_09_15",
+      "label": "Demand baseline (2026-09-15)",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "RushLab",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "demand baseline (2026-09-15)",
+      "source_file": "README.md",
+      "source_location": "L87"
     },
     {
       "id": "readme_network_baseline_2026_09_15",
@@ -2154,7 +2694,7 @@
       "node_kind": "heading",
       "norm_label": "network baseline (2026-09-15)",
       "source_file": "README.md",
-      "source_location": "L65"
+      "source_location": "L69"
     },
     {
       "id": "readme_quickstart",
@@ -2178,7 +2718,7 @@
       "node_kind": "heading",
       "norm_label": "recon baseline (2026-09)",
       "source_file": "README.md",
-      "source_location": "L83"
+      "source_location": "L104"
     },
     {
       "id": "readme_rushlab",
@@ -2202,7 +2742,7 @@
       "node_kind": "heading",
       "norm_label": "scope and honesty rules",
       "source_file": "README.md",
-      "source_location": "L96"
+      "source_location": "L117"
     },
     {
       "id": "readme_usage",
@@ -2605,17 +3145,6 @@
       "source_location": "L1"
     },
     {
-      "id": "fixture",
-      "label": "fixture",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "build.py",
-      "file_type": "code",
-      "norm_label": "fixture",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "multidigraph",
       "label": "MultiDiGraph",
       "_origin": "ast",
@@ -2682,6 +3211,28 @@
       "source_location": "L1"
     },
     {
+      "id": "tests_test_network_build_py_fixture",
+      "label": "fixture",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "build.py",
+      "file_type": "code",
+      "norm_label": "fixture",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_config_init_rationale_18",
+      "label": "Border-crossing metadata used to attach the synthetic sink.",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "build.py",
+      "file_type": "rationale",
+      "norm_label": "border-crossing metadata used to attach the synthetic sink.",
+      "source_file": "src/rushlab/config/__init__.py",
+      "source_location": "L18"
+    },
+    {
       "id": "src_rushlab_network_build_rationale_1",
       "label": "Build the analytic road graph from cached OSM data.",
       "_origin": "ast",
@@ -2693,7 +3244,7 @@
       "source_location": "L1"
     },
     {
-      "id": "src_rushlab_network_build_rationale_134",
+      "id": "src_rushlab_network_build_rationale_140",
       "label": "Simplify an osmnx MultiDiGraph into a directed travel-time graph. Parallel\u2026",
       "_origin": "ast",
       "community": 27,
@@ -2701,10 +3252,10 @@
       "file_type": "rationale",
       "norm_label": "simplify an osmnx multidigraph into a directed travel-time graph. parallel...",
       "source_file": "src/rushlab/network/build.py",
-      "source_location": "L134"
+      "source_location": "L140"
     },
     {
-      "id": "src_rushlab_network_build_rationale_161",
+      "id": "src_rushlab_network_build_rationale_178",
       "label": "Attach ``BORDER_SINK`` to the road nodes nearest each crossing point.",
       "_origin": "ast",
       "community": 27,
@@ -2712,7 +3263,7 @@
       "file_type": "rationale",
       "norm_label": "attach ``border_sink`` to the road nodes nearest each crossing point.",
       "source_file": "src/rushlab/network/build.py",
-      "source_location": "L161"
+      "source_location": "L178"
     },
     {
       "id": "src_rushlab_network_build_rationale_66",
@@ -2766,17 +3317,6 @@
       "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "coordinate",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "integration",
-      "label": "integration",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "config/__init__.py",
-      "file_type": "code",
-      "norm_label": "integration",
       "source_file": "",
       "source_location": ""
     },
@@ -2836,6 +3376,17 @@
       "source_location": "L1"
     },
     {
+      "id": "tests_test_network_fetch_py_integration",
+      "label": "integration",
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "config/__init__.py",
+      "file_type": "code",
+      "norm_label": "integration",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
       "id": "tests_test_network_fetch_py_path",
       "label": "Path",
       "_origin": "ast",
@@ -2858,18 +3409,7 @@
       "source_location": "L1"
     },
     {
-      "id": "src_rushlab_config_init_rationale_18",
-      "label": "Border-crossing metadata used to attach the synthetic sink.",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "config/__init__.py",
-      "file_type": "rationale",
-      "norm_label": "border-crossing metadata used to attach the synthetic sink.",
-      "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L18"
-    },
-    {
-      "id": "src_rushlab_config_init_rationale_28",
+      "id": "src_rushlab_config_init_rationale_30",
       "label": "Named gateway used as a source in capacity analysis.",
       "_origin": "ast",
       "community": 28,
@@ -2877,7 +3417,7 @@
       "file_type": "rationale",
       "norm_label": "named gateway used as a source in capacity analysis.",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L28"
+      "source_location": "L30"
     },
     {
       "id": "tests_test_areas_rationale_1",
@@ -2946,6 +3486,72 @@
       "source_location": ""
     },
     {
+      "id": "src_rushlab_cli_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_demand_bts",
+      "label": "bts.py",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "bts.py",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_demand_bts_py_any",
+      "label": "Any",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "any",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_demand_bts_py_dataframe",
+      "label": "DataFrame",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "dataframe",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_demand_bts_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_demand_calibration_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
       "id": "src_rushlab_network_fetch",
       "label": "fetch.py",
       "_origin": "ast",
@@ -2979,29 +3585,18 @@
       "source_location": "L1"
     },
     {
-      "id": "src_rushlab_cli_rationale_58",
-      "label": "List registered study areas.",
+      "id": "src_rushlab_cli_rationale_110",
+      "label": "Fetch demand data, calibrate the border sink, and write derived evidence.",
       "_origin": "ast",
       "community": 29,
       "community_name": "cli.py",
       "file_type": "rationale",
-      "norm_label": "list registered study areas.",
+      "norm_label": "fetch demand data, calibrate the border sink, and write derived evidence.",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L58"
+      "source_location": "L110"
     },
     {
-      "id": "src_rushlab_cli_rationale_71",
-      "label": "Download the OSM drive network for a study area into the cache.",
-      "_origin": "ast",
-      "community": 29,
-      "community_name": "cli.py",
-      "file_type": "rationale",
-      "norm_label": "download the osm drive network for a study area into the cache.",
-      "source_file": "src/rushlab/cli.py",
-      "source_location": "L71"
-    },
-    {
-      "id": "src_rushlab_cli_rationale_82",
+      "id": "src_rushlab_cli_rationale_140",
       "label": "Build the analytic graph for an area and print summary stats.",
       "_origin": "ast",
       "community": 29,
@@ -3009,10 +3604,10 @@
       "file_type": "rationale",
       "norm_label": "build the analytic graph for an area and print summary stats.",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L82"
+      "source_location": "L140"
     },
     {
-      "id": "src_rushlab_cli_rationale_99",
+      "id": "src_rushlab_cli_rationale_164",
       "label": "Run resilience and bottleneck analysis; write results JSON.",
       "_origin": "ast",
       "community": 29,
@@ -3020,10 +3615,32 @@
       "file_type": "rationale",
       "norm_label": "run resilience and bottleneck analysis; write results json.",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L99"
+      "source_location": "L164"
     },
     {
-      "id": "src_rushlab_config_init_rationale_44",
+      "id": "src_rushlab_cli_rationale_81",
+      "label": "List registered study areas.",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "rationale",
+      "norm_label": "list registered study areas.",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L81"
+    },
+    {
+      "id": "src_rushlab_cli_rationale_94",
+      "label": "Download the OSM drive network for a study area into the cache.",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "rationale",
+      "norm_label": "download the osm drive network for a study area into the cache.",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L94"
+    },
+    {
+      "id": "src_rushlab_config_init_rationale_46",
       "label": "osmnx expects (left, bottom, right, top) == (west, south, east, north).",
       "_origin": "ast",
       "community": 29,
@@ -3031,7 +3648,29 @@
       "file_type": "rationale",
       "norm_label": "osmnx expects (left, bottom, right, top) == (west, south, east, north).",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L44"
+      "source_location": "L46"
+    },
+    {
+      "id": "src_rushlab_demand_bts_rationale_1",
+      "label": "BTS Border Crossing/Entry Data client (Socrata).",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "rationale",
+      "norm_label": "bts border crossing/entry data client (socrata).",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_demand_bts_rationale_38",
+      "label": "Return the cached raw BTS payload path, downloading when needed.",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "rationale",
+      "norm_label": "return the cached raw bts payload path, downloading when needed.",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L38"
     },
     {
       "id": "src_rushlab_network_fetch_rationale_1",
@@ -3046,12 +3685,12 @@
     },
     {
       "id": "src_rushlab_network_fetch_rationale_22",
-      "label": "Return the cached GraphML path, downloading via Overpass when needed.",
+      "label": "Return the cached GraphML path, downloading via Overpass when needed. osmnx\u2026",
       "_origin": "ast",
       "community": 29,
       "community_name": "cli.py",
       "file_type": "rationale",
-      "norm_label": "return the cached graphml path, downloading via overpass when needed.",
+      "norm_label": "return the cached graphml path, downloading via overpass when needed. osmnx...",
       "source_file": "src/rushlab/network/fetch.py",
       "source_location": "L22"
     },
@@ -3185,6 +3824,270 @@
       "file_type": "rationale",
       "norm_label": "network ingestion, graph construction, and analysis.",
       "source_file": "src/rushlab/network/__init__.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_demand_calibration",
+      "label": "calibration.py",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "calibration.py",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_demand_calibration_py_any",
+      "label": "Any",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "any",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_demand_profile",
+      "label": "profile.py",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "profile.py",
+      "source_file": "src/rushlab/demand/profile.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_test_demand",
+      "label": "test_demand.py",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "test_demand.py",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_test_demand_py_dataframe",
+      "label": "DataFrame",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "dataframe",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_demand_py_fixture",
+      "label": "fixture",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "fixture",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_demand_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_demand_calibration_rationale_1",
+      "label": "Demand-anchored border sink calibration with explicit ranges.",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "rationale",
+      "norm_label": "demand-anchored border sink calibration with explicit ranges.",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_demand_calibration_rationale_93",
+      "label": "Graph build overrides derived from a calibration result.",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "rationale",
+      "norm_label": "graph build overrides derived from a calibration result.",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L93"
+    },
+    {
+      "id": "src_rushlab_demand_profile_rationale_1",
+      "label": "Documented northbound demand profile (assumption, refinable from snapshots).",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "rationale",
+      "norm_label": "documented northbound demand profile (assumption, refinable from snapshots).",
+      "source_file": "src/rushlab/demand/profile.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_demand_profile_rationale_61",
+      "label": "Arrival rate (veh/h) of the busiest hour under the profile.",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "rationale",
+      "norm_label": "arrival rate (veh/h) of the busiest hour under the profile.",
+      "source_file": "src/rushlab/demand/profile.py",
+      "source_location": "L61"
+    },
+    {
+      "id": "tests_test_demand_rationale_1",
+      "label": "Demand-layer tests using committed fixtures; no network access.",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "test_demand.py",
+      "file_type": "rationale",
+      "norm_label": "demand-layer tests using committed fixtures; no network access.",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_demand_cbp",
+      "label": "cbp.py",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "cbp.py",
+      "file_type": "code",
+      "norm_label": "cbp.py",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_demand_cbp_py_any",
+      "label": "Any",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "cbp.py",
+      "file_type": "code",
+      "norm_label": "any",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_demand_cbp_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "cbp.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_demand_fetch",
+      "label": "test_demand_fetch.py",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "cbp.py",
+      "file_type": "code",
+      "norm_label": "test_demand_fetch.py",
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_test_demand_fetch_py_integration",
+      "label": "integration",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "cbp.py",
+      "file_type": "code",
+      "norm_label": "integration",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_demand_fetch_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "cbp.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_demand_cbp_rationale_1",
+      "label": "CBP Border Wait Times live client and snapshot series.",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "cbp.py",
+      "file_type": "rationale",
+      "norm_label": "cbp border wait times live client and snapshot series.",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_demand_cbp_rationale_60",
+      "label": "Return a normalized CBP wait-time snapshot for the area's port.",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "cbp.py",
+      "file_type": "rationale",
+      "norm_label": "return a normalized cbp wait-time snapshot for the area's port.",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L60"
+    },
+    {
+      "id": "src_rushlab_demand_cbp_rationale_83",
+      "label": "Append the snapshot to a JSONL series; duplicates (same date/time) are skipped.",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "cbp.py",
+      "file_type": "rationale",
+      "norm_label": "append the snapshot to a jsonl series; duplicates (same date/time) are skipped.",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L83"
+    },
+    {
+      "id": "tests_test_demand_fetch_rationale_1",
+      "label": "Live BTS/CBP integration test. Excluded from CI via the integration marker.",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "cbp.py",
+      "file_type": "rationale",
+      "norm_label": "live bts/cbp integration test. excluded from ci via the integration marker.",
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_demand_init",
+      "label": "demand/__init__.py",
+      "_origin": "ast",
+      "community": 34,
+      "community_name": "demand/__init__.py",
+      "file_type": "code",
+      "norm_label": "demand/__init__.py",
+      "source_file": "src/rushlab/demand/__init__.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_demand_init_rationale_1",
+      "label": "Demand estimation, border wait evidence, and sink calibration.",
+      "_origin": "ast",
+      "community": 34,
+      "community_name": "demand/__init__.py",
+      "file_type": "rationale",
+      "norm_label": "demand estimation, border wait evidence, and sink calibration.",
+      "source_file": "src/rushlab/demand/__init__.py",
       "source_location": "L1"
     },
     {
@@ -3701,7 +4604,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L100",
+      "source_location": "L165",
       "weight": 1.0
     },
     {
@@ -3713,7 +4616,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L101",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_analyze",
+      "target": "src_rushlab_cli_sink_overrides",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L167",
       "weight": 1.0
     },
     {
@@ -3725,7 +4640,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L102",
+      "source_location": "L168",
       "weight": 1.0
     },
     {
@@ -3737,7 +4652,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L103",
+      "source_location": "L169",
       "weight": 1.0
     },
     {
@@ -3749,7 +4664,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L108",
+      "source_location": "L175",
       "weight": 1.0
     },
     {
@@ -3761,7 +4676,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L50",
+      "source_location": "L64",
       "weight": 1.0
     },
     {
@@ -3773,7 +4688,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L60",
+      "source_location": "L83",
       "weight": 1.0
     },
     {
@@ -3785,7 +4700,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L83",
+      "source_location": "L141",
       "weight": 1.0
     },
     {
@@ -3797,7 +4712,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L84",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_build_area_command",
+      "target": "src_rushlab_cli_sink_overrides",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L143",
       "weight": 1.0
     },
     {
@@ -3809,7 +4736,127 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L85",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_demand",
+      "target": "src_rushlab_cli_area_or_exit",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_demand",
+      "target": "src_rushlab_demand_bts_load_volumes",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_demand",
+      "target": "src_rushlab_demand_bts_trailing_daily_average",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_demand",
+      "target": "src_rushlab_demand_bts_latest_month",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_demand",
+      "target": "src_rushlab_demand_cbp_fetch_snapshot",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_demand",
+      "target": "src_rushlab_demand_cbp_append_snapshot",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_demand",
+      "target": "src_rushlab_demand_calibration_calibrate",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_demand",
+      "target": "src_rushlab_cli_calibration_path",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_demand",
+      "target": "src_rushlab_demand_calibration_write_calibration",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_demand",
+      "target": "src_rushlab_cli_print_calibration",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L126",
       "weight": 1.0
     },
     {
@@ -3821,7 +4868,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L72",
+      "source_location": "L95",
       "weight": 1.0
     },
     {
@@ -3833,7 +4880,43 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L73",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_sink_overrides",
+      "target": "src_rushlab_cli_calibration_path",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_sink_overrides",
+      "target": "src_rushlab_demand_calibration_load_calibration",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_sink_overrides",
+      "target": "src_rushlab_demand_calibration_sink_overrides",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L76",
       "weight": 1.0
     },
     {
@@ -3845,7 +4928,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L103",
+      "source_location": "L107",
       "weight": 1.0
     },
     {
@@ -3857,7 +4940,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L99",
+      "source_location": "L103",
       "weight": 1.0
     },
     {
@@ -3869,7 +4952,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L80",
+      "source_location": "L84",
       "weight": 1.0
     },
     {
@@ -3881,7 +4964,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L83",
+      "source_location": "L87",
       "weight": 1.0
     },
     {
@@ -3893,7 +4976,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L85",
+      "source_location": "L89",
       "weight": 1.0
     },
     {
@@ -3905,7 +4988,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L87",
+      "source_location": "L91",
       "weight": 1.0
     },
     {
@@ -3917,7 +5000,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L89",
+      "source_location": "L93",
       "weight": 1.0
     },
     {
@@ -3929,7 +5012,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L67",
+      "source_location": "L69",
       "weight": 1.0
     },
     {
@@ -3941,7 +5024,151 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L70",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts_load_volumes",
+      "target": "src_rushlab_demand_bts_fetch_volumes",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts_load_volumes",
+      "target": "src_rushlab_demand_bts_volumes_from_rows",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration_calibrate",
+      "target": "src_rushlab_demand_profile_peak_hour_demand",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration_calibrate",
+      "target": "src_rushlab_demand_calibration_capacity_range",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration_calibrate",
+      "target": "src_rushlab_demand_profile_peak_share",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp_clean_lane",
+      "target": "src_rushlab_demand_cbp_to_int",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp_fetch_snapshot",
+      "target": "src_rushlab_demand_cbp_normalize_port",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp_normalize_port",
+      "target": "src_rushlab_demand_cbp_to_int",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp_normalize_port",
+      "target": "src_rushlab_demand_cbp_clean_lane",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_profile_hourly_demand",
+      "target": "src_rushlab_demand_profile_normalized_profile",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/demand/profile.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_profile_peak_hour_demand",
+      "target": "src_rushlab_demand_profile_hourly_demand",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/demand/profile.py",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_profile_peak_share",
+      "target": "src_rushlab_demand_profile_normalized_profile",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/demand/profile.py",
+      "source_location": "L50",
       "weight": 1.0
     },
     {
@@ -3953,7 +5180,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/network/build.py",
-      "source_location": "L166",
+      "source_location": "L183",
       "weight": 1.0
     },
     {
@@ -3965,7 +5192,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/network/build.py",
-      "source_location": "L139",
+      "source_location": "L146",
       "weight": 1.0
     },
     {
@@ -3977,7 +5204,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/network/build.py",
-      "source_location": "L151",
+      "source_location": "L158",
       "weight": 1.0
     },
     {
@@ -3989,7 +5216,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/network/build.py",
-      "source_location": "L154",
+      "source_location": "L161",
       "weight": 1.0
     },
     {
@@ -4061,7 +5288,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/rushlab/network/fetch.py",
-      "source_location": "L23",
+      "source_location": "L27",
       "weight": 1.0
     },
     {
@@ -4349,7 +5576,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "tests/test_areas.py",
-      "source_location": "L48",
+      "source_location": "L50",
       "weight": 1.0
     },
     {
@@ -4373,7 +5600,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "tests/test_areas.py",
-      "source_location": "L35",
+      "source_location": "L37",
       "weight": 1.0
     },
     {
@@ -4385,7 +5612,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "tests/test_areas.py",
-      "source_location": "L30",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
@@ -4397,7 +5624,271 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "tests/test_areas.py",
-      "source_location": "L40",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_area",
+      "target": "src_rushlab_config_init_get_area",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_bts_frame",
+      "target": "src_rushlab_demand_bts_load_volumes",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_fetch_test_live_demand_sources",
+      "target": "src_rushlab_config_init_get_area",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_fetch_test_live_demand_sources",
+      "target": "src_rushlab_demand_bts_load_volumes",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_fetch_test_live_demand_sources",
+      "target": "src_rushlab_demand_bts_trailing_daily_average",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_fetch_test_live_demand_sources",
+      "target": "src_rushlab_demand_cbp_fetch_snapshot",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_snapshot",
+      "target": "src_rushlab_demand_cbp_fetch_snapshot",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_bts_parsing_and_daily_average",
+      "target": "src_rushlab_demand_bts_trailing_daily_average",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_bts_parsing_and_daily_average",
+      "target": "src_rushlab_demand_bts_latest_month",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_bts_requires_expected_columns",
+      "target": "src_rushlab_demand_bts_volumes_from_rows",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_calibration_math_and_overrides",
+      "target": "src_rushlab_demand_calibration_calibrate",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_calibration_math_and_overrides",
+      "target": "src_rushlab_demand_profile_peak_hour_demand",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_calibration_math_and_overrides",
+      "target": "src_rushlab_demand_calibration_sink_overrides",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_calibration_roundtrip",
+      "target": "src_rushlab_demand_calibration_calibrate",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_calibration_roundtrip",
+      "target": "src_rushlab_demand_calibration_write_calibration",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_calibration_roundtrip",
+      "target": "src_rushlab_demand_calibration_load_calibration",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_capacity_range_math",
+      "target": "src_rushlab_demand_calibration_capacity_range",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_peak_hour_demand_uses_max_hour",
+      "target": "src_rushlab_demand_profile_normalized_profile",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_peak_hour_demand_uses_max_hour",
+      "target": "src_rushlab_demand_profile_peak_hour_demand",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_peak_share_in_plausible_range",
+      "target": "src_rushlab_demand_profile_peak_share",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_profile_is_normalized",
+      "target": "src_rushlab_demand_profile_normalized_profile",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_snapshot_series_deduplicates",
+      "target": "src_rushlab_demand_cbp_append_snapshot",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L132",
       "weight": 1.0
     },
     {
@@ -4697,7 +6188,7 @@
       "confidence_score": 1.0,
       "context": "decorator",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L93",
+      "source_location": "L153",
       "weight": 1.0
     },
     {
@@ -4709,7 +6200,7 @@
       "confidence_score": 1.0,
       "context": "decorator",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L56",
+      "source_location": "L79",
       "weight": 1.0
     },
     {
@@ -4721,7 +6212,19 @@
       "confidence_score": 1.0,
       "context": "decorator",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L77",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_demand",
+      "target": "opencode_graphify_command",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "decorator",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L100",
       "weight": 1.0
     },
     {
@@ -4733,7 +6236,7 @@
       "confidence_score": 1.0,
       "context": "decorator",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L66",
+      "source_location": "L89",
       "weight": 1.0
     },
     {
@@ -4745,12 +6248,60 @@
       "confidence_score": 1.0,
       "context": "decorator",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L35",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_area",
+      "target": "tests_test_demand_py_fixture",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "decorator",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_bts_frame",
+      "target": "tests_test_demand_py_fixture",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "decorator",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_fetch_test_live_demand_sources",
+      "target": "tests_test_demand_fetch_py_integration",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "decorator",
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_snapshot",
+      "target": "tests_test_demand_py_fixture",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "decorator",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L50",
       "weight": 1.0
     },
     {
       "source": "tests_test_network_build_border_graph",
-      "target": "fixture",
+      "target": "tests_test_network_build_py_fixture",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4762,7 +6313,7 @@
     },
     {
       "source": "tests_test_network_build_graph",
-      "target": "fixture",
+      "target": "tests_test_network_build_py_fixture",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4774,7 +6325,7 @@
     },
     {
       "source": "tests_test_network_fetch_test_fetch_area_downloads_and_caches",
-      "target": "integration",
+      "target": "tests_test_network_fetch_py_integration",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4797,6 +6348,18 @@
       "weight": 1.0
     },
     {
+      "source": "src_rushlab_cli_print_calibration",
+      "target": "src_rushlab_cli_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L179",
+      "weight": 1.0
+    },
+    {
       "source": "src_rushlab_cli_print_report",
       "target": "src_rushlab_cli_py_any",
       "relation": "references",
@@ -4805,7 +6368,7 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L112",
+      "source_location": "L204",
       "weight": 1.0
     },
     {
@@ -4817,7 +6380,115 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L96",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts_volumes_from_rows",
+      "target": "src_rushlab_demand_bts_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration_calibrate",
+      "target": "src_rushlab_demand_calibration_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration_load_calibration",
+      "target": "src_rushlab_demand_calibration_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration_sink_overrides",
+      "target": "src_rushlab_demand_calibration_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration_write_calibration",
+      "target": "src_rushlab_demand_calibration_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp_append_snapshot",
+      "target": "src_rushlab_demand_cbp_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp_clean_lane",
+      "target": "src_rushlab_demand_cbp_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp_fetch_snapshot",
+      "target": "src_rushlab_demand_cbp_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp_normalize_port",
+      "target": "src_rushlab_demand_cbp_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L34",
       "weight": 1.0
     },
     {
@@ -4829,7 +6500,7 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "src/rushlab/network/build.py",
-      "source_location": "L158",
+      "source_location": "L170",
       "weight": 1.0
     },
     {
@@ -5086,7 +6757,7 @@
     },
     {
       "source": "src_rushlab_cli",
-      "target": "src_rushlab_network_build_build_analysis_graph",
+      "target": "src_rushlab_demand_bts_latest_month",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5098,6 +6769,114 @@
     },
     {
       "source": "src_rushlab_cli",
+      "target": "src_rushlab_demand_bts_load_volumes",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_demand_bts_trailing_daily_average",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_demand_calibration_calibrate",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_demand_calibration_load_calibration",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_demand_calibration_sink_overrides",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_demand_calibration_write_calibration",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_demand_cbp_append_snapshot",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_demand_cbp_fetch_snapshot",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_network_build_build_analysis_graph",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
       "target": "src_rushlab_network_fetch_fetch_area",
       "relation": "imports",
       "_origin": "ast",
@@ -5105,7 +6884,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L16",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -5117,7 +6896,55 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L17",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts",
+      "target": "src_rushlab_config_init_area",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration",
+      "target": "src_rushlab_demand_profile_peak_hour_demand",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration",
+      "target": "src_rushlab_demand_profile_peak_share",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp",
+      "target": "src_rushlab_config_init_area",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -5194,7 +7021,7 @@
     },
     {
       "source": "src_rushlab_cli",
-      "target": "src_rushlab_network_build",
+      "target": "src_rushlab_demand_bts",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5206,6 +7033,42 @@
     },
     {
       "source": "src_rushlab_cli",
+      "target": "src_rushlab_demand_calibration",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_demand_cbp",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_network_build",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
       "target": "src_rushlab_network_fetch",
       "relation": "imports_from",
       "_origin": "ast",
@@ -5213,7 +7076,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L16",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -5225,7 +7088,43 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L17",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts",
+      "target": "src_rushlab_config_init",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration",
+      "target": "src_rushlab_demand_profile",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp",
+      "target": "src_rushlab_config_init",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -5309,6 +7208,102 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "tests/test_cli.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand",
+      "target": "src_rushlab_config_init",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand",
+      "target": "src_rushlab_demand_bts",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand",
+      "target": "src_rushlab_demand_calibration",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand",
+      "target": "src_rushlab_demand_cbp",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand",
+      "target": "src_rushlab_demand_profile",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_fetch",
+      "target": "src_rushlab_demand_bts",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_fetch",
+      "target": "src_rushlab_demand_cbp",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_fetch",
+      "target": "src_rushlab_config_init",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/test_demand_fetch.py",
       "source_location": "L9",
       "weight": 1.0
     },
@@ -5441,7 +7436,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L102",
+      "source_location": "L106",
       "weight": 1.0
     },
     {
@@ -5453,7 +7448,115 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L96",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts_fetch_volumes",
+      "target": "src_rushlab_config_init_area",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts_latest_month",
+      "target": "src_rushlab_demand_bts_py_dataframe",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts_load_volumes",
+      "target": "src_rushlab_config_init_area",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts_load_volumes",
+      "target": "src_rushlab_demand_bts_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts_trailing_daily_average",
+      "target": "src_rushlab_demand_bts_py_dataframe",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration_load_calibration",
+      "target": "src_rushlab_demand_calibration_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp_append_snapshot",
+      "target": "src_rushlab_demand_cbp_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp_fetch_snapshot",
+      "target": "src_rushlab_config_init_area",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp_fetch_snapshot",
+      "target": "src_rushlab_demand_cbp_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L57",
       "weight": 1.0
     },
     {
@@ -5465,7 +7568,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "src/rushlab/network/build.py",
-      "source_location": "L158",
+      "source_location": "L170",
       "weight": 1.0
     },
     {
@@ -5477,7 +7580,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "src/rushlab/network/build.py",
-      "source_location": "L158",
+      "source_location": "L170",
       "weight": 1.0
     },
     {
@@ -5765,7 +7868,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "tests/test_areas.py",
-      "source_location": "L43",
+      "source_location": "L45",
       "weight": 1.0
     },
     {
@@ -5777,7 +7880,151 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "tests/test_cli.py",
-      "source_location": "L41",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_cli_test_build_area_with_cached_fixture",
+      "target": "tests_test_cli_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_cli_test_demand_writes_calibration",
+      "target": "tests_test_cli_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_cli.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_bts_frame",
+      "target": "tests_test_demand_area",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_bts_frame",
+      "target": "tests_test_demand_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_fetch_test_live_demand_sources",
+      "target": "tests_test_demand_fetch_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_snapshot",
+      "target": "tests_test_demand_area",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_snapshot",
+      "target": "tests_test_demand_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_bts_parsing_and_daily_average",
+      "target": "tests_test_demand_py_dataframe",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_calibration_math_and_overrides",
+      "target": "tests_test_demand_area",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_calibration_roundtrip",
+      "target": "tests_test_demand_area",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_calibration_roundtrip",
+      "target": "tests_test_demand_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_test_snapshot_series_deduplicates",
+      "target": "tests_test_demand_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L130",
       "weight": 1.0
     },
     {
@@ -5813,7 +8060,19 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L48",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_calibration_path",
+      "target": "src_rushlab_cli_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L70",
       "weight": 1.0
     },
     {
@@ -5825,7 +8084,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L102",
+      "source_location": "L106",
       "weight": 1.0
     },
     {
@@ -5837,7 +8096,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L60",
+      "source_location": "L62",
       "weight": 1.0
     },
     {
@@ -5849,7 +8108,55 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L49",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts_fetch_volumes",
+      "target": "src_rushlab_demand_bts_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts_load_volumes",
+      "target": "src_rushlab_demand_bts_py_dataframe",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts_volumes_from_rows",
+      "target": "src_rushlab_demand_bts_py_dataframe",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration_write_calibration",
+      "target": "src_rushlab_demand_calibration_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L104",
       "weight": 1.0
     },
     {
@@ -5898,6 +8205,18 @@
       "context": "return_type",
       "source_file": "src/rushlab/network/fetch.py",
       "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_bts_frame",
+      "target": "tests_test_demand_py_dataframe",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L42",
       "weight": 1.0
     },
     {
@@ -6097,7 +8416,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "AGENTS.md",
-      "source_location": "L38",
+      "source_location": "L39",
       "weight": 1.0
     },
     {
@@ -6108,7 +8427,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "AGENTS.md",
-      "source_location": "L57",
+      "source_location": "L58",
       "weight": 1.0
     },
     {
@@ -6119,7 +8438,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "AGENTS.md",
-      "source_location": "L68",
+      "source_location": "L69",
       "weight": 1.0
     },
     {
@@ -6130,7 +8449,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "AGENTS.md",
-      "source_location": "L77",
+      "source_location": "L78",
       "weight": 1.0
     },
     {
@@ -6585,6 +8904,61 @@
       "weight": 1.0
     },
     {
+      "source": "docs_decisions_0004_demand_model",
+      "target": "docs_decisions_0004_demand_model_0004_demand_model_and_sink_calibration",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/decisions/0004-demand-model.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_decisions_0004_demand_model_0004_demand_model_and_sink_calibration",
+      "target": "docs_decisions_0004_demand_model_decisions",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/decisions/0004-demand-model.md",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_decisions_0004_demand_model_0004_demand_model_and_sink_calibration",
+      "target": "docs_decisions_0004_demand_model_calibrated_baseline_2026_09_15",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/decisions/0004-demand-model.md",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_decisions_0004_demand_model_0004_demand_model_and_sink_calibration",
+      "target": "docs_decisions_0004_demand_model_consequences",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/decisions/0004-demand-model.md",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_decisions_0004_demand_model_0004_demand_model_and_sink_calibration",
+      "target": "docs_decisions_0004_demand_model_context",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/decisions/0004-demand-model.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
       "source": "mcp",
       "target": "mcp_mcp_server_graphify",
       "relation": "contains",
@@ -6839,13 +9213,24 @@
     },
     {
       "source": "readme_rushlab",
-      "target": "readme_data",
+      "target": "readme_recon_baseline_2026_09",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L102",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_rushlab",
+      "target": "readme_scope_and_honesty_rules",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L117",
       "weight": 1.0
     },
     {
@@ -6857,6 +9242,17 @@
       "confidence_score": 1.0,
       "source_file": "README.md",
       "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_rushlab",
+      "target": "readme_data",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L123",
       "weight": 1.0
     },
     {
@@ -6900,29 +9296,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L65",
+      "source_location": "L69",
       "weight": 1.0
     },
     {
       "source": "readme_rushlab",
-      "target": "readme_recon_baseline_2026_09",
+      "target": "readme_demand_baseline_2026_09_15",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L83",
-      "weight": 1.0
-    },
-    {
-      "source": "readme_rushlab",
-      "target": "readme_scope_and_honesty_rules",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L96",
+      "source_location": "L87",
       "weight": 1.0
     },
     {
@@ -7136,68 +9521,13 @@
     },
     {
       "source": "src_rushlab_cli",
-      "target": "src_rushlab_cli_print_report",
+      "target": "src_rushlab_cli_demand",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L112",
-      "weight": 1.0
-    },
-    {
-      "source": "src_rushlab_cli",
-      "target": "src_rushlab_cli_version_callback",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/rushlab/cli.py",
-      "source_location": "L29",
-      "weight": 1.0
-    },
-    {
-      "source": "src_rushlab_cli",
-      "target": "src_rushlab_cli_main",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/rushlab/cli.py",
-      "source_location": "L36",
-      "weight": 1.0
-    },
-    {
-      "source": "src_rushlab_cli",
-      "target": "src_rushlab_cli_area_or_exit",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/rushlab/cli.py",
-      "source_location": "L48",
-      "weight": 1.0
-    },
-    {
-      "source": "src_rushlab_cli",
-      "target": "src_rushlab_cli_areas",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/rushlab/cli.py",
-      "source_location": "L57",
-      "weight": 1.0
-    },
-    {
-      "source": "src_rushlab_cli",
-      "target": "src_rushlab_cli_fetch_area_command",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/rushlab/cli.py",
-      "source_location": "L67",
+      "source_location": "L101",
       "weight": 1.0
     },
     {
@@ -7208,7 +9538,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L78",
+      "source_location": "L131",
       "weight": 1.0
     },
     {
@@ -7219,7 +9549,117 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L94",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_cli_print_calibration",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L179",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_cli_print_report",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L204",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_cli_version_callback",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_cli_main",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_cli_area_or_exit",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_cli_calibration_path",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_cli_sink_overrides",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_cli_areas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli",
+      "target": "src_rushlab_cli_fetch_area_command",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_config_init",
+      "target": "src_rushlab_config_init_load_areas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/config/__init__.py",
+      "source_location": "L100",
       "weight": 1.0
     },
     {
@@ -7230,7 +9670,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L102",
+      "source_location": "L106",
       "weight": 1.0
     },
     {
@@ -7252,7 +9692,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L27",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -7263,7 +9703,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L35",
+      "source_location": "L37",
       "weight": 1.0
     },
     {
@@ -7274,7 +9714,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L49",
+      "source_location": "L51",
       "weight": 1.0
     },
     {
@@ -7285,7 +9725,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L60",
+      "source_location": "L62",
       "weight": 1.0
     },
     {
@@ -7296,7 +9736,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L66",
+      "source_location": "L68",
       "weight": 1.0
     },
     {
@@ -7307,18 +9747,216 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L77",
+      "source_location": "L81",
       "weight": 1.0
     },
     {
-      "source": "src_rushlab_config_init",
-      "target": "src_rushlab_config_init_load_areas",
+      "source": "src_rushlab_demand_bts",
+      "target": "src_rushlab_demand_bts_volumes_from_rows",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L96",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts",
+      "target": "src_rushlab_demand_bts_fetch_volumes",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts",
+      "target": "src_rushlab_demand_bts_load_volumes",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts",
+      "target": "src_rushlab_demand_bts_trailing_daily_average",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts",
+      "target": "src_rushlab_demand_bts_latest_month",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration",
+      "target": "src_rushlab_demand_calibration_write_calibration",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration",
+      "target": "src_rushlab_demand_calibration_load_calibration",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration",
+      "target": "src_rushlab_demand_calibration_capacity_range",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration",
+      "target": "src_rushlab_demand_calibration_calibrate",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration",
+      "target": "src_rushlab_demand_calibration_sink_overrides",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp",
+      "target": "src_rushlab_demand_cbp_to_int",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp",
+      "target": "src_rushlab_demand_cbp_clean_lane",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp",
+      "target": "src_rushlab_demand_cbp_normalize_port",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp",
+      "target": "src_rushlab_demand_cbp_fetch_snapshot",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp",
+      "target": "src_rushlab_demand_cbp_append_snapshot",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_profile",
+      "target": "src_rushlab_demand_profile_normalized_profile",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/profile.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_profile",
+      "target": "src_rushlab_demand_profile_peak_share",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/profile.py",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_profile",
+      "target": "src_rushlab_demand_profile_hourly_demand",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/profile.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_profile",
+      "target": "src_rushlab_demand_profile_peak_hour_demand",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/profile.py",
+      "source_location": "L60",
       "weight": 1.0
     },
     {
@@ -7362,7 +10000,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/network/build.py",
-      "source_location": "L158",
+      "source_location": "L170",
       "weight": 1.0
     },
     {
@@ -7703,7 +10341,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_areas.py",
-      "source_location": "L29",
+      "source_location": "L31",
       "weight": 1.0
     },
     {
@@ -7714,7 +10352,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_areas.py",
-      "source_location": "L34",
+      "source_location": "L36",
       "weight": 1.0
     },
     {
@@ -7725,7 +10363,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_areas.py",
-      "source_location": "L38",
+      "source_location": "L40",
       "weight": 1.0
     },
     {
@@ -7736,7 +10374,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_areas.py",
-      "source_location": "L43",
+      "source_location": "L45",
       "weight": 1.0
     },
     {
@@ -7791,7 +10429,172 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_cli.py",
-      "source_location": "L41",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_cli",
+      "target": "tests_test_cli_test_demand_writes_calibration",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_cli.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand",
+      "target": "tests_test_demand_test_calibration_math_and_overrides",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_demand.py",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand",
+      "target": "tests_test_demand_test_calibration_roundtrip",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_demand.py",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand",
+      "target": "tests_test_demand_test_snapshot_series_deduplicates",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_demand.py",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand",
+      "target": "tests_test_demand_area",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_demand.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand",
+      "target": "tests_test_demand_bts_frame",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_demand.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand",
+      "target": "tests_test_demand_snapshot",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_demand.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand",
+      "target": "tests_test_demand_test_profile_is_normalized",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_demand.py",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand",
+      "target": "tests_test_demand_test_peak_share_in_plausible_range",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_demand.py",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand",
+      "target": "tests_test_demand_test_peak_hour_demand_uses_max_hour",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_demand.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand",
+      "target": "tests_test_demand_test_bts_parsing_and_daily_average",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_demand.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand",
+      "target": "tests_test_demand_test_bts_requires_expected_columns",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_demand.py",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand",
+      "target": "tests_test_demand_test_cbp_normalization",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_demand.py",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand",
+      "target": "tests_test_demand_test_capacity_range_math",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_demand.py",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_fetch",
+      "target": "tests_test_demand_fetch_test_live_demand_sources",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -8022,7 +10825,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L43",
+      "source_location": "L45",
       "weight": 1.0
     },
     {
@@ -8114,47 +10917,58 @@
       "weight": 1.0
     },
     {
-      "source": "src_rushlab_cli_rationale_58",
-      "target": "src_rushlab_cli_areas",
+      "source": "src_rushlab_cli_rationale_110",
+      "target": "src_rushlab_cli_demand",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L58",
+      "source_location": "L110",
       "weight": 1.0
     },
     {
-      "source": "src_rushlab_cli_rationale_71",
-      "target": "src_rushlab_cli_fetch_area_command",
-      "relation": "rationale_for",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/rushlab/cli.py",
-      "source_location": "L71",
-      "weight": 1.0
-    },
-    {
-      "source": "src_rushlab_cli_rationale_82",
+      "source": "src_rushlab_cli_rationale_140",
       "target": "src_rushlab_cli_build_area_command",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L82",
+      "source_location": "L140",
       "weight": 1.0
     },
     {
-      "source": "src_rushlab_cli_rationale_99",
+      "source": "src_rushlab_cli_rationale_164",
       "target": "src_rushlab_cli_analyze",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/cli.py",
-      "source_location": "L99",
+      "source_location": "L164",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_rationale_81",
+      "target": "src_rushlab_cli_areas",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_cli_rationale_94",
+      "target": "src_rushlab_cli_fetch_area_command",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L94",
       "weight": 1.0
     },
     {
@@ -8180,25 +10994,135 @@
       "weight": 1.0
     },
     {
-      "source": "src_rushlab_config_init_rationale_28",
+      "source": "src_rushlab_config_init_rationale_30",
       "target": "src_rushlab_config_init_terminal",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L28",
+      "source_location": "L30",
       "weight": 1.0
     },
     {
-      "source": "src_rushlab_config_init_rationale_44",
+      "source": "src_rushlab_config_init_rationale_46",
       "target": "src_rushlab_config_init_area_osmnx_bbox",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L44",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts_rationale_1",
+      "target": "src_rushlab_demand_bts",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_bts_rationale_38",
+      "target": "src_rushlab_demand_bts_fetch_volumes",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration_rationale_1",
+      "target": "src_rushlab_demand_calibration",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_calibration_rationale_93",
+      "target": "src_rushlab_demand_calibration_sink_overrides",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp_rationale_1",
+      "target": "src_rushlab_demand_cbp",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp_rationale_60",
+      "target": "src_rushlab_demand_cbp_fetch_snapshot",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_cbp_rationale_83",
+      "target": "src_rushlab_demand_cbp_append_snapshot",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_init_rationale_1",
+      "target": "src_rushlab_demand_init",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_profile_rationale_1",
+      "target": "src_rushlab_demand_profile",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/profile.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_demand_profile_rationale_61",
+      "target": "src_rushlab_demand_profile_peak_hour_demand",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/demand/profile.py",
+      "source_location": "L61",
       "weight": 1.0
     },
     {
@@ -8224,25 +11148,25 @@
       "weight": 1.0
     },
     {
-      "source": "src_rushlab_network_build_rationale_134",
+      "source": "src_rushlab_network_build_rationale_140",
       "target": "src_rushlab_network_build_build_analysis_graph",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/network/build.py",
-      "source_location": "L134",
+      "source_location": "L140",
       "weight": 1.0
     },
     {
-      "source": "src_rushlab_network_build_rationale_161",
+      "source": "src_rushlab_network_build_rationale_178",
       "target": "src_rushlab_network_build_attach_border_sink",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/rushlab/network/build.py",
-      "source_location": "L161",
+      "source_location": "L178",
       "weight": 1.0
     },
     {
@@ -8378,6 +11302,28 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_demand_fetch_rationale_1",
+      "target": "tests_test_demand_fetch",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_demand_rationale_1",
+      "target": "tests_test_demand",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_demand.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
       "source": "tests_test_network_build_rationale_1",
       "target": "tests_test_network_build",
       "relation": "rationale_for",
@@ -8418,7 +11364,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L100",
+      "source_location": "L121",
       "weight": 1.0
     },
     {
@@ -8429,10 +11375,21 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L68",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "docs_decisions_0004_demand_model",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L90",
       "weight": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "bc82d1ee95cc892076e46f809693879b4c29044c"
+  "built_at_commit": "24b075253100b0c57d8f909dbd11c935a538f2fd"
 }

@@ -21,6 +21,8 @@ class BorderConfig:
     crossing_points: tuple[Coordinate, ...]
     sink_capacity_veh_h: float
     lane_types: tuple[str, ...] = ()
+    bts_port_code: str = ""
+    cbp_port_number: str = ""
 
 
 @dataclass(frozen=True)
@@ -71,6 +73,8 @@ def _parse_border(name: str, raw: dict) -> BorderConfig:
         ),
         sink_capacity_veh_h=float(raw["sink_capacity_veh_h"]),
         lane_types=tuple(str(lane) for lane in raw.get("lane_types", ())),
+        bts_port_code=str(raw.get("bts_port_code", "")),
+        cbp_port_number=str(raw.get("cbp_port_number", "")),
     )
 
 

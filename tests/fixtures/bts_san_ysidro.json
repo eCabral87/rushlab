@@ -1,0 +1,46 @@
+[
+  {
+    "port_name": "San Ysidro",
+    "state": "California",
+    "port_code": "2504",
+    "border": "US-Mexico Border",
+    "date": "2026-06-01T00:00:00.000",
+    "measure": "Personal Vehicles",
+    "value": "1200000",
+    "latitude": "32.543556",
+    "longitude": "-117.029722"
+  },
+  {
+    "port_name": "San Ysidro",
+    "state": "California",
+    "port_code": "2504",
+    "border": "US-Mexico Border",
+    "date": "2026-07-01T00:00:00.000",
+    "measure": "Personal Vehicles",
+    "value": "1337174",
+    "latitude": "32.543556",
+    "longitude": "-117.029722"
+  },
+  {
+    "port_name": "San Ysidro",
+    "state": "California",
+    "port_code": "2504",
+    "border": "US-Mexico Border",
+    "date": "2026-06-01T00:00:00.000",
+    "measure": "Pedestrians",
+    "value": "650000",
+    "latitude": "32.543556",
+    "longitude": "-117.029722"
+  },
+  {
+    "port_name": "San Ysidro",
+    "state": "California",
+    "port_code": "2504",
+    "border": "US-Mexico Border",
+    "date": "2026-07-01T00:00:00.000",
+    "measure": "Pedestrians",
+    "value": "708613",
+    "latitude": "32.543556",
+    "longitude": "-117.029722"
+  }
+]

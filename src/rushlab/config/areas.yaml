@@ -11,10 +11,14 @@ areas:
       # synthetic sink to nearby street nodes. Refined in D4.
       crossing_points:
         - [32.5427, -117.0290]
-      # Placeholder sink throughput (veh/h) until D4 calibration against
-      # BTS volumes and CBP wait times: ~24 lanes x 200 veh/h effective.
+      # Placeholder sink throughput (veh/h) until calibration supplies a range;
+      # D3 derives the calibrated value into data/derived/<area>/calibration.json.
       sink_capacity_veh_h: 4800
       lane_types: [general, ready, sentri]
+      # BTS Border Crossing/Entry Data port code (data.transportation.gov).
+      bts_port_code: "2504"
+      # CBP Border Wait Times port number (bwt.cbp.gov).
+      cbp_port_number: "250401"
     # Approximate corridor gateways for capacity analysis; nearest graph node is
     # used as the terminal. Refined in D4.
     terminals:

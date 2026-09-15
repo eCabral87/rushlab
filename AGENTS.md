@@ -28,6 +28,7 @@ uv run rushlab --help                      # CLI
 uv run rushlab areas                       # list study areas
 uv run rushlab build-area san-ysidro       # fetch + build analytic graph
 uv run rushlab analyze san-ysidro          # bottleneck analysis -> results/
+uv run rushlab demand san-ysidro           # BTS/CBP fetch + sink calibration
 uv run python scripts/sync_agent_config.py # regenerate per-tool agent files
 uv run python scripts/agent_doctor.py      # verify agent setup
 uv run graphify update .                   # rebuild the knowledge graph

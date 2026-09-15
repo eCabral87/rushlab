@@ -24,6 +24,8 @@ def test_border_metadata_parsed() -> None:
     assert border.sink_capacity_veh_h > 0
     assert border.lane_types == ("general", "ready", "sentri")
     assert border.crossing_points
+    assert border.bts_port_code == "2504"
+    assert border.cbp_port_number == "250401"
 
 
 def test_terminals_parsed() -> None:

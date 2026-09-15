@@ -6,8 +6,8 @@ Ask *"what's the cheapest way to cut the morning wait at San Ysidro?"* — RushL
 loads the corridor from OpenStreetMap, simulates rush-hour traffic in SUMO, tests
 interventions, and returns a ranked before/after comparison with stated assumptions.
 
-> Status: D2 — OSM ingestion, analytic graph, and bottleneck analysis complete.
-> Demand calibration and SUMO simulation land next.
+> Status: D3 — demand calibration complete (BTS volumes + CBP wait snapshots).
+> SUMO microsimulation lands next.
 
 ## What it does
 
@@ -58,9 +58,13 @@ uv run pytest
 ```bash
 uv run rushlab areas                      # registered study areas
 uv run rushlab fetch-area san-ysidro      # download + cache the OSM drive network
-uv run rushlab build-area san-ysidro      # build the analytic graph, attach border sink
+uv run rushlab demand san-ysidro          # BTS volumes + CBP snapshot -> calibration.json
+uv run rushlab build-area san-ysidro      # analytic graph with calibrated sink
 uv run rushlab analyze san-ysidro --top 15  # bottleneck ranking -> results/<area>/analysis.json
 ```
+
+`build-area` and `analyze` use the derived calibration automatically when it
+exists (`--no-calibrated` forces the placeholder values).
 
 ## Network baseline (2026-09-15)
 
@@ -79,6 +83,23 @@ capacities (see [ADR-0003](docs/decisions/0003-network-model.md)):
 
 These are structural approximations under documented assumptions — not
 predictions. Scenario comparisons only become meaningful after D4 calibration.
+
+## Demand baseline (2026-09-15)
+
+Calibrated from BTS volumes and a CBP wait snapshot
+(see [ADR-0004](docs/decisions/0004-demand-model.md)):
+
+| Item | Value |
+|---|---|
+| BTS trailing daily average (Personal Vehicles) | 43,057 (vintage 2026-07) |
+| Peak-hour demand (documented profile) | 4,152 veh/h |
+| Sink capacity low / central / high | 2,040 / 2,720 / 4,080 veh/h |
+| Peak utilisation at central capacity | 1.53 |
+| Observed wait (2026-09-15 snapshot) | 170 min general, 4 lanes open |
+| Median travel time to sink (calibrated) | ~2.9 h, queue-inclusive |
+
+Evidence lives in `data/derived/san-ysidro/` (`calibration.json` and the
+growing `wait_snapshots.jsonl`); raw API responses stay in the ignored cache.
 
 ## Recon baseline (2026-09)
 
