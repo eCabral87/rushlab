@@ -37,6 +37,7 @@ dev = [
     "ruff>=0.6",
     "pyright>=1.1.380",
     "tiktoken>=0.7",
+    "graphifyy[mcp]>=0.9.53",
 ]
 
 [build-system]

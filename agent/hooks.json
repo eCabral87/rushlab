@@ -1,0 +1,6 @@
+{
+  "session_start": {
+    "script": "scripts/graphify_reminder.py",
+    "matcher": "startup|resume|clear|compact"
+  }
+}

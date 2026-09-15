@@ -25,8 +25,8 @@ jobs:
       - name: Format check
         run: uv run ruff format --check .
 
-      - name: Agent config in sync
-        run: uv run python scripts/sync_agent_config.py --check
+      - name: Agent setup doctor
+        run: uv run python scripts/agent_doctor.py
 
       - name: Type check
         run: uv run pyright
