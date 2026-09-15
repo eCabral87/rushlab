@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# uv
+uv.lock.bak
+
+# Data: raw downloads and processed artifacts stay out of git
+data/processed/
+data/cache/
+sumo/
+
+# Simulation outputs
+*.sumocfg
+*_output.xml
+*.rou.xml
+*.net.xml
+*.vehroutes.xml
+*.tripinfo.xml
+*.edgedata.xml
+*.fcd.xml
+tls_output/
+results/
+
+# Graphify
+graphify-out/
+
+# Reports generated from runs (keep templates, not outputs)
+reports/*.html
+!reports/.gitkeep
+
+# OS
+.DS_Store

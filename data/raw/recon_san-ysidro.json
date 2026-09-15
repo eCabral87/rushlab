@@ -1,0 +1,9 @@
+{
+  "area": "san-ysidro",
+  "bbox": "32.525,-117.06,32.555,-116.97",
+  "generated_at": "2026-09-15T18:39:58+00:00",
+  "source": "OpenStreetMap via Overpass API",
+  "license": "ODbL",
+  "highway_ways": 7509,
+  "traffic_signal_nodes": 200
+}
