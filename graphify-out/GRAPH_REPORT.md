@@ -1,22 +1,22 @@
 # Graph Report - rushlab  (2026-09-15)
 
 ## Corpus Check
-- 36 files · ~7,157 words
+- 47 files · ~219,738 words
 - Verdict: corpus is large enough that graph structure adds value.
-- Unclassified: 4 file(s) not represented in the graph (top: (none) 2, .toml 1, .lock 1)
+- Unclassified: 5 file(s) not represented in the graph (top: (none) 2, .toml 1, .graphml 1)
 
 ## Summary
-- 162 nodes · 163 edges · 26 communities (21 shown, 5 thin omitted)
+- 289 nodes · 434 edges · 32 communities (26 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `347d33f7`
+- Built from commit: `bc82d1ee`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
-- cli.py
+- opencode.json
 - RushLab — Agent Guide
 - RushLab
 - sync_agent_config.py
@@ -42,41 +42,53 @@
 - graphify.js
 - agent/README.md
 - CLAUDE.md
+- metrics.py
+- build.py
+- config/__init__.py
+- cli.py
+- test_cli.py
+- network/__init__.py
 
 ## God Nodes (most connected - your core abstractions)
-1. `build_outputs()` - 12 edges
-2. `RushLab — Agent Guide` - 7 edges
-3. `RushLab` - 7 edges
-4. `dumps()` - 5 edges
-5. `sync()` - 5 edges
-6. `load_json()` - 5 edges
-7. `graphify` - 4 edges
-8. `project_root()` - 4 edges
-9. `Add a Study Area` - 4 edges
-10. `Release Notes and Versioning` - 4 edges
+1. `Area` - 16 edges
+2. `analyze_area()` - 16 edges
+3. `build_analysis_graph()` - 15 edges
+4. `build_outputs()` - 12 edges
+5. `get_area()` - 11 edges
+6. `fetch_area()` - 10 edges
+7. `load_areas()` - 9 edges
+8. `RushLab` - 9 edges
+9. `analyze()` - 8 edges
+10. `top_signal_bottlenecks()` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `info()` --references--> `command`  [EXTRACTED]
-  src/rushlab/cli.py → opencode.json
-- `main()` --calls--> `build_outputs()`  [EXTRACTED]
-  scripts/agent_doctor.py → scripts/sync_agent_config.py
+- `mini_area()` --calls--> `BorderConfig`  [EXTRACTED]
+  tests/test_network_build.py → src/rushlab/config/__init__.py
+- `test_missing_crossing_node_raises()` --calls--> `BorderConfig`  [EXTRACTED]
+  tests/test_network_build.py → src/rushlab/config/__init__.py
+- `mini_area()` --references--> `Area`  [EXTRACTED]
+  tests/test_network_build.py → src/rushlab/config/__init__.py
+- `test_load_areas_includes_san_ysidro()` --calls--> `load_areas()`  [EXTRACTED]
+  tests/test_areas.py → src/rushlab/config/__init__.py
+- `test_border_metadata_parsed()` --calls--> `get_area()`  [EXTRACTED]
+  tests/test_areas.py → src/rushlab/config/__init__.py
 
 ## Import Cycles
 - None detected.
 
-## Communities (26 total, 5 thin omitted)
+## Communities (32 total, 6 thin omitted)
 
-### Community 0 - "cli.py"
-Cohesion: 0.10
-Nodes (14): callback, command, enabled, type, instructions, mcp, graphify, plugin (+6 more)
+### Community 0 - "opencode.json"
+Cohesion: 0.25
+Nodes (7): enabled, type, instructions, mcp, graphify, plugin, $schema
 
 ### Community 1 - "RushLab — Agent Guide"
 Cohesion: 0.25
 Nodes (7): Architecture map, Commands, Data sources, Domain rules, Knowledge graph, RushLab — Agent Guide, Working rules
 
 ### Community 2 - "RushLab"
-Cohesion: 0.15
-Nodes (11): 0001 — Project scope and modeling assumptions, Consequences, Context, Decisions, Data, Quickstart, Recon baseline (2026-09), RushLab (+3 more)
+Cohesion: 0.10
+Nodes (18): 0001 — Project scope and modeling assumptions, Consequences, Context, Decisions, 0003 — Network model and analytic assumptions, Baseline results (2026-09-15, OSM extract), Consequences, Context (+10 more)
 
 ### Community 3 - "sync_agent_config.py"
 Cohesion: 0.21
@@ -150,15 +162,45 @@ Nodes (4): Goal, Procedure, Rules, Run a Scenario Study
 Cohesion: 0.50
 Nodes (3): uv, graphify, graphify-mcp
 
+### Community 26 - "metrics.py"
+Cohesion: 0.17
+Nodes (31): analyze_area(), connectivity_summary(), edge_betweenness(), min_cut_to_sink(), node_betweenness(), _node_entry(), node_name(), Any (+23 more)
+
+### Community 27 - "build.py"
+Cohesion: 0.11
+Nodes (25): fixture, MultiDiGraph, attach_border_sink(), build_analysis_graph(), _edge_attributes(), edge_capacity_veh_h(), edge_name(), haversine_m() (+17 more)
+
+### Community 28 - "config/__init__.py"
+Cohesion: 0.11
+Nodes (26): BBox, Coordinate, integration, BorderConfig, get_area(), load_areas(), _parse_area(), _parse_border() (+18 more)
+
+### Community 29 - "cli.py"
+Cohesion: 0.13
+Nodes (22): callback, command, analyze(), _area_or_exit(), areas(), build_area_command(), fetch_area_command(), main() (+14 more)
+
+### Community 30 - "test_cli.py"
+Cohesion: 0.20
+Nodes (4): RushLab — agent-driven traffic scenario lab for border corridors., Path, CLI smoke tests; no network access., test_analyze_writes_report()
+
 ## Knowledge Gaps
-- **65 isolated node(s):** `uv`, `graphify-mcp`, `$schema`, `instructions`, `plugin` (+60 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 102 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **71 isolated node(s):** `uv`, `graphify-mcp`, `$schema`, `instructions`, `plugin` (+66 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 148 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `Area` connect `cli.py` to `metrics.py`, `build.py`, `config/__init__.py`?**
+  _High betweenness centrality (0.027) - this node is a cross-community bridge._
+- **Why does `command` connect `cli.py` to `opencode.json`?**
+  _High betweenness centrality (0.025) - this node is a cross-community bridge._
+- **Why does `build_analysis_graph()` connect `build.py` to `cli.py`?**
+  _High betweenness centrality (0.024) - this node is a cross-community bridge._
 - **What connects `uv`, `graphify-mcp`, `$schema` to the rest of the system?**
-  _65 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `cli.py` be split into smaller, more focused modules?**
+  _71 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `RushLab` be split into smaller, more focused modules?**
   _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
+- **Should `build.py` be split into smaller, more focused modules?**
+  _Cohesion score 0.10887096774193548 - nodes in this community are weakly interconnected._
+- **Should `config/__init__.py` be split into smaller, more focused modules?**
+  _Cohesion score 0.10837438423645321 - nodes in this community are weakly interconnected._

@@ -25,6 +25,9 @@ uv run ruff format .       # format
 uv run pyright             # type check
 uv run pytest              # tests
 uv run rushlab --help                      # CLI
+uv run rushlab areas                       # list study areas
+uv run rushlab build-area san-ysidro       # fetch + build analytic graph
+uv run rushlab analyze san-ysidro          # bottleneck analysis -> results/
 uv run python scripts/sync_agent_config.py # regenerate per-tool agent files
 uv run python scripts/agent_doctor.py      # verify agent setup
 uv run graphify update .                   # rebuild the knowledge graph

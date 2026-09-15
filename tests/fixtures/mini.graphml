@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="k_x" for="node" attr.name="x" attr.type="string"/>
+  <key id="k_y" for="node" attr.name="y" attr.type="string"/>
+  <key id="k_sc" for="node" attr.name="street_count" attr.type="string"/>
+  <key id="k_hw_n" for="node" attr.name="highway" attr.type="string"/>
+  <key id="k_len" for="edge" attr.name="length" attr.type="string"/>
+  <key id="k_hw" for="edge" attr.name="highway" attr.type="string"/>
+  <key id="k_ms" for="edge" attr.name="maxspeed" attr.type="string"/>
+  <key id="k_ow" for="edge" attr.name="oneway" attr.type="string"/>
+  <key id="k_ln" for="edge" attr.name="lanes" attr.type="string"/>
+  <key id="k_nm" for="edge" attr.name="name" attr.type="string"/>
+  <key id="k_crs" for="graph" attr.name="crs" attr.type="string"/>
+  <graph edgedefault="directed">
+    <data key="k_crs">epsg:4326</data>
+    <node id="101">
+      <data key="k_x">-117.030</data>
+      <data key="k_y">32.540</data>
+      <data key="k_sc">2</data>
+    </node>
+    <node id="102">
+      <data key="k_x">-117.020</data>
+      <data key="k_y">32.540</data>
+      <data key="k_sc">3</data>
+    </node>
+    <node id="103">
+      <data key="k_x">-117.010</data>
+      <data key="k_y">32.540</data>
+      <data key="k_sc">3</data>
+    </node>
+    <node id="104">
+      <data key="k_x">-117.000</data>
+      <data key="k_y">32.540</data>
+      <data key="k_sc">1</data>
+      <data key="k_hw_n">traffic_signals</data>
+    </node>
+    <edge source="101" target="102">
+      <data key="k_len">1000</data>
+      <data key="k_hw">primary</data>
+      <data key="k_ms">60</data>
+      <data key="k_ow">False</data>
+      <data key="k_ln">2</data>
+      <data key="k_nm">Avenida Uno</data>
+    </edge>
+    <edge source="102" target="101">
+      <data key="k_len">1000</data>
+      <data key="k_hw">primary</data>
+      <data key="k_ms">60</data>
+      <data key="k_ow">False</data>
+      <data key="k_ln">2</data>
+      <data key="k_nm">Avenida Uno</data>
+    </edge>
+    <edge source="102" target="103">
+      <data key="k_len">500</data>
+      <data key="k_hw">primary</data>
+      <data key="k_ms">80</data>
+      <data key="k_ow">False</data>
+      <data key="k_ln">3</data>
+      <data key="k_nm">Via Rapida</data>
+    </edge>
+    <edge source="102" target="103">
+      <data key="k_len">700</data>
+      <data key="k_hw">secondary</data>
+      <data key="k_ms">30</data>
+      <data key="k_ow">False</data>
+      <data key="k_ln">2</data>
+      <data key="k_nm">Calle Lenta</data>
+    </edge>
+    <edge source="103" target="102">
+      <data key="k_len">700</data>
+      <data key="k_hw">secondary</data>
+      <data key="k_ms">30</data>
+      <data key="k_ow">False</data>
+      <data key="k_ln">2</data>
+      <data key="k_nm">Calle Lenta</data>
+    </edge>
+    <edge source="103" target="104">
+      <data key="k_len">300</data>
+      <data key="k_hw">secondary</data>
+      <data key="k_ow">True</data>
+      <data key="k_ln">1</data>
+      <data key="k_nm">Callejon</data>
+    </edge>
+    <edge source="101" target="103">
+      <data key="k_len">2500</data>
+      <data key="k_hw">tertiary</data>
+      <data key="k_ow">True</data>
+      <data key="k_ln">1</data>
+      <data key="k_nm">Atajo</data>
+    </edge>
+  </graph>
+</graphml>

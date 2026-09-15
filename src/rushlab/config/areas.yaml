@@ -1,0 +1,24 @@
+# RushLab study areas. bbox format: [south, west, north, east] in decimal degrees.
+areas:
+  san-ysidro:
+    description: San Ysidro border approach, Tijuana (northbound focus)
+    bbox: [32.525, -117.06, 32.555, -116.97]
+    # Tighter window for microsimulation; refined in D4 after network inspection.
+    sim_bbox: [32.535, -117.045, 32.552, -117.010]
+    border:
+      name: San Ysidro Port of Entry (El Chaparral)
+      # Approximate vehicle-crossing points on the boundary, used to attach the
+      # synthetic sink to nearby street nodes. Refined in D4.
+      crossing_points:
+        - [32.5427, -117.0290]
+      # Placeholder sink throughput (veh/h) until D4 calibration against
+      # BTS volumes and CBP wait times: ~24 lanes x 200 veh/h effective.
+      sink_capacity_veh_h: 4800
+      lane_types: [general, ready, sentri]
+    # Approximate corridor gateways for capacity analysis; nearest graph node is
+    # used as the terminal. Refined in D4.
+    terminals:
+      - name: via-rapida-west
+        coordinates: [32.5416, -117.0480]
+      - name: padre-kino-centro
+        coordinates: [32.5461, -117.0170]

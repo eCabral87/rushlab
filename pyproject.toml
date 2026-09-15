@@ -49,7 +49,8 @@ packages = ["src/rushlab"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "-ra"
+addopts = "-ra -m 'not integration'"
+markers = ["integration: tests that need live network access"]
 
 [tool.ruff]
 line-length = 100

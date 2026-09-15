@@ -6,7 +6,8 @@ Ask *"what's the cheapest way to cut the morning wait at San Ysidro?"* — RushL
 loads the corridor from OpenStreetMap, simulates rush-hour traffic in SUMO, tests
 interventions, and returns a ranked before/after comparison with stated assumptions.
 
-> Status: D1 — scaffolding and data reconnaissance complete. Domain modules land next.
+> Status: D2 — OSM ingestion, analytic graph, and bottleneck analysis complete.
+> Demand calibration and SUMO simulation land next.
 
 ## What it does
 
@@ -51,6 +52,33 @@ uv sync --extra dev
 uv run rushlab --help
 uv run pytest
 ```
+
+## Usage
+
+```bash
+uv run rushlab areas                      # registered study areas
+uv run rushlab fetch-area san-ysidro      # download + cache the OSM drive network
+uv run rushlab build-area san-ysidro      # build the analytic graph, attach border sink
+uv run rushlab analyze san-ysidro --top 15  # bottleneck ranking -> results/<area>/analysis.json
+```
+
+## Network baseline (2026-09-15)
+
+San Ysidro area, OSM `drive` network, free-flow travel times, placeholder
+capacities (see [ADR-0003](docs/decisions/0003-network-model.md)):
+
+| Metric | Value |
+|---|---|
+| Nodes / edges | 2,302 / 5,665 |
+| Signalized intersections | 130 |
+| Weak components | 1 (largest = 100%) |
+| Articulation points / bridges | 333 / 361 |
+| Nodes able to reach the border sink | 98.5% |
+| Median travel time to sink | 308 s |
+| Top bottleneck | Calzada Defensores de Baja California / Blvd Cuauhtémoc Norte |
+
+These are structural approximations under documented assumptions — not
+predictions. Scenario comparisons only become meaningful after D4 calibration.
 
 ## Recon baseline (2026-09)
 
