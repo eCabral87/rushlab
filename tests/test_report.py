@@ -68,6 +68,9 @@ def test_render_report_writes_html(tmp_path: Path) -> None:
     assert "Assumptions and provenance" in html
     assert "baseline" in html and "optimized" in html
     assert "-20.0%" in html
+    # Regression: row["values"] must be reachable in Jinja (dict.values collision).
+    assert ">100.0<" in html and ">80.0<" in html
+    assert ">10<" in html and ">5<" in html
 
 
 def test_render_report_without_figures(tmp_path: Path) -> None:

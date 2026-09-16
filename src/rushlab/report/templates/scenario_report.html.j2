@@ -38,10 +38,10 @@
     <tr>
       <td>{{ row.label }} ({{ row.direction }})</td>
       {% for scenario in comparison.scenarios %}
-      <td>{{ row.values[scenario] if row.values[scenario] is not none else "—" }}</td>
+      <td>{{ row["values"][scenario] if row["values"][scenario] is not none else "—" }}</td>
       {% endfor %}
       {% for scenario in comparison.scenarios %}
-      {% set delta = row.delta_pct[scenario] %}
+      {% set delta = row["delta_pct"][scenario] %}
       {% if delta is none %}<td>—</td>
       {% else %}<td class="{{ 'delta-good' if (row.direction == 'lower' and delta < 0) or (row.direction == 'higher' and delta > 0) else 'delta-bad' if delta != 0 else '' }}">{{ "%+.1f" | format(delta) }}%</td>
       {% endif %}
