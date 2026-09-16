@@ -9,6 +9,10 @@ interventions, and returns a ranked before/after comparison with stated assumpti
 > Status: D5 — signal optimization (Webster + GA offsets) and the comparison
 > report pipeline are done. Demand-side and policy scenarios land next.
 
+**For reviewers:** [interview evidence map](docs/INTERVIEW-MAP.md) ·
+[5-minute demo script](docs/DEMO.md) · [benchmark results](evals/RESULTS.md) ·
+[signal study report](docs/reports/san-ysidro-signal-optimization.html)
+
 ## What it does
 
 - **Network layer** — OSM street network → graph; bottleneck detection, centrality,

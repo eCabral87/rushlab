@@ -761,15 +761,6 @@ wheels = [
 ]
 
 [[package]]
-name = "pulp"
-version = "3.3.2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/4e/70/69be07a67621ad804d6cf347965eb4e0d7786a97330d99c31d735aaa6c5a/pulp-3.3.2.tar.gz", hash = "sha256:d0904700c207ac11e25e3b1213b70eae1d6fb25faa719d75f3f15054901258c0", size = 16305346, upload-time = "2026-05-25T09:41:26.207Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/dd/6e/d674f1dde91c71e2ac19e5e5cf1ee6d5845e3aefecd9c39ed9c4b0c9a696/pulp-3.3.2-py3-none-any.whl", hash = "sha256:631b166f72086971a9597f7a0233ababa99bb8d50a01cd543f7758be5a9f86c0", size = 16391742, upload-time = "2026-05-25T09:41:22.2Z" },
-]
-
-[[package]]
 name = "pycparser"
 version = "3.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1148,12 +1139,11 @@ dependencies = [
     { name = "numpy" },
     { name = "osmnx" },
     { name = "pandas" },
-    { name = "pulp" },
     { name = "pyyaml" },
     { name = "rich" },
     { name = "scipy" },
     { name = "shapely" },
-    { name = "traci" },
+    { name = "sumolib" },
     { name = "typer" },
 ]
 
@@ -1180,12 +1170,11 @@ requires-dist = [
     { name = "numpy", specifier = ">=1.26" },
     { name = "osmnx", specifier = ">=2.0" },
     { name = "pandas", specifier = ">=2.2" },
-    { name = "pulp", specifier = ">=2.8" },
     { name = "pyyaml", specifier = ">=6.0" },
     { name = "rich", specifier = ">=13.7" },
     { name = "scipy", specifier = ">=1.11" },
     { name = "shapely", specifier = ">=2.0" },
-    { name = "traci", specifier = ">=1.20" },
+    { name = "sumolib", specifier = ">=1.20" },
     { name = "typer", specifier = ">=0.12" },
 ]
 
@@ -1319,18 +1308,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/d4/9c/7035b0bcfaa68d1ee4803fc5be5214ad865669b05bd20e7105ae8a18afc6/tiktoken-0.14.0-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:b950248272f1b303dc32986396e2dccfa10cf6d1e83ec8f0bba1776660305482", size = 1250635, upload-time = "2026-08-17T19:48:54.392Z" },
     { url = "https://files.pythonhosted.org/packages/bc/1d/69cabf18bed7f4366da076735816abce0d4db3fae491ae338a6612128777/tiktoken-0.14.0-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:3de75343041a1c57333b1e707ac8a9769738241d7d6a55d39e12cf84548337c6", size = 1316085, upload-time = "2026-08-17T19:48:55.525Z" },
     { url = "https://files.pythonhosted.org/packages/bd/bd/a2e884fb1402cba5be08836590320012b2d8ada0e2eef9911a64df4bcd2d/tiktoken-0.14.0-cp312-cp312-win_amd64.whl", hash = "sha256:087538c080e5ff421abd3a0785ed63c5111d06af98e6cd0d374dbe5969147ca3", size = 941208, upload-time = "2026-08-17T19:48:56.938Z" },
-]
-
-[[package]]
-name = "traci"
-version = "1.27.1"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "sumolib" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/24/63/3b0b1405396f12d977fbe50fe77196a6f8896143ecd75f85283bfdac42af/traci-1.27.1.tar.gz", hash = "sha256:9f5ccc66e02db316c078a3b010fea1c40510f0cb8434a2155bfe6248e9058787", size = 103403, upload-time = "2026-06-25T09:50:59.876Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/61/26/59f5b3ebdf57efbc45a89d47e95fdbe0d7349cb52e13be1d37722e97413e/traci-1.27.1-py2.py3-none-any.whl", hash = "sha256:b4f4fb1cd145461c318aa62df16cfd48494a46631a8c3b62348b901def670c9e", size = 138897, upload-time = "2026-06-25T09:50:58.734Z" },
 ]
 
 [[package]]

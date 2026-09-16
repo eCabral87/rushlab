@@ -4,26 +4,13 @@
   "graph": {},
   "nodes": [
     {
-      "id": "src_rushlab_config_init_area",
-      "label": "Area",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "area",
-      "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L37"
-    },
-    {
       "id": "src_rushlab_config_init_borderconfig",
       "label": "BorderConfig",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
+      "community": 27,
+      "community_name": "build.py",
       "file_type": "code",
       "norm_label": "borderconfig",
       "source_file": "src/rushlab/config/__init__.py",
@@ -36,11 +23,24 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "terminal",
       "source_file": "src/rushlab/config/__init__.py",
       "source_location": "L29"
+    },
+    {
+      "id": "src_rushlab_config_init_area",
+      "label": "Area",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "area",
+      "source_file": "src/rushlab/config/__init__.py",
+      "source_location": "L37"
     },
     {
       "id": "evals_agent_runner_runresult",
@@ -528,6 +528,18 @@
       "source_location": "L65"
     },
     {
+      "id": "tests_test_network_build_test_missing_crossing_node_raises",
+      "label": "test_missing_crossing_node_raises()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "build.py",
+      "file_type": "code",
+      "norm_label": "test_missing_crossing_node_raises()",
+      "source_file": "tests/test_network_build.py",
+      "source_location": "L87"
+    },
+    {
       "id": "tests_test_network_build_test_oneway_not_reversed",
       "label": "test_oneway_not_reversed()",
       "_callable": true,
@@ -600,36 +612,12 @@
       "source_location": "L54"
     },
     {
-      "id": "src_rushlab_cli_sim_network_command",
-      "label": "sim_network_command()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "sim_network_command()",
-      "source_file": "src/rushlab/cli.py",
-      "source_location": "L204"
-    },
-    {
-      "id": "src_rushlab_config_init_area_osmnx_bbox",
-      "label": ".osmnx_bbox()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": ".osmnx_bbox()",
-      "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L45"
-    },
-    {
       "id": "src_rushlab_config_init_get_area",
       "label": "get_area()",
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "get_area()",
       "source_file": "src/rushlab/config/__init__.py",
@@ -641,7 +629,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "load_areas()",
       "source_file": "src/rushlab/config/__init__.py",
@@ -653,7 +641,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "_parse_area()",
       "source_file": "src/rushlab/config/__init__.py",
@@ -665,7 +653,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "_parse_border()",
       "source_file": "src/rushlab/config/__init__.py",
@@ -677,7 +665,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "_parse_coordinate()",
       "source_file": "src/rushlab/config/__init__.py",
@@ -689,107 +677,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "_validate_bbox()",
       "source_file": "src/rushlab/config/__init__.py",
       "source_location": "L51"
-    },
-    {
-      "id": "src_rushlab_sim_network_build_sumo_network",
-      "label": "build_sumo_network()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "build_sumo_network()",
-      "source_file": "src/rushlab/sim/network.py",
-      "source_location": "L101"
-    },
-    {
-      "id": "src_rushlab_sim_network_fetch_osm_xml",
-      "label": "fetch_osm_xml()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "fetch_osm_xml()",
-      "source_file": "src/rushlab/sim/network.py",
-      "source_location": "L52"
-    },
-    {
-      "id": "src_rushlab_sim_network_network_stats",
-      "label": "network_stats()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "network_stats()",
-      "source_file": "src/rushlab/sim/network.py",
-      "source_location": "L135"
-    },
-    {
-      "id": "src_rushlab_sim_network_osm_xml_query",
-      "label": "osm_xml_query()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "osm_xml_query()",
-      "source_file": "src/rushlab/sim/network.py",
-      "source_location": "L44"
-    },
-    {
-      "id": "src_rushlab_sim_network_read_net",
-      "label": "read_net()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "read_net()",
-      "source_file": "src/rushlab/sim/network.py",
-      "source_location": "L97"
-    },
-    {
-      "id": "tests_conftest_mini_area",
-      "label": "mini_area()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "mini_area()",
-      "source_file": "tests/conftest.py",
-      "source_location": "L18"
-    },
-    {
-      "id": "tests_conftest_mini_cache",
-      "label": "mini_cache()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "mini_cache()",
-      "source_file": "tests/conftest.py",
-      "source_location": "L36"
-    },
-    {
-      "id": "tests_conftest_mini_net",
-      "label": "mini_net()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "mini_net()",
-      "source_file": "tests/conftest.py",
-      "source_location": "L44"
     },
     {
       "id": "tests_test_areas_test_border_metadata_parsed",
@@ -797,7 +689,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "test_border_metadata_parsed()",
       "source_file": "tests/test_areas.py",
@@ -809,7 +701,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "test_invalid_bbox_rejected()",
       "source_file": "tests/test_areas.py",
@@ -821,7 +713,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "test_load_areas_includes_san_ysidro()",
       "source_file": "tests/test_areas.py",
@@ -833,7 +725,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "test_osmnx_bbox_conversion()",
       "source_file": "tests/test_areas.py",
@@ -845,7 +737,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "test_terminals_parsed()",
       "source_file": "tests/test_areas.py",
@@ -857,23 +749,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "test_unknown_area_lists_available()",
       "source_file": "tests/test_areas.py",
       "source_location": "L40"
-    },
-    {
-      "id": "tests_test_network_build_test_missing_crossing_node_raises",
-      "label": "test_missing_crossing_node_raises()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "test_missing_crossing_node_raises()",
-      "source_file": "tests/test_network_build.py",
-      "source_location": "L87"
     },
     {
       "id": "tests_test_network_fetch_test_fetch_area_downloads_and_caches",
@@ -881,71 +761,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "test_fetch_area_downloads_and_caches()",
       "source_file": "tests/test_network_fetch.py",
       "source_location": "L14"
-    },
-    {
-      "id": "tests_test_sim_network_test_fetch_osm_xml_live",
-      "label": "test_fetch_osm_xml_live()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "test_fetch_osm_xml_live()",
-      "source_file": "tests/test_sim_network.py",
-      "source_location": "L49"
-    },
-    {
-      "id": "tests_test_sim_network_test_fetch_requires_sim_bbox",
-      "label": "test_fetch_requires_sim_bbox()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "test_fetch_requires_sim_bbox()",
-      "source_file": "tests/test_sim_network.py",
-      "source_location": "L33"
-    },
-    {
-      "id": "tests_test_sim_network_test_network_stats",
-      "label": "test_network_stats()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "test_network_stats()",
-      "source_file": "tests/test_sim_network.py",
-      "source_location": "L18"
-    },
-    {
-      "id": "tests_test_sim_network_test_network_stats_default_path_exists",
-      "label": "test_network_stats_default_path_exists()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "test_network_stats_default_path_exists()",
-      "source_file": "tests/test_sim_network.py",
-      "source_location": "L44"
-    },
-    {
-      "id": "tests_test_sim_network_test_rebuild_is_cached",
-      "label": "test_rebuild_is_cached()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "test_rebuild_is_cached()",
-      "source_file": "tests/test_sim_network.py",
-      "source_location": "L26"
     },
     {
       "id": "src_rushlab_cli_analyze",
@@ -1104,6 +924,18 @@
       "source_location": "L322"
     },
     {
+      "id": "src_rushlab_cli_sim_network_command",
+      "label": "sim_network_command()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "sim_network_command()",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L204"
+    },
+    {
       "id": "src_rushlab_cli_simulate",
       "label": "simulate()",
       "_callable": true,
@@ -1138,6 +970,282 @@
       "norm_label": "_version_callback()",
       "source_file": "src/rushlab/cli.py",
       "source_location": "L55"
+    },
+    {
+      "id": "src_rushlab_config_init_area_osmnx_bbox",
+      "label": ".osmnx_bbox()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": ".osmnx_bbox()",
+      "source_file": "src/rushlab/config/__init__.py",
+      "source_location": "L45"
+    },
+    {
+      "id": "src_rushlab_demand_bts_fetch_volumes",
+      "label": "fetch_volumes()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "fetch_volumes()",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L31"
+    },
+    {
+      "id": "src_rushlab_demand_bts_latest_month",
+      "label": "latest_month()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "latest_month()",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L77"
+    },
+    {
+      "id": "src_rushlab_demand_bts_load_volumes",
+      "label": "load_volumes()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "load_volumes()",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L56"
+    },
+    {
+      "id": "src_rushlab_demand_bts_trailing_daily_average",
+      "label": "trailing_daily_average()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "trailing_daily_average()",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L67"
+    },
+    {
+      "id": "src_rushlab_demand_bts_volumes_from_rows",
+      "label": "volumes_from_rows()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "volumes_from_rows()",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L20"
+    },
+    {
+      "id": "src_rushlab_demand_calibration_write_calibration",
+      "label": "write_calibration()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "write_calibration()",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L104"
+    },
+    {
+      "id": "src_rushlab_demand_cbp_append_snapshot",
+      "label": "append_snapshot()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "append_snapshot()",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L82"
+    },
+    {
+      "id": "src_rushlab_demand_cbp_clean_lane",
+      "label": "_clean_lane()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "_clean_lane()",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L25"
+    },
+    {
+      "id": "src_rushlab_demand_cbp_fetch_snapshot",
+      "label": "fetch_snapshot()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "fetch_snapshot()",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L57"
+    },
+    {
+      "id": "src_rushlab_demand_cbp_normalize_port",
+      "label": "normalize_port()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "normalize_port()",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L34"
+    },
+    {
+      "id": "src_rushlab_demand_cbp_to_int",
+      "label": "_to_int()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "_to_int()",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L18"
+    },
+    {
+      "id": "src_rushlab_network_fetch_area_cache_dir",
+      "label": "area_cache_dir()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "area_cache_dir()",
+      "source_file": "src/rushlab/network/fetch.py",
+      "source_location": "L17"
+    },
+    {
+      "id": "src_rushlab_network_fetch_fetch_area",
+      "label": "fetch_area()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "fetch_area()",
+      "source_file": "src/rushlab/network/fetch.py",
+      "source_location": "L21"
+    },
+    {
+      "id": "src_rushlab_report_html_build_kpi_figure",
+      "label": "build_kpi_figure()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "build_kpi_figure()",
+      "source_file": "src/rushlab/report/html.py",
+      "source_location": "L35"
+    },
+    {
+      "id": "src_rushlab_report_html_build_port_throughput_figure",
+      "label": "build_port_throughput_figure()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "build_port_throughput_figure()",
+      "source_file": "src/rushlab/report/html.py",
+      "source_location": "L59"
+    },
+    {
+      "id": "src_rushlab_report_html_build_trip_duration_figure",
+      "label": "build_trip_duration_figure()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "build_trip_duration_figure()",
+      "source_file": "src/rushlab/report/html.py",
+      "source_location": "L101"
+    },
+    {
+      "id": "src_rushlab_report_html_figure_to_base64",
+      "label": "_figure_to_base64()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "_figure_to_base64()",
+      "source_file": "src/rushlab/report/html.py",
+      "source_location": "L28"
+    },
+    {
+      "id": "src_rushlab_report_html_render_report",
+      "label": "render_report()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "render_report()",
+      "source_file": "src/rushlab/report/html.py",
+      "source_location": "L131"
+    },
+    {
+      "id": "tests_test_demand_fetch_test_live_demand_sources",
+      "label": "test_live_demand_sources()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "test_live_demand_sources()",
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L15"
+    },
+    {
+      "id": "tests_test_demand_test_bts_parsing_and_daily_average",
+      "label": "test_bts_parsing_and_daily_average()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "test_bts_parsing_and_daily_average()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L75"
+    },
+    {
+      "id": "tests_test_demand_test_bts_requires_expected_columns",
+      "label": "test_bts_requires_expected_columns()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "test_bts_requires_expected_columns()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L80"
+    },
+    {
+      "id": "tests_test_demand_test_snapshot_series_deduplicates",
+      "label": "test_snapshot_series_deduplicates()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "test_snapshot_series_deduplicates()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L130"
     },
     {
       "id": "scripts_agent_doctor_check",
@@ -1329,7 +1437,7 @@
       "file_type": "code",
       "norm_label": "diff_stats()",
       "source_file": "evals/agent_runner.py",
-      "source_location": "L286"
+      "source_location": "L288"
     },
     {
       "id": "evals_agent_runner_find_token_usage",
@@ -1353,7 +1461,7 @@
       "file_type": "code",
       "norm_label": "fresh_workdir()",
       "source_file": "evals/agent_runner.py",
-      "source_location": "L313"
+      "source_location": "L315"
     },
     {
       "id": "evals_agent_runner_parse_claude_result",
@@ -1533,7 +1641,7 @@
       "file_type": "code",
       "norm_label": "main()",
       "source_file": "evals/graphify_tokens.py",
-      "source_location": "L226"
+      "source_location": "L224"
     },
     {
       "id": "evals_graphify_tokens_naive_context_tokens",
@@ -1557,7 +1665,7 @@
       "file_type": "code",
       "norm_label": "render_markdown()",
       "source_file": "evals/graphify_tokens.py",
-      "source_location": "L191"
+      "source_location": "L187"
     },
     {
       "id": "evals_graphify_tokens_run",
@@ -1581,7 +1689,7 @@
       "file_type": "code",
       "norm_label": "median()",
       "source_file": "evals/graphify_tokens.py",
-      "source_location": "L153"
+      "source_location": "L149"
     },
     {
       "id": "evals_graphify_tokens_search_files",
@@ -1617,7 +1725,7 @@
       "file_type": "code",
       "norm_label": "main()",
       "source_file": "evals/plan_vs_execute.py",
-      "source_location": "L152"
+      "source_location": "L158"
     },
     {
       "id": "evals_plan_vs_execute_render_markdown",
@@ -1665,7 +1773,7 @@
       "file_type": "code",
       "norm_label": "main()",
       "source_file": "evals/skill_efficacy.py",
-      "source_location": "L97"
+      "source_location": "L100"
     },
     {
       "id": "evals_skill_efficacy_prepare",
@@ -1689,7 +1797,7 @@
       "file_type": "code",
       "norm_label": "render_markdown()",
       "source_file": "evals/skill_efficacy.py",
-      "source_location": "L67"
+      "source_location": "L69"
     },
     {
       "id": "evals_skill_efficacy_score_release",
@@ -1701,7 +1809,7 @@
       "file_type": "code",
       "norm_label": "score_release()",
       "source_file": "evals/skill_efficacy.py",
-      "source_location": "L44"
+      "source_location": "L48"
     },
     {
       "id": "tests_test_evals_test_keyword_hits_case_insensitive",
@@ -1798,6 +1906,18 @@
       "norm_label": "test_snapshot_and_diff_stats()",
       "source_file": "tests/test_evals.py",
       "source_location": "L108"
+    },
+    {
+      "id": "src_rushlab_demand_calibration_load_calibration",
+      "label": "load_calibration()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "code",
+      "norm_label": "load_calibration()",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L110"
     },
     {
       "id": "src_rushlab_mcp_server_area_analysis",
@@ -1956,6 +2076,18 @@
       "source_location": "L124"
     },
     {
+      "id": "src_rushlab_report_compare_build_comparison",
+      "label": "build_comparison()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "code",
+      "norm_label": "build_comparison()",
+      "source_file": "src/rushlab/report/compare.py",
+      "source_location": "L32"
+    },
+    {
       "id": "src_rushlab_report_compare_load_scenario_summary",
       "label": "load_scenario_summary()",
       "_callable": true,
@@ -1968,72 +2100,204 @@
       "source_location": "L22"
     },
     {
-      "id": "src_rushlab_demand_bts_fetch_volumes",
-      "label": "fetch_volumes()",
+      "id": "tests_test_report_fake_summary",
+      "label": "fake_summary()",
       "_callable": true,
       "_origin": "ast",
-      "community": 33,
-      "community_name": "bts.py",
+      "community": 32,
+      "community_name": "mcp_server.py",
       "file_type": "code",
-      "norm_label": "fetch_volumes()",
-      "source_file": "src/rushlab/demand/bts.py",
-      "source_location": "L31"
+      "norm_label": "fake_summary()",
+      "source_file": "tests/test_report.py",
+      "source_location": "L11"
     },
     {
-      "id": "src_rushlab_demand_bts_latest_month",
-      "label": "latest_month()",
+      "id": "tests_test_report_test_build_comparison_deltas",
+      "label": "test_build_comparison_deltas()",
       "_callable": true,
       "_origin": "ast",
-      "community": 33,
-      "community_name": "bts.py",
+      "community": 32,
+      "community_name": "mcp_server.py",
       "file_type": "code",
-      "norm_label": "latest_month()",
-      "source_file": "src/rushlab/demand/bts.py",
-      "source_location": "L77"
+      "norm_label": "test_build_comparison_deltas()",
+      "source_file": "tests/test_report.py",
+      "source_location": "L39"
     },
     {
-      "id": "src_rushlab_demand_bts_load_volumes",
-      "label": "load_volumes()",
+      "id": "tests_test_report_test_render_report_without_figures",
+      "label": "test_render_report_without_figures()",
       "_callable": true,
       "_origin": "ast",
-      "community": 33,
-      "community_name": "bts.py",
+      "community": 32,
+      "community_name": "mcp_server.py",
       "file_type": "code",
-      "norm_label": "load_volumes()",
-      "source_file": "src/rushlab/demand/bts.py",
-      "source_location": "L56"
+      "norm_label": "test_render_report_without_figures()",
+      "source_file": "tests/test_report.py",
+      "source_location": "L76"
     },
     {
-      "id": "src_rushlab_demand_bts_trailing_daily_average",
-      "label": "trailing_daily_average()",
+      "id": "tests_test_report_test_render_report_writes_html",
+      "label": "test_render_report_writes_html()",
       "_callable": true,
       "_origin": "ast",
-      "community": 33,
-      "community_name": "bts.py",
+      "community": 32,
+      "community_name": "mcp_server.py",
       "file_type": "code",
-      "norm_label": "trailing_daily_average()",
-      "source_file": "src/rushlab/demand/bts.py",
-      "source_location": "L67"
+      "norm_label": "test_render_report_writes_html()",
+      "source_file": "tests/test_report.py",
+      "source_location": "L55"
     },
     {
-      "id": "src_rushlab_demand_bts_volumes_from_rows",
-      "label": "volumes_from_rows()",
+      "id": "src_rushlab_sim_network_build_sumo_network",
+      "label": "build_sumo_network()",
       "_callable": true,
       "_origin": "ast",
       "community": 33,
-      "community_name": "bts.py",
+      "community_name": "network.py",
       "file_type": "code",
-      "norm_label": "volumes_from_rows()",
-      "source_file": "src/rushlab/demand/bts.py",
-      "source_location": "L20"
+      "norm_label": "build_sumo_network()",
+      "source_file": "src/rushlab/sim/network.py",
+      "source_location": "L101"
+    },
+    {
+      "id": "src_rushlab_sim_network_fetch_osm_xml",
+      "label": "fetch_osm_xml()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "code",
+      "norm_label": "fetch_osm_xml()",
+      "source_file": "src/rushlab/sim/network.py",
+      "source_location": "L52"
+    },
+    {
+      "id": "src_rushlab_sim_network_network_stats",
+      "label": "network_stats()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "code",
+      "norm_label": "network_stats()",
+      "source_file": "src/rushlab/sim/network.py",
+      "source_location": "L135"
+    },
+    {
+      "id": "src_rushlab_sim_network_osm_xml_query",
+      "label": "osm_xml_query()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "code",
+      "norm_label": "osm_xml_query()",
+      "source_file": "src/rushlab/sim/network.py",
+      "source_location": "L44"
+    },
+    {
+      "id": "tests_conftest_mini_area",
+      "label": "mini_area()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "code",
+      "norm_label": "mini_area()",
+      "source_file": "tests/conftest.py",
+      "source_location": "L18"
+    },
+    {
+      "id": "tests_conftest_mini_cache",
+      "label": "mini_cache()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "code",
+      "norm_label": "mini_cache()",
+      "source_file": "tests/conftest.py",
+      "source_location": "L36"
+    },
+    {
+      "id": "tests_conftest_mini_net",
+      "label": "mini_net()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "code",
+      "norm_label": "mini_net()",
+      "source_file": "tests/conftest.py",
+      "source_location": "L44"
+    },
+    {
+      "id": "tests_test_sim_network_test_fetch_osm_xml_live",
+      "label": "test_fetch_osm_xml_live()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "code",
+      "norm_label": "test_fetch_osm_xml_live()",
+      "source_file": "tests/test_sim_network.py",
+      "source_location": "L49"
+    },
+    {
+      "id": "tests_test_sim_network_test_fetch_requires_sim_bbox",
+      "label": "test_fetch_requires_sim_bbox()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "code",
+      "norm_label": "test_fetch_requires_sim_bbox()",
+      "source_file": "tests/test_sim_network.py",
+      "source_location": "L33"
+    },
+    {
+      "id": "tests_test_sim_network_test_network_stats",
+      "label": "test_network_stats()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "code",
+      "norm_label": "test_network_stats()",
+      "source_file": "tests/test_sim_network.py",
+      "source_location": "L18"
+    },
+    {
+      "id": "tests_test_sim_network_test_network_stats_default_path_exists",
+      "label": "test_network_stats_default_path_exists()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "code",
+      "norm_label": "test_network_stats_default_path_exists()",
+      "source_file": "tests/test_sim_network.py",
+      "source_location": "L44"
+    },
+    {
+      "id": "tests_test_sim_network_test_rebuild_is_cached",
+      "label": "test_rebuild_is_cached()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "code",
+      "norm_label": "test_rebuild_is_cached()",
+      "source_file": "tests/test_sim_network.py",
+      "source_location": "L26"
     },
     {
       "id": "src_rushlab_network_build_haversine_m",
       "label": "haversine_m()",
       "_callable": true,
       "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
+      "community": 36,
+      "community_name": "runner.py",
       "file_type": "code",
       "norm_label": "haversine_m()",
       "source_file": "src/rushlab/network/build.py",
@@ -2044,8 +2308,8 @@
       "label": "_allocate()",
       "_callable": true,
       "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
+      "community": 36,
+      "community_name": "runner.py",
       "file_type": "code",
       "norm_label": "_allocate()",
       "source_file": "src/rushlab/sim/demand.py",
@@ -2056,8 +2320,8 @@
       "label": "boundary_nodes()",
       "_callable": true,
       "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
+      "community": 36,
+      "community_name": "runner.py",
       "file_type": "code",
       "norm_label": "boundary_nodes()",
       "source_file": "src/rushlab/sim/demand.py",
@@ -2068,8 +2332,8 @@
       "label": "destination_edge()",
       "_callable": true,
       "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
+      "community": 36,
+      "community_name": "runner.py",
       "file_type": "code",
       "norm_label": "destination_edge()",
       "source_file": "src/rushlab/sim/demand.py",
@@ -2080,8 +2344,8 @@
       "label": "gateway_edges()",
       "_callable": true,
       "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
+      "community": 36,
+      "community_name": "runner.py",
       "file_type": "code",
       "norm_label": "gateway_edges()",
       "source_file": "src/rushlab/sim/demand.py",
@@ -2092,8 +2356,8 @@
       "label": "node_lonlat()",
       "_callable": true,
       "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
+      "community": 36,
+      "community_name": "runner.py",
       "file_type": "code",
       "norm_label": "node_lonlat()",
       "source_file": "src/rushlab/sim/demand.py",
@@ -2104,8 +2368,8 @@
       "label": "plan_trips()",
       "_callable": true,
       "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
+      "community": 36,
+      "community_name": "runner.py",
       "file_type": "code",
       "norm_label": "plan_trips()",
       "source_file": "src/rushlab/sim/demand.py",
@@ -2116,8 +2380,8 @@
       "label": "reachable_source_edges()",
       "_callable": true,
       "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
+      "community": 36,
+      "community_name": "runner.py",
       "file_type": "code",
       "norm_label": "reachable_source_edges()",
       "source_file": "src/rushlab/sim/demand.py",
@@ -2128,8 +2392,8 @@
       "label": "route_trips()",
       "_callable": true,
       "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
+      "community": 36,
+      "community_name": "runner.py",
       "file_type": "code",
       "norm_label": "route_trips()",
       "source_file": "src/rushlab/sim/demand.py",
@@ -2140,84 +2404,12 @@
       "label": "write_trips_xml()",
       "_callable": true,
       "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
+      "community": 36,
+      "community_name": "runner.py",
       "file_type": "code",
       "norm_label": "write_trips_xml()",
       "source_file": "src/rushlab/sim/demand.py",
       "source_location": "L197"
-    },
-    {
-      "id": "tests_test_sim_demand_test_destination_edge_is_port_road",
-      "label": "test_destination_edge_is_port_road()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
-      "file_type": "code",
-      "norm_label": "test_destination_edge_is_port_road()",
-      "source_file": "tests/test_sim_demand.py",
-      "source_location": "L25"
-    },
-    {
-      "id": "tests_test_sim_demand_test_gateway_detection",
-      "label": "test_gateway_detection()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
-      "file_type": "code",
-      "norm_label": "test_gateway_detection()",
-      "source_file": "tests/test_sim_demand.py",
-      "source_location": "L32"
-    },
-    {
-      "id": "tests_test_sim_demand_test_gateway_detection_filters_unreachable",
-      "label": "test_gateway_detection_filters_unreachable()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
-      "file_type": "code",
-      "norm_label": "test_gateway_detection_filters_unreachable()",
-      "source_file": "tests/test_sim_demand.py",
-      "source_location": "L40"
-    },
-    {
-      "id": "tests_test_sim_demand_test_plan_trips_distribution_and_timing",
-      "label": "test_plan_trips_distribution_and_timing()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
-      "file_type": "code",
-      "norm_label": "test_plan_trips_distribution_and_timing()",
-      "source_file": "tests/test_sim_demand.py",
-      "source_location": "L46"
-    },
-    {
-      "id": "tests_test_sim_demand_test_plan_trips_requires_gateways",
-      "label": "test_plan_trips_requires_gateways()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
-      "file_type": "code",
-      "norm_label": "test_plan_trips_requires_gateways()",
-      "source_file": "tests/test_sim_demand.py",
-      "source_location": "L67"
-    },
-    {
-      "id": "tests_test_sim_demand_test_route_trips",
-      "label": "test_route_trips()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
-      "file_type": "code",
-      "norm_label": "test_route_trips()",
-      "source_file": "tests/test_sim_demand.py",
-      "source_location": "L72"
     },
     {
       "id": "src_rushlab_sim_metering_apply_program_to_net",
@@ -2280,18 +2472,6 @@
       "source_location": "L144"
     },
     {
-      "id": "src_rushlab_sim_metering_parse_net_structure",
-      "label": "parse_net_structure()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 36,
-      "community_name": "runner.py",
-      "file_type": "code",
-      "norm_label": "parse_net_structure()",
-      "source_file": "src/rushlab/sim/metering.py",
-      "source_location": "L24"
-    },
-    {
       "id": "src_rushlab_sim_metering_program_summary",
       "label": "program_summary()",
       "_callable": true,
@@ -2326,6 +2506,18 @@
       "norm_label": "write_tllogic_file()",
       "source_file": "src/rushlab/sim/metering.py",
       "source_location": "L252"
+    },
+    {
+      "id": "src_rushlab_sim_network_read_net",
+      "label": "read_net()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "runner.py",
+      "file_type": "code",
+      "norm_label": "read_net()",
+      "source_file": "src/rushlab/sim/network.py",
+      "source_location": "L97"
     },
     {
       "id": "src_rushlab_sim_runner_mean",
@@ -2398,6 +2590,78 @@
       "norm_label": "write_sumocfg()",
       "source_file": "src/rushlab/sim/runner.py",
       "source_location": "L123"
+    },
+    {
+      "id": "tests_test_sim_demand_test_destination_edge_is_port_road",
+      "label": "test_destination_edge_is_port_road()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "runner.py",
+      "file_type": "code",
+      "norm_label": "test_destination_edge_is_port_road()",
+      "source_file": "tests/test_sim_demand.py",
+      "source_location": "L25"
+    },
+    {
+      "id": "tests_test_sim_demand_test_gateway_detection",
+      "label": "test_gateway_detection()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "runner.py",
+      "file_type": "code",
+      "norm_label": "test_gateway_detection()",
+      "source_file": "tests/test_sim_demand.py",
+      "source_location": "L32"
+    },
+    {
+      "id": "tests_test_sim_demand_test_gateway_detection_filters_unreachable",
+      "label": "test_gateway_detection_filters_unreachable()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "runner.py",
+      "file_type": "code",
+      "norm_label": "test_gateway_detection_filters_unreachable()",
+      "source_file": "tests/test_sim_demand.py",
+      "source_location": "L40"
+    },
+    {
+      "id": "tests_test_sim_demand_test_plan_trips_distribution_and_timing",
+      "label": "test_plan_trips_distribution_and_timing()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "runner.py",
+      "file_type": "code",
+      "norm_label": "test_plan_trips_distribution_and_timing()",
+      "source_file": "tests/test_sim_demand.py",
+      "source_location": "L46"
+    },
+    {
+      "id": "tests_test_sim_demand_test_plan_trips_requires_gateways",
+      "label": "test_plan_trips_requires_gateways()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "runner.py",
+      "file_type": "code",
+      "norm_label": "test_plan_trips_requires_gateways()",
+      "source_file": "tests/test_sim_demand.py",
+      "source_location": "L67"
+    },
+    {
+      "id": "tests_test_sim_demand_test_route_trips",
+      "label": "test_route_trips()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "runner.py",
+      "file_type": "code",
+      "norm_label": "test_route_trips()",
+      "source_file": "tests/test_sim_demand.py",
+      "source_location": "L72"
     },
     {
       "id": "tests_test_sim_metering_test_apply_program_to_net",
@@ -2662,6 +2926,18 @@
       "norm_label": "webster_plan()",
       "source_file": "src/rushlab/signals/webster.py",
       "source_location": "L44"
+    },
+    {
+      "id": "src_rushlab_sim_metering_parse_net_structure",
+      "label": "parse_net_structure()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "study.py",
+      "file_type": "code",
+      "norm_label": "parse_net_structure()",
+      "source_file": "src/rushlab/sim/metering.py",
+      "source_location": "L24"
     },
     {
       "id": "tests_test_signals_test_apply_programs_rejects_missing_junction",
@@ -3048,136 +3324,40 @@
       "source_location": "L51"
     },
     {
-      "id": "src_rushlab_report_compare_build_comparison",
-      "label": "build_comparison()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "build_comparison",
-      "file_type": "code",
-      "norm_label": "build_comparison()",
-      "source_file": "src/rushlab/report/compare.py",
-      "source_location": "L32"
-    },
-    {
-      "id": "src_rushlab_report_html_render_report",
-      "label": "render_report()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "build_comparison",
-      "file_type": "code",
-      "norm_label": "render_report()",
-      "source_file": "src/rushlab/report/html.py",
-      "source_location": "L131"
-    },
-    {
-      "id": "tests_test_report_fake_summary",
-      "label": "fake_summary()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "build_comparison",
-      "file_type": "code",
-      "norm_label": "fake_summary()",
-      "source_file": "tests/test_report.py",
-      "source_location": "L11"
-    },
-    {
-      "id": "tests_test_report_test_build_comparison_deltas",
-      "label": "test_build_comparison_deltas()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "build_comparison",
-      "file_type": "code",
-      "norm_label": "test_build_comparison_deltas()",
-      "source_file": "tests/test_report.py",
-      "source_location": "L39"
-    },
-    {
-      "id": "tests_test_report_test_render_report_without_figures",
-      "label": "test_render_report_without_figures()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "build_comparison",
-      "file_type": "code",
-      "norm_label": "test_render_report_without_figures()",
-      "source_file": "tests/test_report.py",
-      "source_location": "L76"
-    },
-    {
-      "id": "tests_test_report_test_render_report_writes_html",
-      "label": "test_render_report_writes_html()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "build_comparison",
-      "file_type": "code",
-      "norm_label": "test_render_report_writes_html()",
-      "source_file": "tests/test_report.py",
-      "source_location": "L55"
-    },
-    {
-      "id": "src_rushlab_demand_cbp_append_snapshot",
-      "label": "append_snapshot()",
+      "id": "src_rushlab_demand_calibration_calibrate",
+      "label": "calibrate()",
       "_callable": true,
       "_origin": "ast",
       "community": 41,
       "community_name": "test_demand.py",
       "file_type": "code",
-      "norm_label": "append_snapshot()",
-      "source_file": "src/rushlab/demand/cbp.py",
-      "source_location": "L82"
+      "norm_label": "calibrate()",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L35"
     },
     {
-      "id": "src_rushlab_demand_cbp_clean_lane",
-      "label": "_clean_lane()",
+      "id": "src_rushlab_demand_calibration_capacity_range",
+      "label": "capacity_range()",
       "_callable": true,
       "_origin": "ast",
       "community": 41,
       "community_name": "test_demand.py",
       "file_type": "code",
-      "norm_label": "_clean_lane()",
-      "source_file": "src/rushlab/demand/cbp.py",
-      "source_location": "L25"
+      "norm_label": "capacity_range()",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L28"
     },
     {
-      "id": "src_rushlab_demand_cbp_fetch_snapshot",
-      "label": "fetch_snapshot()",
+      "id": "src_rushlab_demand_calibration_sink_overrides",
+      "label": "sink_overrides()",
       "_callable": true,
       "_origin": "ast",
       "community": 41,
       "community_name": "test_demand.py",
       "file_type": "code",
-      "norm_label": "fetch_snapshot()",
-      "source_file": "src/rushlab/demand/cbp.py",
-      "source_location": "L57"
-    },
-    {
-      "id": "src_rushlab_demand_cbp_normalize_port",
-      "label": "normalize_port()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "test_demand.py",
-      "file_type": "code",
-      "norm_label": "normalize_port()",
-      "source_file": "src/rushlab/demand/cbp.py",
-      "source_location": "L34"
-    },
-    {
-      "id": "src_rushlab_demand_cbp_to_int",
-      "label": "_to_int()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "test_demand.py",
-      "file_type": "code",
-      "norm_label": "_to_int()",
-      "source_file": "src/rushlab/demand/cbp.py",
-      "source_location": "L18"
+      "norm_label": "sink_overrides()",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L92"
     },
     {
       "id": "src_rushlab_demand_profile_hourly_demand",
@@ -3252,18 +3432,6 @@
       "source_location": "L42"
     },
     {
-      "id": "tests_test_demand_fetch_test_live_demand_sources",
-      "label": "test_live_demand_sources()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "test_demand.py",
-      "file_type": "code",
-      "norm_label": "test_live_demand_sources()",
-      "source_file": "tests/test_demand_fetch.py",
-      "source_location": "L15"
-    },
-    {
       "id": "tests_test_demand_snapshot",
       "label": "snapshot()",
       "_callable": true,
@@ -3274,30 +3442,6 @@
       "norm_label": "snapshot()",
       "source_file": "tests/test_demand.py",
       "source_location": "L51"
-    },
-    {
-      "id": "tests_test_demand_test_bts_parsing_and_daily_average",
-      "label": "test_bts_parsing_and_daily_average()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "test_demand.py",
-      "file_type": "code",
-      "norm_label": "test_bts_parsing_and_daily_average()",
-      "source_file": "tests/test_demand.py",
-      "source_location": "L75"
-    },
-    {
-      "id": "tests_test_demand_test_bts_requires_expected_columns",
-      "label": "test_bts_requires_expected_columns()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "test_demand.py",
-      "file_type": "code",
-      "norm_label": "test_bts_requires_expected_columns()",
-      "source_file": "tests/test_demand.py",
-      "source_location": "L80"
     },
     {
       "id": "tests_test_demand_test_calibration_math_and_overrides",
@@ -3382,18 +3526,6 @@
       "norm_label": "test_profile_is_normalized()",
       "source_file": "tests/test_demand.py",
       "source_location": "L59"
-    },
-    {
-      "id": "tests_test_demand_test_snapshot_series_deduplicates",
-      "label": "test_snapshot_series_deduplicates()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "test_demand.py",
-      "file_type": "code",
-      "norm_label": "test_snapshot_series_deduplicates()",
-      "source_file": "tests/test_demand.py",
-      "source_location": "L130"
     },
     {
       "id": "tests_test_cli_test_analyze_writes_report",
@@ -3816,54 +3948,6 @@
       "source_location": "L10"
     },
     {
-      "id": "src_rushlab_report_html_build_kpi_figure",
-      "label": "build_kpi_figure()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "html.py",
-      "file_type": "code",
-      "norm_label": "build_kpi_figure()",
-      "source_file": "src/rushlab/report/html.py",
-      "source_location": "L35"
-    },
-    {
-      "id": "src_rushlab_report_html_build_port_throughput_figure",
-      "label": "build_port_throughput_figure()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "html.py",
-      "file_type": "code",
-      "norm_label": "build_port_throughput_figure()",
-      "source_file": "src/rushlab/report/html.py",
-      "source_location": "L59"
-    },
-    {
-      "id": "src_rushlab_report_html_build_trip_duration_figure",
-      "label": "build_trip_duration_figure()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "html.py",
-      "file_type": "code",
-      "norm_label": "build_trip_duration_figure()",
-      "source_file": "src/rushlab/report/html.py",
-      "source_location": "L101"
-    },
-    {
-      "id": "src_rushlab_report_html_figure_to_base64",
-      "label": "_figure_to_base64()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "html.py",
-      "file_type": "code",
-      "norm_label": "_figure_to_base64()",
-      "source_file": "src/rushlab/report/html.py",
-      "source_location": "L28"
-    },
-    {
       "id": "evals_tasks_slugify_src_slugify_init_slugify",
       "label": "slugify()",
       "_callable": true,
@@ -3936,90 +4020,6 @@
       "source_location": "L14"
     },
     {
-      "id": "src_rushlab_demand_calibration_calibrate",
-      "label": "calibrate()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 48,
-      "community_name": "calibration.py",
-      "file_type": "code",
-      "norm_label": "calibrate()",
-      "source_file": "src/rushlab/demand/calibration.py",
-      "source_location": "L35"
-    },
-    {
-      "id": "src_rushlab_demand_calibration_capacity_range",
-      "label": "capacity_range()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 48,
-      "community_name": "calibration.py",
-      "file_type": "code",
-      "norm_label": "capacity_range()",
-      "source_file": "src/rushlab/demand/calibration.py",
-      "source_location": "L28"
-    },
-    {
-      "id": "src_rushlab_demand_calibration_load_calibration",
-      "label": "load_calibration()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 48,
-      "community_name": "calibration.py",
-      "file_type": "code",
-      "norm_label": "load_calibration()",
-      "source_file": "src/rushlab/demand/calibration.py",
-      "source_location": "L110"
-    },
-    {
-      "id": "src_rushlab_demand_calibration_sink_overrides",
-      "label": "sink_overrides()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 48,
-      "community_name": "calibration.py",
-      "file_type": "code",
-      "norm_label": "sink_overrides()",
-      "source_file": "src/rushlab/demand/calibration.py",
-      "source_location": "L92"
-    },
-    {
-      "id": "src_rushlab_demand_calibration_write_calibration",
-      "label": "write_calibration()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 48,
-      "community_name": "calibration.py",
-      "file_type": "code",
-      "norm_label": "write_calibration()",
-      "source_file": "src/rushlab/demand/calibration.py",
-      "source_location": "L104"
-    },
-    {
-      "id": "src_rushlab_network_fetch_area_cache_dir",
-      "label": "area_cache_dir()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 49,
-      "community_name": "fetch_area",
-      "file_type": "code",
-      "norm_label": "area_cache_dir()",
-      "source_file": "src/rushlab/network/fetch.py",
-      "source_location": "L17"
-    },
-    {
-      "id": "src_rushlab_network_fetch_fetch_area",
-      "label": "fetch_area()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 49,
-      "community_name": "fetch_area",
-      "file_type": "code",
-      "norm_label": "fetch_area()",
-      "source_file": "src/rushlab/network/fetch.py",
-      "source_location": "L21"
-    },
-    {
       "id": "scripts_graphify_reminder_main",
       "label": "main()",
       "_callable": true,
@@ -4053,7 +4053,7 @@
       "file_type": "code",
       "norm_label": "main()",
       "source_file": "evals/summarize.py",
-      "source_location": "L39"
+      "source_location": "L38"
     },
     {
       "id": "evals_tasks_release_notes_src_mini_init_hello",
@@ -4962,7 +4962,7 @@
       "node_kind": "heading",
       "norm_label": "benchmarks (agentic evidence, 2026-09)",
       "source_file": "README.md",
-      "source_location": "L163"
+      "source_location": "L167"
     },
     {
       "id": "readme_data",
@@ -4974,7 +4974,7 @@
       "node_kind": "heading",
       "norm_label": "data",
       "source_file": "README.md",
-      "source_location": "L201"
+      "source_location": "L205"
     },
     {
       "id": "readme_demand_baseline_2026_09_15",
@@ -4986,7 +4986,7 @@
       "node_kind": "heading",
       "norm_label": "demand baseline (2026-09-15)",
       "source_file": "README.md",
-      "source_location": "L108"
+      "source_location": "L112"
     },
     {
       "id": "readme_mcp_server",
@@ -4998,7 +4998,7 @@
       "node_kind": "heading",
       "norm_label": "mcp server",
       "source_file": "README.md",
-      "source_location": "L48"
+      "source_location": "L52"
     },
     {
       "id": "readme_network_baseline_2026_09_15",
@@ -5010,7 +5010,7 @@
       "node_kind": "heading",
       "norm_label": "network baseline (2026-09-15)",
       "source_file": "README.md",
-      "source_location": "L90"
+      "source_location": "L94"
     },
     {
       "id": "readme_quickstart",
@@ -5022,7 +5022,7 @@
       "node_kind": "heading",
       "norm_label": "quickstart",
       "source_file": "README.md",
-      "source_location": "L65"
+      "source_location": "L69"
     },
     {
       "id": "readme_recon_baseline_2026_09",
@@ -5034,7 +5034,7 @@
       "node_kind": "heading",
       "norm_label": "recon baseline (2026-09)",
       "source_file": "README.md",
-      "source_location": "L182"
+      "source_location": "L186"
     },
     {
       "id": "readme_rushlab",
@@ -5058,7 +5058,7 @@
       "node_kind": "heading",
       "norm_label": "scope and honesty rules",
       "source_file": "README.md",
-      "source_location": "L195"
+      "source_location": "L199"
     },
     {
       "id": "readme_signal_optimization_study_2026_09_15",
@@ -5070,7 +5070,7 @@
       "node_kind": "heading",
       "norm_label": "signal optimization study (2026-09-15)",
       "source_file": "README.md",
-      "source_location": "L143"
+      "source_location": "L147"
     },
     {
       "id": "readme_sumo_baseline_2026_09_15_06_00_10_00",
@@ -5082,7 +5082,7 @@
       "node_kind": "heading",
       "norm_label": "sumo baseline (2026-09-15, 06:00-10:00)",
       "source_file": "README.md",
-      "source_location": "L125"
+      "source_location": "L129"
     },
     {
       "id": "readme_usage",
@@ -5094,7 +5094,7 @@
       "node_kind": "heading",
       "norm_label": "usage",
       "source_file": "README.md",
-      "source_location": "L73"
+      "source_location": "L77"
     },
     {
       "id": "readme_what_it_does",
@@ -5106,7 +5106,7 @@
       "node_kind": "heading",
       "norm_label": "what it does",
       "source_file": "README.md",
-      "source_location": "L12"
+      "source_location": "L16"
     },
     {
       "id": "readme_works_with_your_assistant",
@@ -5118,7 +5118,7 @@
       "node_kind": "heading",
       "norm_label": "works with your assistant",
       "source_file": "README.md",
-      "source_location": "L25"
+      "source_location": "L29"
     },
     {
       "id": "opencode_skills_release_notes_skill",
@@ -5602,6 +5602,17 @@
       "source_location": ""
     },
     {
+      "id": "src_rushlab_config_init_rationale_18",
+      "label": "Border-crossing metadata used to attach the synthetic sink.",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "build.py",
+      "file_type": "rationale",
+      "norm_label": "border-crossing metadata used to attach the synthetic sink.",
+      "source_file": "src/rushlab/config/__init__.py",
+      "source_location": "L18"
+    },
+    {
       "id": "src_rushlab_network_build_rationale_1",
       "label": "Build the analytic road graph from cached OSM data.",
       "_origin": "ast",
@@ -5672,7 +5683,7 @@
       "label": "BBox",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "bbox",
       "source_file": "",
@@ -5683,7 +5694,7 @@
       "label": "Coordinate",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "coordinate",
       "source_file": "",
@@ -5694,7 +5705,7 @@
       "label": "config/__init__.py",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "config/__init__.py",
       "source_file": "src/rushlab/config/__init__.py",
@@ -5705,84 +5716,7 @@
       "label": "Path",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_sim_network",
-      "label": "network.py",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "network.py",
-      "source_file": "src/rushlab/sim/network.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_rushlab_sim_network_py_any",
-      "label": "Any",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "any",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_sim_network_py_net",
-      "label": "Net",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "net",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_sim_network_py_path",
-      "label": "Path",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "tests_conftest",
-      "label": "tests/conftest.py",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "tests/conftest.py",
-      "source_file": "tests/conftest.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "tests_conftest_py_fixture",
-      "label": "fixture",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "fixture",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "tests_conftest_py_path",
-      "label": "Path",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "path",
       "source_file": "",
@@ -5793,7 +5727,7 @@
       "label": "test_areas.py",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "test_areas.py",
       "source_file": "tests/test_areas.py",
@@ -5804,7 +5738,7 @@
       "label": "Path",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "path",
       "source_file": "",
@@ -5815,7 +5749,7 @@
       "label": "test_network_fetch.py",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "test_network_fetch.py",
       "source_file": "tests/test_network_fetch.py",
@@ -5826,7 +5760,7 @@
       "label": "integration",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "integration",
       "source_file": "",
@@ -5837,150 +5771,40 @@
       "label": "Path",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "code",
       "norm_label": "path",
       "source_file": "",
       "source_location": ""
-    },
-    {
-      "id": "tests_test_sim_network",
-      "label": "test_sim_network.py",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "test_sim_network.py",
-      "source_file": "tests/test_sim_network.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "tests_test_sim_network_py_integration",
-      "label": "integration",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "integration",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "tests_test_sim_network_py_path",
-      "label": "Path",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_cli_rationale_208",
-      "label": "Build the SUMO network for an area and print stats.",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "rationale",
-      "norm_label": "build the sumo network for an area and print stats.",
-      "source_file": "src/rushlab/cli.py",
-      "source_location": "L208"
     },
     {
       "id": "src_rushlab_config_init_rationale_1",
       "label": "Study-area registry loaded from areas.yaml.",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "rationale",
       "norm_label": "study-area registry loaded from areas.yaml.",
       "source_file": "src/rushlab/config/__init__.py",
       "source_location": "L1"
     },
     {
-      "id": "src_rushlab_config_init_rationale_18",
-      "label": "Border-crossing metadata used to attach the synthetic sink.",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "rationale",
-      "norm_label": "border-crossing metadata used to attach the synthetic sink.",
-      "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L18"
-    },
-    {
       "id": "src_rushlab_config_init_rationale_30",
       "label": "Named gateway used as a source in capacity analysis.",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "rationale",
       "norm_label": "named gateway used as a source in capacity analysis.",
       "source_file": "src/rushlab/config/__init__.py",
       "source_location": "L30"
     },
     {
-      "id": "src_rushlab_config_init_rationale_46",
-      "label": "osmnx expects (left, bottom, right, top) == (west, south, east, north).",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "rationale",
-      "norm_label": "osmnx expects (left, bottom, right, top) == (west, south, east, north).",
-      "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L46"
-    },
-    {
-      "id": "src_rushlab_sim_network_rationale_1",
-      "label": "SUMO network construction from OpenStreetMap XML.",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "rationale",
-      "norm_label": "sumo network construction from openstreetmap xml.",
-      "source_file": "src/rushlab/sim/network.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_rushlab_sim_network_rationale_109",
-      "label": "Build (or reuse) the SUMO network and return its path plus stats.",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "rationale",
-      "norm_label": "build (or reuse) the sumo network and return its path plus stats.",
-      "source_file": "src/rushlab/sim/network.py",
-      "source_location": "L109"
-    },
-    {
-      "id": "src_rushlab_sim_network_rationale_55",
-      "label": "Return the cached OSM XML path for the simulation bbox, downloading if needed.",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "rationale",
-      "norm_label": "return the cached osm xml path for the simulation bbox, downloading if needed.",
-      "source_file": "src/rushlab/sim/network.py",
-      "source_location": "L55"
-    },
-    {
-      "id": "tests_conftest_rationale_1",
-      "label": "Shared fixtures for SUMO tests; no network access.",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "rationale",
-      "norm_label": "shared fixtures for sumo tests; no network access.",
-      "source_file": "tests/conftest.py",
-      "source_location": "L1"
-    },
-    {
       "id": "tests_test_areas_rationale_1",
       "label": "Study-area registry tests.",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "rationale",
       "norm_label": "study-area registry tests.",
       "source_file": "tests/test_areas.py",
@@ -5991,21 +5815,10 @@
       "label": "Live Overpass integration test. Excluded from CI via the integration marker.",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "config/__init__.py",
       "file_type": "rationale",
       "norm_label": "live overpass integration test. excluded from ci via the integration marker.",
       "source_file": "tests/test_network_fetch.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "tests_test_sim_network_rationale_1",
-      "label": "SUMO network build tests on the committed mini.osm fixture.",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "rationale",
-      "norm_label": "sumo network build tests on the committed mini.osm fixture.",
-      "source_file": "tests/test_sim_network.py",
       "source_location": "L1"
     },
     {
@@ -6054,6 +5867,171 @@
     },
     {
       "id": "src_rushlab_cli_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_demand_bts",
+      "label": "bts.py",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "bts.py",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_demand_bts_py_any",
+      "label": "Any",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "any",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_demand_bts_py_dataframe",
+      "label": "DataFrame",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "dataframe",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_demand_bts_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_demand_cbp",
+      "label": "cbp.py",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "cbp.py",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_demand_cbp_py_any",
+      "label": "Any",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "any",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_demand_cbp_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_network_fetch",
+      "label": "fetch.py",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "fetch.py",
+      "source_file": "src/rushlab/network/fetch.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_network_fetch_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_report_html",
+      "label": "html.py",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "html.py",
+      "source_file": "src/rushlab/report/html.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_report_html_py_any",
+      "label": "Any",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "any",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_report_html_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_demand_fetch",
+      "label": "test_demand_fetch.py",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "test_demand_fetch.py",
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_test_demand_fetch_py_integration",
+      "label": "integration",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "integration",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_demand_fetch_py_path",
       "label": "Path",
       "_origin": "ast",
       "community": 29,
@@ -6119,6 +6097,17 @@
       "source_location": "L176"
     },
     {
+      "id": "src_rushlab_cli_rationale_208",
+      "label": "Build the SUMO network for an area and print stats.",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "rationale",
+      "norm_label": "build the sumo network for an area and print stats.",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L208"
+    },
+    {
       "id": "src_rushlab_cli_rationale_242",
       "label": "Run a SUMO microsimulation scenario and write KPIs.",
       "_origin": "ast",
@@ -6161,6 +6150,116 @@
       "norm_label": "list registered study areas.",
       "source_file": "src/rushlab/cli.py",
       "source_location": "L93"
+    },
+    {
+      "id": "src_rushlab_config_init_rationale_46",
+      "label": "osmnx expects (left, bottom, right, top) == (west, south, east, north).",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "rationale",
+      "norm_label": "osmnx expects (left, bottom, right, top) == (west, south, east, north).",
+      "source_file": "src/rushlab/config/__init__.py",
+      "source_location": "L46"
+    },
+    {
+      "id": "src_rushlab_demand_bts_rationale_1",
+      "label": "BTS Border Crossing/Entry Data client (Socrata).",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "rationale",
+      "norm_label": "bts border crossing/entry data client (socrata).",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_demand_bts_rationale_38",
+      "label": "Return the cached raw BTS payload path, downloading when needed.",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "rationale",
+      "norm_label": "return the cached raw bts payload path, downloading when needed.",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L38"
+    },
+    {
+      "id": "src_rushlab_demand_cbp_rationale_1",
+      "label": "CBP Border Wait Times live client and snapshot series.",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "rationale",
+      "norm_label": "cbp border wait times live client and snapshot series.",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_demand_cbp_rationale_60",
+      "label": "Return a normalized CBP wait-time snapshot for the area's port.",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "rationale",
+      "norm_label": "return a normalized cbp wait-time snapshot for the area's port.",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L60"
+    },
+    {
+      "id": "src_rushlab_demand_cbp_rationale_83",
+      "label": "Append the snapshot to a JSONL series; duplicates (same date/time) are skipped.",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "rationale",
+      "norm_label": "append the snapshot to a jsonl series; duplicates (same date/time) are skipped.",
+      "source_file": "src/rushlab/demand/cbp.py",
+      "source_location": "L83"
+    },
+    {
+      "id": "src_rushlab_network_fetch_rationale_1",
+      "label": "Download and cache the OSM drive network for a study area.",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "rationale",
+      "norm_label": "download and cache the osm drive network for a study area.",
+      "source_file": "src/rushlab/network/fetch.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_network_fetch_rationale_22",
+      "label": "Return the cached GraphML path, downloading via Overpass when needed. osmnx\u2026",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "rationale",
+      "norm_label": "return the cached graphml path, downloading via overpass when needed. osmnx...",
+      "source_file": "src/rushlab/network/fetch.py",
+      "source_location": "L22"
+    },
+    {
+      "id": "src_rushlab_report_html_rationale_1",
+      "label": "Self-contained HTML comparison report with embedded figures.",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "rationale",
+      "norm_label": "self-contained html comparison report with embedded figures.",
+      "source_file": "src/rushlab/report/html.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_test_demand_fetch_rationale_1",
+      "label": "Live BTS/CBP integration test. Excluded from CI via the integration marker.",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "rationale",
+      "norm_label": "live bts/cbp integration test. excluded from ci via the integration marker.",
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L1"
     },
     {
       "id": "scripts_agent_doctor",
@@ -6460,6 +6559,17 @@
       "source_location": "L1"
     },
     {
+      "id": "src_rushlab_demand_calibration_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
       "id": "src_rushlab_mcp_server",
       "label": "mcp_server.py",
       "_origin": "ast",
@@ -6493,7 +6603,51 @@
       "source_location": ""
     },
     {
+      "id": "src_rushlab_report_compare",
+      "label": "compare.py",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "code",
+      "norm_label": "compare.py",
+      "source_file": "src/rushlab/report/compare.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_report_compare_py_any",
+      "label": "Any",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "code",
+      "norm_label": "any",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
       "id": "src_rushlab_report_compare_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_report",
+      "label": "test_report.py",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "code",
+      "norm_label": "test_report.py",
+      "source_file": "tests/test_report.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_test_report_py_path",
       "label": "Path",
       "_origin": "ast",
       "community": 32,
@@ -6614,70 +6768,191 @@
       "source_location": "L87"
     },
     {
-      "id": "src_rushlab_demand_bts",
-      "label": "bts.py",
+      "id": "src_rushlab_report_compare_rationale_1",
+      "label": "Scenario comparison tables.",
       "_origin": "ast",
-      "community": 33,
-      "community_name": "bts.py",
-      "file_type": "code",
-      "norm_label": "bts.py",
-      "source_file": "src/rushlab/demand/bts.py",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "rationale",
+      "norm_label": "scenario comparison tables.",
+      "source_file": "src/rushlab/report/compare.py",
       "source_location": "L1"
     },
     {
-      "id": "src_rushlab_demand_bts_py_any",
+      "id": "src_rushlab_report_compare_rationale_33",
+      "label": "Ranked KPI table with percent deltas against the first scenario (baseline).",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "rationale",
+      "norm_label": "ranked kpi table with percent deltas against the first scenario (baseline).",
+      "source_file": "src/rushlab/report/compare.py",
+      "source_location": "L33"
+    },
+    {
+      "id": "tests_test_report_rationale_1",
+      "label": "Report comparison and rendering tests.",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "rationale",
+      "norm_label": "report comparison and rendering tests.",
+      "source_file": "tests/test_report.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_sim_network",
+      "label": "network.py",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "code",
+      "norm_label": "network.py",
+      "source_file": "src/rushlab/sim/network.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_sim_network_py_any",
       "label": "Any",
       "_origin": "ast",
       "community": 33,
-      "community_name": "bts.py",
+      "community_name": "network.py",
       "file_type": "code",
       "norm_label": "any",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "src_rushlab_demand_bts_py_dataframe",
-      "label": "DataFrame",
-      "_origin": "ast",
-      "community": 33,
-      "community_name": "bts.py",
-      "file_type": "code",
-      "norm_label": "dataframe",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_demand_bts_py_path",
+      "id": "src_rushlab_sim_network_py_path",
       "label": "Path",
       "_origin": "ast",
       "community": 33,
-      "community_name": "bts.py",
+      "community_name": "network.py",
       "file_type": "code",
       "norm_label": "path",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "src_rushlab_demand_bts_rationale_1",
-      "label": "BTS Border Crossing/Entry Data client (Socrata).",
+      "id": "tests_conftest",
+      "label": "tests/conftest.py",
       "_origin": "ast",
       "community": 33,
-      "community_name": "bts.py",
-      "file_type": "rationale",
-      "norm_label": "bts border crossing/entry data client (socrata).",
-      "source_file": "src/rushlab/demand/bts.py",
+      "community_name": "network.py",
+      "file_type": "code",
+      "norm_label": "tests/conftest.py",
+      "source_file": "tests/conftest.py",
       "source_location": "L1"
     },
     {
-      "id": "src_rushlab_demand_bts_rationale_38",
-      "label": "Return the cached raw BTS payload path, downloading when needed.",
+      "id": "tests_conftest_py_fixture",
+      "label": "fixture",
       "_origin": "ast",
       "community": 33,
-      "community_name": "bts.py",
+      "community_name": "network.py",
+      "file_type": "code",
+      "norm_label": "fixture",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_conftest_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_sim_network",
+      "label": "test_sim_network.py",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "code",
+      "norm_label": "test_sim_network.py",
+      "source_file": "tests/test_sim_network.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_test_sim_network_py_integration",
+      "label": "integration",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "code",
+      "norm_label": "integration",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_sim_network_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_sim_network_rationale_1",
+      "label": "SUMO network construction from OpenStreetMap XML.",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
       "file_type": "rationale",
-      "norm_label": "return the cached raw bts payload path, downloading when needed.",
-      "source_file": "src/rushlab/demand/bts.py",
-      "source_location": "L38"
+      "norm_label": "sumo network construction from openstreetmap xml.",
+      "source_file": "src/rushlab/sim/network.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_sim_network_rationale_109",
+      "label": "Build (or reuse) the SUMO network and return its path plus stats.",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "rationale",
+      "norm_label": "build (or reuse) the sumo network and return its path plus stats.",
+      "source_file": "src/rushlab/sim/network.py",
+      "source_location": "L109"
+    },
+    {
+      "id": "src_rushlab_sim_network_rationale_55",
+      "label": "Return the cached OSM XML path for the simulation bbox, downloading if needed.",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "rationale",
+      "norm_label": "return the cached osm xml path for the simulation bbox, downloading if needed.",
+      "source_file": "src/rushlab/sim/network.py",
+      "source_location": "L55"
+    },
+    {
+      "id": "tests_conftest_rationale_1",
+      "label": "Shared fixtures for SUMO tests; no network access.",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "rationale",
+      "norm_label": "shared fixtures for sumo tests; no network access.",
+      "source_file": "tests/conftest.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_test_sim_network_rationale_1",
+      "label": "SUMO network build tests on the committed mini.osm fixture.",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "network.py",
+      "file_type": "rationale",
+      "norm_label": "sumo network build tests on the committed mini.osm fixture.",
+      "source_file": "tests/test_sim_network.py",
+      "source_location": "L1"
     },
     {
       "id": "src_rushlab_demand_init",
@@ -6702,11 +6977,131 @@
       "source_location": "L1"
     },
     {
+      "id": "docs_interview_map_1_agentic_ai_designing_and_orchestrating_multi_step_workflows",
+      "label": "1. Agentic AI \u2014 designing and orchestrating multi-step workflows",
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "Interview evidence map",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. agentic ai \u2014 designing and orchestrating multi-step workflows",
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L24"
+    },
+    {
+      "id": "docs_interview_map_2_agent_skills_tools",
+      "label": "2. Agent skills & tools",
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "Interview evidence map",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. agent skills & tools",
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L48"
+    },
+    {
+      "id": "docs_interview_map_3_plan_vs_execute_modes",
+      "label": "3. Plan vs execute modes",
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "Interview evidence map",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. plan vs execute modes",
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L70"
+    },
+    {
+      "id": "docs_interview_map_4_knowledge_graph_workflows_graphify",
+      "label": "4. Knowledge-graph workflows (Graphify)",
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "Interview evidence map",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. knowledge-graph workflows (graphify)",
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L91"
+    },
+    {
+      "id": "docs_interview_map_5_llm_tooling_fluency_ide_and_cli",
+      "label": "5. LLM tooling fluency (IDE and CLI)",
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "Interview evidence map",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5. llm tooling fluency (ide and cli)",
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L114"
+    },
+    {
+      "id": "docs_interview_map_6_ml_dl_dsp_audio_sensors_not_this_project",
+      "label": "6. ML / DL / DSP (audio, sensors) \u2014 not this project",
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "Interview evidence map",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "6. ml / dl / dsp (audio, sensors) \u2014 not this project",
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L134"
+    },
+    {
+      "id": "docs_interview_map_7_optimization_and_graph_theory",
+      "label": "7. Optimization and graph theory",
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "Interview evidence map",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "7. optimization and graph theory",
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L142"
+    },
+    {
+      "id": "docs_interview_map_8_telecom_wireless_not_this_project",
+      "label": "8. Telecom / wireless \u2014 not this project",
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "Interview evidence map",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "8. telecom / wireless \u2014 not this project",
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L167"
+    },
+    {
+      "id": "docs_interview_map_how_to_use_this_map",
+      "label": "How to use this map",
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "Interview evidence map",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "how to use this map",
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L177"
+    },
+    {
+      "id": "docs_interview_map_interview_evidence_map",
+      "label": "Interview evidence map",
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "Interview evidence map",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "interview evidence map",
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L1"
+    },
+    {
       "id": "src_rushlab_sim_demand",
       "label": "demand.py",
       "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
+      "community": 36,
+      "community_name": "runner.py",
       "file_type": "code",
       "norm_label": "demand.py",
       "source_file": "src/rushlab/sim/demand.py",
@@ -6716,8 +7111,8 @@
       "id": "src_rushlab_sim_demand_py_any",
       "label": "Any",
       "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
+      "community": 36,
+      "community_name": "runner.py",
       "file_type": "code",
       "norm_label": "any",
       "source_file": "",
@@ -6727,8 +7122,8 @@
       "id": "src_rushlab_sim_demand_py_net",
       "label": "Net",
       "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
+      "community": 36,
+      "community_name": "runner.py",
       "file_type": "code",
       "norm_label": "net",
       "source_file": "",
@@ -6738,133 +7133,12 @@
       "id": "src_rushlab_sim_demand_py_path",
       "label": "Path",
       "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "tests_test_sim_demand",
-      "label": "test_sim_demand.py",
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
-      "file_type": "code",
-      "norm_label": "test_sim_demand.py",
-      "source_file": "tests/test_sim_demand.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "tests_test_sim_demand_py_path",
-      "label": "Path",
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_sim_demand_rationale_1",
-      "label": "Gateway detection and demand generation for SUMO microsimulation.",
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
-      "file_type": "rationale",
-      "norm_label": "gateway detection and demand generation for sumo microsimulation.",
-      "source_file": "src/rushlab/sim/demand.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_rushlab_sim_demand_rationale_130",
-      "label": "Largest-remainder allocation so rounded counts sum exactly to total.",
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
-      "file_type": "rationale",
-      "norm_label": "largest-remainder allocation so rounded counts sum exactly to total.",
-      "source_file": "src/rushlab/sim/demand.py",
-      "source_location": "L130"
-    },
-    {
-      "id": "src_rushlab_sim_demand_rationale_153",
-      "label": "Distribute calibrated hourly demand over gateways and sample departures.\u2026",
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
-      "file_type": "rationale",
-      "norm_label": "distribute calibrated hourly demand over gateways and sample departures....",
-      "source_file": "src/rushlab/sim/demand.py",
-      "source_location": "L153"
-    },
-    {
-      "id": "src_rushlab_sim_demand_rationale_216",
-      "label": "Route trips with duarouter; returns input/routed counts.",
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
-      "file_type": "rationale",
-      "norm_label": "route trips with duarouter; returns input/routed counts.",
-      "source_file": "src/rushlab/sim/demand.py",
-      "source_location": "L216"
-    },
-    {
-      "id": "src_rushlab_sim_demand_rationale_55",
-      "label": "Normal edge closest to the border crossing point.",
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
-      "file_type": "rationale",
-      "norm_label": "normal edge closest to the border crossing point.",
-      "source_file": "src/rushlab/sim/demand.py",
-      "source_location": "L55"
-    },
-    {
-      "id": "src_rushlab_sim_demand_rationale_72",
-      "label": "All edges that can topologically reach the destination edge.",
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
-      "file_type": "rationale",
-      "norm_label": "all edges that can topologically reach the destination edge.",
-      "source_file": "src/rushlab/sim/demand.py",
-      "source_location": "L72"
-    },
-    {
-      "id": "src_rushlab_sim_demand_rationale_98",
-      "label": "Boundary edges whose direction heads toward the crossing (northbound entries).\u2026",
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
-      "file_type": "rationale",
-      "norm_label": "boundary edges whose direction heads toward the crossing (northbound entries)....",
-      "source_file": "src/rushlab/sim/demand.py",
-      "source_location": "L98"
-    },
-    {
-      "id": "tests_test_sim_demand_rationale_1",
-      "label": "Demand generation tests for SUMO.",
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "demand.py",
-      "file_type": "rationale",
-      "norm_label": "demand generation tests for sumo.",
-      "source_file": "tests/test_sim_demand.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_rushlab_signals_flows",
-      "label": "flows.py",
-      "_origin": "ast",
       "community": 36,
       "community_name": "runner.py",
       "file_type": "code",
-      "norm_label": "flows.py",
-      "source_file": "src/rushlab/signals/flows.py",
-      "source_location": "L1"
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
     },
     {
       "id": "src_rushlab_sim_metering",
@@ -6885,6 +7159,17 @@
       "community_name": "runner.py",
       "file_type": "code",
       "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_sim_network_py_net",
+      "label": "Net",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "runner.py",
+      "file_type": "code",
+      "norm_label": "net",
       "source_file": "",
       "source_location": ""
     },
@@ -6912,6 +7197,28 @@
     },
     {
       "id": "src_rushlab_sim_runner_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "runner.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_sim_demand",
+      "label": "test_sim_demand.py",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "runner.py",
+      "file_type": "code",
+      "norm_label": "test_sim_demand.py",
+      "source_file": "tests/test_sim_demand.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_test_sim_demand_py_path",
       "label": "Path",
       "_origin": "ast",
       "community": 36,
@@ -6966,15 +7273,81 @@
       "source_location": ""
     },
     {
-      "id": "src_rushlab_signals_flows_rationale_1",
-      "label": "Per-signal approach flows and critical flow ratios from edgeData.",
+      "id": "src_rushlab_sim_demand_rationale_1",
+      "label": "Gateway detection and demand generation for SUMO microsimulation.",
       "_origin": "ast",
       "community": 36,
       "community_name": "runner.py",
       "file_type": "rationale",
-      "norm_label": "per-signal approach flows and critical flow ratios from edgedata.",
-      "source_file": "src/rushlab/signals/flows.py",
+      "norm_label": "gateway detection and demand generation for sumo microsimulation.",
+      "source_file": "src/rushlab/sim/demand.py",
       "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_sim_demand_rationale_130",
+      "label": "Largest-remainder allocation so rounded counts sum exactly to total.",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "runner.py",
+      "file_type": "rationale",
+      "norm_label": "largest-remainder allocation so rounded counts sum exactly to total.",
+      "source_file": "src/rushlab/sim/demand.py",
+      "source_location": "L130"
+    },
+    {
+      "id": "src_rushlab_sim_demand_rationale_153",
+      "label": "Distribute calibrated hourly demand over gateways and sample departures.\u2026",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "runner.py",
+      "file_type": "rationale",
+      "norm_label": "distribute calibrated hourly demand over gateways and sample departures....",
+      "source_file": "src/rushlab/sim/demand.py",
+      "source_location": "L153"
+    },
+    {
+      "id": "src_rushlab_sim_demand_rationale_216",
+      "label": "Route trips with duarouter; returns input/routed counts.",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "runner.py",
+      "file_type": "rationale",
+      "norm_label": "route trips with duarouter; returns input/routed counts.",
+      "source_file": "src/rushlab/sim/demand.py",
+      "source_location": "L216"
+    },
+    {
+      "id": "src_rushlab_sim_demand_rationale_55",
+      "label": "Normal edge closest to the border crossing point.",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "runner.py",
+      "file_type": "rationale",
+      "norm_label": "normal edge closest to the border crossing point.",
+      "source_file": "src/rushlab/sim/demand.py",
+      "source_location": "L55"
+    },
+    {
+      "id": "src_rushlab_sim_demand_rationale_72",
+      "label": "All edges that can topologically reach the destination edge.",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "runner.py",
+      "file_type": "rationale",
+      "norm_label": "all edges that can topologically reach the destination edge.",
+      "source_file": "src/rushlab/sim/demand.py",
+      "source_location": "L72"
+    },
+    {
+      "id": "src_rushlab_sim_demand_rationale_98",
+      "label": "Boundary edges whose direction heads toward the crossing (northbound entries).\u2026",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "runner.py",
+      "file_type": "rationale",
+      "norm_label": "boundary edges whose direction heads toward the crossing (northbound entries)....",
+      "source_file": "src/rushlab/sim/demand.py",
+      "source_location": "L98"
     },
     {
       "id": "src_rushlab_sim_metering_rationale_1",
@@ -7021,17 +7394,6 @@
       "source_location": "L244"
     },
     {
-      "id": "src_rushlab_sim_metering_rationale_25",
-      "label": "Parse junctions, edges, connections, and tlLogic from a net file.",
-      "_origin": "ast",
-      "community": 36,
-      "community_name": "runner.py",
-      "file_type": "rationale",
-      "norm_label": "parse junctions, edges, connections, and tllogic from a net file.",
-      "source_file": "src/rushlab/sim/metering.py",
-      "source_location": "L25"
-    },
-    {
       "id": "src_rushlab_sim_metering_rationale_68",
       "label": "First traffic-light junction upstream of the destination edge.",
       "_origin": "ast",
@@ -7063,6 +7425,17 @@
       "norm_label": "build network, apply port metering, generate and route demand.",
       "source_file": "src/rushlab/sim/runner.py",
       "source_location": "L47"
+    },
+    {
+      "id": "tests_test_sim_demand_rationale_1",
+      "label": "Demand generation tests for SUMO.",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "runner.py",
+      "file_type": "rationale",
+      "norm_label": "demand generation tests for sumo.",
+      "source_file": "tests/test_sim_demand.py",
+      "source_location": "L1"
     },
     {
       "id": "tests_test_sim_metering_rationale_1",
@@ -7106,6 +7479,17 @@
       "file_type": "rationale",
       "norm_label": "sumo network construction, demand generation, and microsimulation.",
       "source_file": "src/rushlab/sim/__init__.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_signals_flows",
+      "label": "flows.py",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "study.py",
+      "file_type": "code",
+      "norm_label": "flows.py",
+      "source_file": "src/rushlab/signals/flows.py",
       "source_location": "L1"
     },
     {
@@ -7228,6 +7612,17 @@
       "norm_label": "path",
       "source_file": "",
       "source_location": ""
+    },
+    {
+      "id": "src_rushlab_signals_flows_rationale_1",
+      "label": "Per-signal approach flows and critical flow ratios from edgeData.",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "study.py",
+      "file_type": "rationale",
+      "norm_label": "per-signal approach flows and critical flow ratios from edgedata.",
+      "source_file": "src/rushlab/signals/flows.py",
+      "source_location": "L1"
     },
     {
       "id": "src_rushlab_signals_flows_rationale_19",
@@ -7360,6 +7755,17 @@
       "norm_label": "apply new green durations, leaving yellow/clearance phases untouched.",
       "source_file": "src/rushlab/signals/webster.py",
       "source_location": "L94"
+    },
+    {
+      "id": "src_rushlab_sim_metering_rationale_25",
+      "label": "Parse junctions, edges, connections, and tlLogic from a net file.",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "study.py",
+      "file_type": "rationale",
+      "norm_label": "parse junctions, edges, connections, and tllogic from a net file.",
+      "source_file": "src/rushlab/sim/metering.py",
+      "source_location": "L25"
     },
     {
       "id": "tests_test_signals_rationale_1",
@@ -7549,112 +7955,108 @@
       "source_location": "L1"
     },
     {
-      "id": "src_rushlab_report_compare",
-      "label": "compare.py",
+      "id": "changelog",
+      "label": "CHANGELOG.md",
       "_origin": "ast",
       "community": 40,
-      "community_name": "build_comparison",
-      "file_type": "code",
-      "norm_label": "compare.py",
-      "source_file": "src/rushlab/report/compare.py",
+      "community_name": "v0.1.0 \u2014 2026-09-16 (tag pending)",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "changelog.md",
+      "source_file": "CHANGELOG.md",
       "source_location": "L1"
     },
     {
-      "id": "src_rushlab_report_compare_py_any",
+      "id": "changelog_added",
+      "label": "Added",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "v0.1.0 \u2014 2026-09-16 (tag pending)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "added",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "changelog_changed",
+      "label": "Changed",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "v0.1.0 \u2014 2026-09-16 (tag pending)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "changed",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L36"
+    },
+    {
+      "id": "changelog_changelog",
+      "label": "Changelog",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "v0.1.0 \u2014 2026-09-16 (tag pending)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "changelog",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "changelog_evidence_at_this_release",
+      "label": "Evidence at this release",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "v0.1.0 \u2014 2026-09-16 (tag pending)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "evidence at this release",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "changelog_fixed",
+      "label": "Fixed",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "v0.1.0 \u2014 2026-09-16 (tag pending)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "fixed",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L44"
+    },
+    {
+      "id": "changelog_v0_1_0_2026_09_16_tag_pending",
+      "label": "v0.1.0 \u2014 2026-09-16 (tag pending)",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "v0.1.0 \u2014 2026-09-16 (tag pending)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "v0.1.0 \u2014 2026-09-16 (tag pending)",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L7"
+    },
+    {
+      "id": "src_rushlab_demand_calibration",
+      "label": "calibration.py",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "calibration.py",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_demand_calibration_py_any",
       "label": "Any",
       "_origin": "ast",
-      "community": 40,
-      "community_name": "build_comparison",
-      "file_type": "code",
-      "norm_label": "any",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "tests_test_report",
-      "label": "test_report.py",
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "build_comparison",
-      "file_type": "code",
-      "norm_label": "test_report.py",
-      "source_file": "tests/test_report.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "tests_test_report_py_path",
-      "label": "Path",
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "build_comparison",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_report_compare_rationale_1",
-      "label": "Scenario comparison tables.",
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "build_comparison",
-      "file_type": "rationale",
-      "norm_label": "scenario comparison tables.",
-      "source_file": "src/rushlab/report/compare.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_rushlab_report_compare_rationale_33",
-      "label": "Ranked KPI table with percent deltas against the first scenario (baseline).",
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "build_comparison",
-      "file_type": "rationale",
-      "norm_label": "ranked kpi table with percent deltas against the first scenario (baseline).",
-      "source_file": "src/rushlab/report/compare.py",
-      "source_location": "L33"
-    },
-    {
-      "id": "tests_test_report_rationale_1",
-      "label": "Report comparison and rendering tests.",
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "build_comparison",
-      "file_type": "rationale",
-      "norm_label": "report comparison and rendering tests.",
-      "source_file": "tests/test_report.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_rushlab_demand_cbp",
-      "label": "cbp.py",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "test_demand.py",
-      "file_type": "code",
-      "norm_label": "cbp.py",
-      "source_file": "src/rushlab/demand/cbp.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_rushlab_demand_cbp_py_any",
-      "label": "Any",
-      "_origin": "ast",
       "community": 41,
       "community_name": "test_demand.py",
       "file_type": "code",
       "norm_label": "any",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_demand_cbp_py_path",
-      "label": "Path",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "test_demand.py",
-      "file_type": "code",
-      "norm_label": "path",
       "source_file": "",
       "source_location": ""
     },
@@ -7679,39 +8081,6 @@
       "norm_label": "test_demand.py",
       "source_file": "tests/test_demand.py",
       "source_location": "L1"
-    },
-    {
-      "id": "tests_test_demand_fetch",
-      "label": "test_demand_fetch.py",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "test_demand.py",
-      "file_type": "code",
-      "norm_label": "test_demand_fetch.py",
-      "source_file": "tests/test_demand_fetch.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "tests_test_demand_fetch_py_integration",
-      "label": "integration",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "test_demand.py",
-      "file_type": "code",
-      "norm_label": "integration",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "tests_test_demand_fetch_py_path",
-      "label": "Path",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "test_demand.py",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
     },
     {
       "id": "tests_test_demand_py_dataframe",
@@ -7747,37 +8116,26 @@
       "source_location": ""
     },
     {
-      "id": "src_rushlab_demand_cbp_rationale_1",
-      "label": "CBP Border Wait Times live client and snapshot series.",
+      "id": "src_rushlab_demand_calibration_rationale_1",
+      "label": "Demand-anchored border sink calibration with explicit ranges.",
       "_origin": "ast",
       "community": 41,
       "community_name": "test_demand.py",
       "file_type": "rationale",
-      "norm_label": "cbp border wait times live client and snapshot series.",
-      "source_file": "src/rushlab/demand/cbp.py",
+      "norm_label": "demand-anchored border sink calibration with explicit ranges.",
+      "source_file": "src/rushlab/demand/calibration.py",
       "source_location": "L1"
     },
     {
-      "id": "src_rushlab_demand_cbp_rationale_60",
-      "label": "Return a normalized CBP wait-time snapshot for the area's port.",
+      "id": "src_rushlab_demand_calibration_rationale_93",
+      "label": "Graph build overrides derived from a calibration result.",
       "_origin": "ast",
       "community": 41,
       "community_name": "test_demand.py",
       "file_type": "rationale",
-      "norm_label": "return a normalized cbp wait-time snapshot for the area's port.",
-      "source_file": "src/rushlab/demand/cbp.py",
-      "source_location": "L60"
-    },
-    {
-      "id": "src_rushlab_demand_cbp_rationale_83",
-      "label": "Append the snapshot to a JSONL series; duplicates (same date/time) are skipped.",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "test_demand.py",
-      "file_type": "rationale",
-      "norm_label": "append the snapshot to a jsonl series; duplicates (same date/time) are skipped.",
-      "source_file": "src/rushlab/demand/cbp.py",
-      "source_location": "L83"
+      "norm_label": "graph build overrides derived from a calibration result.",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L93"
     },
     {
       "id": "src_rushlab_demand_profile_rationale_1",
@@ -7800,17 +8158,6 @@
       "norm_label": "arrival rate (veh/h) of the busiest hour under the profile.",
       "source_file": "src/rushlab/demand/profile.py",
       "source_location": "L61"
-    },
-    {
-      "id": "tests_test_demand_fetch_rationale_1",
-      "label": "Live BTS/CBP integration test. Excluded from CI via the integration marker.",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "test_demand.py",
-      "file_type": "rationale",
-      "norm_label": "live bts/cbp integration test. excluded from ci via the integration marker.",
-      "source_file": "tests/test_demand_fetch.py",
-      "source_location": "L1"
     },
     {
       "id": "tests_test_demand_rationale_1",
@@ -8143,48 +8490,64 @@
       "source_location": "L1"
     },
     {
-      "id": "src_rushlab_report_html",
-      "label": "html.py",
+      "id": "docs_demo",
+      "label": "DEMO.md",
       "_origin": "ast",
       "community": 46,
-      "community_name": "html.py",
-      "file_type": "code",
-      "norm_label": "html.py",
-      "source_file": "src/rushlab/report/html.py",
+      "community_name": "Five-minute demo script",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "demo.md",
+      "source_file": "docs/DEMO.md",
       "source_location": "L1"
     },
     {
-      "id": "src_rushlab_report_html_py_any",
-      "label": "Any",
+      "id": "docs_demo_five_minute_demo_script",
+      "label": "Five-minute demo script",
       "_origin": "ast",
       "community": 46,
-      "community_name": "html.py",
-      "file_type": "code",
-      "norm_label": "any",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_report_html_py_path",
-      "label": "Path",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "html.py",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_report_html_rationale_1",
-      "label": "Self-contained HTML comparison report with embedded figures.",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "html.py",
-      "file_type": "rationale",
-      "norm_label": "self-contained html comparison report with embedded figures.",
-      "source_file": "src/rushlab/report/html.py",
+      "community_name": "Five-minute demo script",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "five-minute demo script",
+      "source_file": "docs/DEMO.md",
       "source_location": "L1"
+    },
+    {
+      "id": "docs_demo_pre_demo_checklist_run_10_minutes_before",
+      "label": "Pre-demo checklist (run 10 minutes before)",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "Five-minute demo script",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pre-demo checklist (run 10 minutes before)",
+      "source_file": "docs/DEMO.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "docs_demo_q_a_appendix",
+      "label": "Q&A appendix",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "Five-minute demo script",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "q&a appendix",
+      "source_file": "docs/DEMO.md",
+      "source_location": "L76"
+    },
+    {
+      "id": "docs_demo_timed_script",
+      "label": "Timed script",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "Five-minute demo script",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "timed script",
+      "source_file": "docs/DEMO.md",
+      "source_location": "L22"
     },
     {
       "id": "evals_tasks_slugify_src_slugify_init",
@@ -8229,105 +8592,6 @@
       "norm_label": "slugify tests (currently failing).",
       "source_file": "evals/tasks/slugify/tests/test_slugify.py",
       "source_location": "L1"
-    },
-    {
-      "id": "src_rushlab_demand_calibration",
-      "label": "calibration.py",
-      "_origin": "ast",
-      "community": 48,
-      "community_name": "calibration.py",
-      "file_type": "code",
-      "norm_label": "calibration.py",
-      "source_file": "src/rushlab/demand/calibration.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_rushlab_demand_calibration_py_any",
-      "label": "Any",
-      "_origin": "ast",
-      "community": 48,
-      "community_name": "calibration.py",
-      "file_type": "code",
-      "norm_label": "any",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_demand_calibration_py_path",
-      "label": "Path",
-      "_origin": "ast",
-      "community": 48,
-      "community_name": "calibration.py",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_demand_calibration_rationale_1",
-      "label": "Demand-anchored border sink calibration with explicit ranges.",
-      "_origin": "ast",
-      "community": 48,
-      "community_name": "calibration.py",
-      "file_type": "rationale",
-      "norm_label": "demand-anchored border sink calibration with explicit ranges.",
-      "source_file": "src/rushlab/demand/calibration.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_rushlab_demand_calibration_rationale_93",
-      "label": "Graph build overrides derived from a calibration result.",
-      "_origin": "ast",
-      "community": 48,
-      "community_name": "calibration.py",
-      "file_type": "rationale",
-      "norm_label": "graph build overrides derived from a calibration result.",
-      "source_file": "src/rushlab/demand/calibration.py",
-      "source_location": "L93"
-    },
-    {
-      "id": "src_rushlab_network_fetch",
-      "label": "fetch.py",
-      "_origin": "ast",
-      "community": 49,
-      "community_name": "fetch_area",
-      "file_type": "code",
-      "norm_label": "fetch.py",
-      "source_file": "src/rushlab/network/fetch.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_rushlab_network_fetch_py_path",
-      "label": "Path",
-      "_origin": "ast",
-      "community": 49,
-      "community_name": "fetch_area",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_network_fetch_rationale_1",
-      "label": "Download and cache the OSM drive network for a study area.",
-      "_origin": "ast",
-      "community": 49,
-      "community_name": "fetch_area",
-      "file_type": "rationale",
-      "norm_label": "download and cache the osm drive network for a study area.",
-      "source_file": "src/rushlab/network/fetch.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_rushlab_network_fetch_rationale_22",
-      "label": "Return the cached GraphML path, downloading via Overpass when needed. osmnx\u2026",
-      "_origin": "ast",
-      "community": 49,
-      "community_name": "fetch_area",
-      "file_type": "rationale",
-      "norm_label": "return the cached graphml path, downloading via overpass when needed. osmnx...",
-      "source_file": "src/rushlab/network/fetch.py",
-      "source_location": "L22"
     },
     {
       "id": "scripts_graphify_reminder",
@@ -8434,15 +8698,15 @@
       "source_location": "L13"
     },
     {
-      "id": "docs_decisions_0006_signal_optimization",
-      "label": "0006-signal-optimization.md",
+      "id": "docs_interview_map",
+      "label": "INTERVIEW-MAP.md",
       "_origin": "ast",
       "community": 50,
       "community_name": "README.md",
       "file_type": "document",
       "node_kind": "page",
-      "norm_label": "0006-signal-optimization.md",
-      "source_file": "docs/decisions/0006-signal-optimization.md",
+      "norm_label": "interview-map.md",
+      "source_file": "docs/INTERVIEW-MAP.md",
       "source_location": "L1"
     },
     {
@@ -8674,6 +8938,18 @@
       "source_location": "L13"
     },
     {
+      "id": "docs_decisions_0006_signal_optimization",
+      "label": "0006-signal-optimization.md",
+      "_origin": "ast",
+      "community": 54,
+      "community_name": "0006 \u2014 Signal optimization methodology and results",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "0006-signal-optimization.md",
+      "source_file": "docs/decisions/0006-signal-optimization.md",
+      "source_location": "L1"
+    },
+    {
       "id": "docs_decisions_0006_signal_optimization_0006_signal_optimization_methodology_and_results",
       "label": "0006 \u2014 Signal optimization methodology and results",
       "_origin": "ast",
@@ -8901,13 +9177,13 @@
     },
     {
       "id": "evals_tasks_release_notes_changelog",
-      "label": "CHANGELOG.md",
+      "label": "release_notes/CHANGELOG.md",
       "_origin": "ast",
       "community": 58,
       "community_name": "Changelog",
       "file_type": "document",
       "node_kind": "page",
-      "norm_label": "changelog.md",
+      "norm_label": "release_notes/changelog.md",
       "source_file": "evals/tasks/release_notes/CHANGELOG.md",
       "source_location": "L1"
     },
@@ -9475,7 +9751,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "evals/graphify_tokens.py",
-      "source_location": "L233",
+      "source_location": "L231",
       "weight": 1.0
     },
     {
@@ -9487,7 +9763,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "evals/graphify_tokens.py",
-      "source_location": "L238",
+      "source_location": "L236",
       "weight": 1.0
     },
     {
@@ -9571,7 +9847,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "evals/graphify_tokens.py",
-      "source_location": "L124",
+      "source_location": "L122",
       "weight": 1.0
     },
     {
@@ -9595,7 +9871,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "evals/plan_vs_execute.py",
-      "source_location": "L167",
+      "source_location": "L172",
       "weight": 1.0
     },
     {
@@ -9607,7 +9883,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "evals/plan_vs_execute.py",
-      "source_location": "L180",
+      "source_location": "L184",
       "weight": 1.0
     },
     {
@@ -9679,7 +9955,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "evals/skill_efficacy.py",
-      "source_location": "L110",
+      "source_location": "L113",
       "weight": 1.0
     },
     {
@@ -9691,7 +9967,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "evals/skill_efficacy.py",
-      "source_location": "L111",
+      "source_location": "L114",
       "weight": 1.0
     },
     {
@@ -9703,7 +9979,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "evals/skill_efficacy.py",
-      "source_location": "L112",
+      "source_location": "L115",
       "weight": 1.0
     },
     {
@@ -9715,7 +9991,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "evals/skill_efficacy.py",
-      "source_location": "L113",
+      "source_location": "L116",
       "weight": 1.0
     },
     {
@@ -9727,7 +10003,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "evals/skill_efficacy.py",
-      "source_location": "L131",
+      "source_location": "L134",
       "weight": 1.0
     },
     {
@@ -9739,7 +10015,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "evals/skill_efficacy.py",
-      "source_location": "L132",
+      "source_location": "L135",
       "weight": 1.0
     },
     {
@@ -9751,7 +10027,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "evals/skill_efficacy.py",
-      "source_location": "L146",
+      "source_location": "L149",
       "weight": 1.0
     },
     {
@@ -14035,7 +14311,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "evals/graphify_tokens.py",
-      "source_location": "L153",
+      "source_location": "L149",
       "weight": 1.0
     },
     {
@@ -17971,7 +18247,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "evals/skill_efficacy.py",
-      "source_location": "L44",
+      "source_location": "L48",
       "weight": 1.0
     },
     {
@@ -19459,7 +19735,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "evals/agent_runner.py",
-      "source_location": "L313",
+      "source_location": "L315",
       "weight": 1.0
     },
     {
@@ -20293,6 +20569,72 @@
       "weight": 1.0
     },
     {
+      "source": "changelog",
+      "target": "changelog_changelog",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "changelog_changelog",
+      "target": "changelog_v0_1_0_2026_09_16_tag_pending",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CHANGELOG.md",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "changelog_v0_1_0_2026_09_16_tag_pending",
+      "target": "changelog_added",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CHANGELOG.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "changelog_v0_1_0_2026_09_16_tag_pending",
+      "target": "changelog_changed",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CHANGELOG.md",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "changelog_v0_1_0_2026_09_16_tag_pending",
+      "target": "changelog_fixed",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CHANGELOG.md",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "changelog_v0_1_0_2026_09_16_tag_pending",
+      "target": "changelog_evidence_at_this_release",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CHANGELOG.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
       "source": "claude",
       "target": "claude_claude_code",
       "relation": "contains",
@@ -20887,6 +21229,160 @@
       "weight": 1.0
     },
     {
+      "source": "docs_demo",
+      "target": "docs_demo_five_minute_demo_script",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/DEMO.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_demo_five_minute_demo_script",
+      "target": "docs_demo_timed_script",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/DEMO.md",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_demo_five_minute_demo_script",
+      "target": "docs_demo_pre_demo_checklist_run_10_minutes_before",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/DEMO.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_demo_five_minute_demo_script",
+      "target": "docs_demo_q_a_appendix",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/DEMO.md",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_interview_map",
+      "target": "docs_interview_map_interview_evidence_map",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_interview_map_interview_evidence_map",
+      "target": "docs_interview_map_5_llm_tooling_fluency_ide_and_cli",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_interview_map_interview_evidence_map",
+      "target": "docs_interview_map_6_ml_dl_dsp_audio_sensors_not_this_project",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L134",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_interview_map_interview_evidence_map",
+      "target": "docs_interview_map_7_optimization_and_graph_theory",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_interview_map_interview_evidence_map",
+      "target": "docs_interview_map_8_telecom_wireless_not_this_project",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_interview_map_interview_evidence_map",
+      "target": "docs_interview_map_how_to_use_this_map",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L177",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_interview_map_interview_evidence_map",
+      "target": "docs_interview_map_1_agentic_ai_designing_and_orchestrating_multi_step_workflows",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_interview_map_interview_evidence_map",
+      "target": "docs_interview_map_2_agent_skills_tools",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_interview_map_interview_evidence_map",
+      "target": "docs_interview_map_3_plan_vs_execute_modes",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_interview_map_interview_evidence_map",
+      "target": "docs_interview_map_4_knowledge_graph_workflows_graphify",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/INTERVIEW-MAP.md",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
       "source": "evals_agent_runner",
       "target": "evals_agent_runner_parse_claude_result",
       "relation": "contains",
@@ -20960,7 +21456,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "evals/agent_runner.py",
-      "source_location": "L286",
+      "source_location": "L288",
       "weight": 1.0
     },
     {
@@ -20971,7 +21467,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "evals/agent_runner.py",
-      "source_location": "L313",
+      "source_location": "L315",
       "weight": 1.0
     },
     {
@@ -21026,7 +21522,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "evals/graphify_tokens.py",
-      "source_location": "L191",
+      "source_location": "L187",
       "weight": 1.0
     },
     {
@@ -21037,7 +21533,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "evals/graphify_tokens.py",
-      "source_location": "L226",
+      "source_location": "L224",
       "weight": 1.0
     },
     {
@@ -21125,7 +21621,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "evals/plan_vs_execute.py",
-      "source_location": "L152",
+      "source_location": "L158",
       "weight": 1.0
     },
     {
@@ -21251,6 +21747,17 @@
     },
     {
       "source": "evals_skill_efficacy",
+      "target": "evals_skill_efficacy_main",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "evals/skill_efficacy.py",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "evals_skill_efficacy",
       "target": "evals_skill_efficacy_prepare",
       "relation": "contains",
       "_origin": "ast",
@@ -21268,7 +21775,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "evals/skill_efficacy.py",
-      "source_location": "L44",
+      "source_location": "L48",
       "weight": 1.0
     },
     {
@@ -21279,18 +21786,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "evals/skill_efficacy.py",
-      "source_location": "L67",
-      "weight": 1.0
-    },
-    {
-      "source": "evals_skill_efficacy",
-      "target": "evals_skill_efficacy_main",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "evals/skill_efficacy.py",
-      "source_location": "L97",
+      "source_location": "L69",
       "weight": 1.0
     },
     {
@@ -21301,7 +21797,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "evals/summarize.py",
-      "source_location": "L39",
+      "source_location": "L38",
       "weight": 1.0
     },
     {
@@ -21851,18 +22347,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L108",
-      "weight": 1.0
-    },
-    {
-      "source": "readme_rushlab",
-      "target": "readme_what_it_does",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L12",
+      "source_location": "L112",
       "weight": 1.0
     },
     {
@@ -21873,7 +22358,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L125",
+      "source_location": "L129",
       "weight": 1.0
     },
     {
@@ -21884,7 +22369,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L143",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_rushlab",
+      "target": "readme_what_it_does",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -21895,7 +22391,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L163",
+      "source_location": "L167",
       "weight": 1.0
     },
     {
@@ -21906,7 +22402,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L182",
+      "source_location": "L186",
       "weight": 1.0
     },
     {
@@ -21917,7 +22413,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L195",
+      "source_location": "L199",
       "weight": 1.0
     },
     {
@@ -21928,7 +22424,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L201",
+      "source_location": "L205",
       "weight": 1.0
     },
     {
@@ -21939,7 +22435,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L25",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -21950,7 +22446,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L48",
+      "source_location": "L52",
       "weight": 1.0
     },
     {
@@ -21961,7 +22457,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L65",
+      "source_location": "L69",
       "weight": 1.0
     },
     {
@@ -21972,7 +22468,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L73",
+      "source_location": "L77",
       "weight": 1.0
     },
     {
@@ -21983,7 +22479,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L90",
+      "source_location": "L94",
       "weight": 1.0
     },
     {
@@ -26548,40 +27044,29 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L111",
+      "source_location": "L115",
       "weight": 1.0
     },
     {
       "source": "readme",
-      "target": "docs_decisions_0005_sumo_model",
+      "target": "docs_interview_map",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L129",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
       "source": "readme",
-      "target": "docs_decisions_0006_signal_optimization",
+      "target": "docs_demo",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L148",
-      "weight": 1.0
-    },
-    {
-      "source": "readme",
-      "target": "docs_decisions_0008_benchmark_methodology",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L166",
+      "source_location": "L13",
       "weight": 1.0
     },
     {
@@ -26592,7 +27077,40 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L167",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "docs_decisions_0005_sumo_model",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "docs_decisions_0006_signal_optimization",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "docs_decisions_0008_benchmark_methodology",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L170",
       "weight": 1.0
     },
     {
@@ -26603,7 +27121,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L199",
+      "source_location": "L203",
       "weight": 1.0
     },
     {
@@ -26614,7 +27132,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L62",
+      "source_location": "L66",
       "weight": 1.0
     },
     {
@@ -26625,7 +27143,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L93",
+      "source_location": "L97",
       "weight": 1.0
     },
     {
@@ -26892,5 +27410,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "8ead6eeef6081f1cc95f03512b3b1b8fa0e1d8c1"
+  "built_at_commit": "06996ae3e8c81ea7b31bc9a8c6102fcc3d260f6e"
 }
