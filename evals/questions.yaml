@@ -1,0 +1,83 @@
+questions:
+  - id: graph-travel-time
+    question: "How are travel times computed in the analytic road graph?"
+    symbols: [build_analysis_graph, haversine_m]
+    files:
+      - src/rushlab/network/build.py
+      - src/rushlab/network/fetch.py
+    grep: build_analysis_graph
+
+  - id: border-sink
+    question: "How is the synthetic border sink attached and configured?"
+    symbols: [attach_border_sink, BorderConfig]
+    files:
+      - src/rushlab/network/build.py
+      - src/rushlab/config/__init__.py
+      - src/rushlab/config/areas.yaml
+    grep: attach_border_sink
+
+  - id: demand-pipeline
+    question: "How does BTS volume become SUMO trips?"
+    symbols: [plan_trips, trailing_daily_average]
+    files:
+      - src/rushlab/demand/bts.py
+      - src/rushlab/demand/profile.py
+      - src/rushlab/sim/demand.py
+    grep: plan_trips
+
+  - id: calibration
+    question: "How is the border sink capacity calibrated from CBP wait data?"
+    symbols: [capacity_range, calibrate]
+    files:
+      - src/rushlab/demand/calibration.py
+      - src/rushlab/demand/cbp.py
+    grep: capacity_range
+
+  - id: port-metering
+    question: "How is the port metering signal program generated and applied?"
+    symbols: [metering_program, find_metering_target]
+    files:
+      - src/rushlab/sim/metering.py
+      - src/rushlab/sim/runner.py
+    grep: metering_program
+
+  - id: signal-optimization
+    question: "How does the offset genetic algorithm evaluate candidate plans?"
+    symbols: [optimize_offsets, evaluate_candidate]
+    files:
+      - src/rushlab/signals/optimizer.py
+      - src/rushlab/signals/evaluator.py
+    grep: optimize_offsets
+
+  - id: webster
+    question: "How are Webster cycle length and green splits computed?"
+    symbols: [webster_plan, plan_with_cycle]
+    files:
+      - src/rushlab/signals/webster.py
+      - src/rushlab/signals/flows.py
+    grep: webster_plan
+
+  - id: report-pipeline
+    question: "How is the HTML comparison report assembled from scenarios?"
+    symbols: [build_comparison, build_kpi_figure]
+    files:
+      - src/rushlab/report/html.py
+      - src/rushlab/report/compare.py
+    grep: build_comparison
+
+  - id: agent-config-sync
+    question: "How are agent configs generated and kept in sync across tools?"
+    symbols: [build_outputs, apply_programs_to_net]
+    files:
+      - scripts/sync_agent_config.py
+      - agent/mcp.json
+      - agent/hooks.json
+    grep: sync_agent_config
+
+  - id: mcp-server
+    question: "What tools does the RushLab MCP server expose to agents?"
+    symbols: [area_analysis, scenario_metrics]
+    files:
+      - src/rushlab/mcp_server.py
+      - agent/mcp.json
+    grep: mcp_server

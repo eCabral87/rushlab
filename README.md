@@ -160,6 +160,25 @@ signal retiming shifts throughput ~3.5% and delay <1%. The next levers are
 port metering policy, lane management, departure staggering, and rerouting, not
 green splits.
 
+## Benchmarks (agentic evidence, 2026-09)
+
+Recorded with opencode (n=1, model named in the tables; methodology and limits in
+[ADR-0008](docs/decisions/0008-benchmark-methodology.md), full tables in
+[`evals/RESULTS.md`](evals/RESULTS.md)):
+
+| Benchmark | Result |
+|---|---|
+| Graphify token reduction | focused retrieval 5,818 tok vs 62,386 tok for grep+read → **90.7% fewer tokens**, 20/20 symbols resolved |
+| Plan vs execute | 4/4 fixture tasks passed in both modes; plan-first ≈2× tokens on small, well-specified tasks |
+| Skill efficacy | release-notes skill 4/4 rubric vs 3/4 without it, at ~1.9× tokens |
+
+```bash
+uv run python -m evals.graphify_tokens   # deterministic, no agent calls
+uv run python -m evals.plan_vs_execute   # paid agent runs, disposable copies
+uv run python -m evals.skill_efficacy    # paid agent runs
+uv run python -m evals.summarize         # rebuild evals/RESULTS.md
+```
+
 ## Recon baseline (2026-09)
 
 Corridor bbox `32.525,-117.06,32.555,-116.97`:

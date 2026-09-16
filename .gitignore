@@ -32,6 +32,10 @@ graphify-out/*
 !graphify-out/graph.json
 !graphify-out/GRAPH_REPORT.md
 
+# Benchmark work dirs and transcripts (results stay committed)
+evals/.work/
+evals/transcripts/
+
 # Claude Code local settings (machine-specific)
 .claude/settings.local.json
 

@@ -50,6 +50,7 @@ packages = ["src/rushlab"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["."]
 addopts = "-ra -m 'not integration'"
 markers = ["integration: tests that need live network access"]
 

@@ -34,6 +34,9 @@ uv run rushlab simulate san-ysidro         # baseline microsim -> results/
 uv run rushlab optimize-signals san-ysidro # Webster + GA offsets -> signal file
 uv run rushlab report san-ysidro           # scenario comparison -> HTML report
 uv run rushlab-mcp                         # MCP server (stdio) for agent tools
+uv run python -m evals.graphify_tokens     # benchmark: graph context vs raw files
+uv run python -m evals.plan_vs_execute     # benchmark: plan vs direct (paid agent runs)
+uv run python -m evals.skill_efficacy      # benchmark: skill impact (paid agent runs)
 uv run python scripts/sync_agent_config.py # regenerate per-tool agent files
 uv run python scripts/agent_doctor.py      # verify agent setup
 uv run graphify update .                   # rebuild the knowledge graph

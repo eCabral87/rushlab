@@ -1,0 +1,5 @@
+[project]
+name = "mini"
+version = "0.1.0"
+description = "Release-notes skill benchmark fixture"
+requires-python = ">=3.12"
