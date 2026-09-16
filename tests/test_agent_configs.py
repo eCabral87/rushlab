@@ -21,6 +21,16 @@ def test_opencode_config_has_instructions_and_mcp() -> None:
     assert graphify["command"][:3] == ["uv", "run", "--no-sync"]
 
 
+def test_rushlab_mcp_registered_in_every_agent_config() -> None:
+    opencode = load_json("opencode.json")
+    assert opencode["mcp"]["rushlab"]["command"][:3] == ["uv", "run", "--no-sync"]
+    assert opencode["mcp"]["rushlab"]["command"][-1] == "rushlab-mcp"
+    claude = load_json(".mcp.json")
+    assert claude["mcpServers"]["rushlab"]["args"][-1] == "rushlab-mcp"
+    codex = tomllib.loads((ROOT / ".codex" / "config.toml").read_text())
+    assert codex["mcp_servers"]["rushlab"]["args"][-1] == "rushlab-mcp"
+
+
 def test_claude_mcp_config() -> None:
     config = load_json(".mcp.json")
     assert config["mcpServers"]["graphify"]["command"] == "uv"

@@ -17,6 +17,16 @@
         "graphify-out/graph.json"
       ],
       "enabled": true
+    },
+    "rushlab": {
+      "type": "local",
+      "command": [
+        "uv",
+        "run",
+        "--no-sync",
+        "rushlab-mcp"
+      ],
+      "enabled": true
     }
   }
 }

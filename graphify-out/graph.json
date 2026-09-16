@@ -22,25 +22,12 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 28,
+      "community": 33,
       "community_name": "Area",
       "file_type": "code",
       "norm_label": "area",
       "source_file": "src/rushlab/config/__init__.py",
       "source_location": "L37"
-    },
-    {
-      "id": "src_rushlab_config_init_terminal",
-      "label": "Terminal",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "terminal",
-      "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L29"
     },
     {
       "id": "src_rushlab_sim_metering_meteringtarget",
@@ -93,6 +80,19 @@
       "norm_label": "optimizationresult",
       "source_file": "src/rushlab/signals/optimizer.py",
       "source_location": "L25"
+    },
+    {
+      "id": "src_rushlab_config_init_terminal",
+      "label": "Terminal",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 47,
+      "community_name": "config/__init__.py",
+      "file_type": "code",
+      "norm_label": "terminal",
+      "source_file": "src/rushlab/config/__init__.py",
+      "source_location": "L29"
     },
     {
       "id": "opencode_plugins_graphify_graphifyplugin",
@@ -599,120 +599,12 @@
       "source_location": "L54"
     },
     {
-      "id": "src_rushlab_config_init_area_osmnx_bbox",
-      "label": ".osmnx_bbox()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": ".osmnx_bbox()",
-      "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L45"
-    },
-    {
-      "id": "src_rushlab_config_init_get_area",
-      "label": "get_area()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "get_area()",
-      "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L106"
-    },
-    {
-      "id": "src_rushlab_config_init_load_areas",
-      "label": "load_areas()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "load_areas()",
-      "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L100"
-    },
-    {
-      "id": "src_rushlab_config_init_parse_area",
-      "label": "_parse_area()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "_parse_area()",
-      "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L81"
-    },
-    {
-      "id": "src_rushlab_config_init_parse_border",
-      "label": "_parse_border()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "_parse_border()",
-      "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L68"
-    },
-    {
-      "id": "src_rushlab_config_init_parse_coordinate",
-      "label": "_parse_coordinate()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "_parse_coordinate()",
-      "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L62"
-    },
-    {
-      "id": "src_rushlab_config_init_validate_bbox",
-      "label": "_validate_bbox()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "_validate_bbox()",
-      "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L51"
-    },
-    {
-      "id": "src_rushlab_network_fetch_area_cache_dir",
-      "label": "area_cache_dir()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "area_cache_dir()",
-      "source_file": "src/rushlab/network/fetch.py",
-      "source_location": "L17"
-    },
-    {
-      "id": "src_rushlab_network_fetch_fetch_area",
-      "label": "fetch_area()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "fetch_area()",
-      "source_file": "src/rushlab/network/fetch.py",
-      "source_location": "L21"
-    },
-    {
       "id": "src_rushlab_sim_network_build_sumo_network",
       "label": "build_sumo_network()",
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "code",
       "norm_label": "build_sumo_network()",
       "source_file": "src/rushlab/sim/network.py",
@@ -724,7 +616,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "code",
       "norm_label": "fetch_osm_xml()",
       "source_file": "src/rushlab/sim/network.py",
@@ -736,7 +628,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "code",
       "norm_label": "network_stats()",
       "source_file": "src/rushlab/sim/network.py",
@@ -748,131 +640,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "code",
       "norm_label": "osm_xml_query()",
       "source_file": "src/rushlab/sim/network.py",
       "source_location": "L44"
-    },
-    {
-      "id": "tests_conftest_mini_area",
-      "label": "mini_area()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "mini_area()",
-      "source_file": "tests/conftest.py",
-      "source_location": "L18"
-    },
-    {
-      "id": "tests_conftest_mini_cache",
-      "label": "mini_cache()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "mini_cache()",
-      "source_file": "tests/conftest.py",
-      "source_location": "L36"
-    },
-    {
-      "id": "tests_conftest_mini_net",
-      "label": "mini_net()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "mini_net()",
-      "source_file": "tests/conftest.py",
-      "source_location": "L44"
-    },
-    {
-      "id": "tests_test_areas_test_border_metadata_parsed",
-      "label": "test_border_metadata_parsed()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "test_border_metadata_parsed()",
-      "source_file": "tests/test_areas.py",
-      "source_location": "L21"
-    },
-    {
-      "id": "tests_test_areas_test_invalid_bbox_rejected",
-      "label": "test_invalid_bbox_rejected()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "test_invalid_bbox_rejected()",
-      "source_file": "tests/test_areas.py",
-      "source_location": "L45"
-    },
-    {
-      "id": "tests_test_areas_test_load_areas_includes_san_ysidro",
-      "label": "test_load_areas_includes_san_ysidro()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "test_load_areas_includes_san_ysidro()",
-      "source_file": "tests/test_areas.py",
-      "source_location": "L13"
-    },
-    {
-      "id": "tests_test_areas_test_osmnx_bbox_conversion",
-      "label": "test_osmnx_bbox_conversion()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "test_osmnx_bbox_conversion()",
-      "source_file": "tests/test_areas.py",
-      "source_location": "L36"
-    },
-    {
-      "id": "tests_test_areas_test_terminals_parsed",
-      "label": "test_terminals_parsed()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "test_terminals_parsed()",
-      "source_file": "tests/test_areas.py",
-      "source_location": "L31"
-    },
-    {
-      "id": "tests_test_areas_test_unknown_area_lists_available",
-      "label": "test_unknown_area_lists_available()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "test_unknown_area_lists_available()",
-      "source_file": "tests/test_areas.py",
-      "source_location": "L40"
-    },
-    {
-      "id": "tests_test_network_fetch_test_fetch_area_downloads_and_caches",
-      "label": "test_fetch_area_downloads_and_caches()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "test_fetch_area_downloads_and_caches()",
-      "source_file": "tests/test_network_fetch.py",
-      "source_location": "L14"
     },
     {
       "id": "tests_test_sim_network_test_fetch_osm_xml_live",
@@ -880,7 +652,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "code",
       "norm_label": "test_fetch_osm_xml_live()",
       "source_file": "tests/test_sim_network.py",
@@ -892,7 +664,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "code",
       "norm_label": "test_fetch_requires_sim_bbox()",
       "source_file": "tests/test_sim_network.py",
@@ -904,7 +676,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "code",
       "norm_label": "test_network_stats()",
       "source_file": "tests/test_sim_network.py",
@@ -916,7 +688,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "code",
       "norm_label": "test_network_stats_default_path_exists()",
       "source_file": "tests/test_sim_network.py",
@@ -928,7 +700,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "code",
       "norm_label": "test_rebuild_is_cached()",
       "source_file": "tests/test_sim_network.py",
@@ -993,6 +765,18 @@
       "norm_label": "_calibration_path()",
       "source_file": "src/rushlab/cli.py",
       "source_location": "L82"
+    },
+    {
+      "id": "src_rushlab_cli_demand",
+      "label": "demand()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "demand()",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L113"
     },
     {
       "id": "src_rushlab_cli_fetch_area_command",
@@ -1067,18 +851,6 @@
       "source_location": "L385"
     },
     {
-      "id": "src_rushlab_cli_sim_network_command",
-      "label": "sim_network_command()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 29,
-      "community_name": "cli.py",
-      "file_type": "code",
-      "norm_label": "sim_network_command()",
-      "source_file": "src/rushlab/cli.py",
-      "source_location": "L204"
-    },
-    {
       "id": "src_rushlab_cli_simulate",
       "label": "simulate()",
       "_callable": true,
@@ -1113,6 +885,42 @@
       "norm_label": "_version_callback()",
       "source_file": "src/rushlab/cli.py",
       "source_location": "L55"
+    },
+    {
+      "id": "src_rushlab_demand_bts_latest_month",
+      "label": "latest_month()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "latest_month()",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L77"
+    },
+    {
+      "id": "src_rushlab_demand_bts_trailing_daily_average",
+      "label": "trailing_daily_average()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "trailing_daily_average()",
+      "source_file": "src/rushlab/demand/bts.py",
+      "source_location": "L67"
+    },
+    {
+      "id": "src_rushlab_demand_calibration_write_calibration",
+      "label": "write_calibration()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "write_calibration()",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L104"
     },
     {
       "id": "scripts_agent_doctor_check",
@@ -1391,112 +1199,184 @@
       "source_location": "L16"
     },
     {
-      "id": "tests_test_demand_area",
-      "label": "area()",
+      "id": "src_rushlab_demand_calibration_load_calibration",
+      "label": "load_calibration()",
       "_callable": true,
       "_origin": "ast",
       "community": 32,
-      "community_name": "test_demand.py",
+      "community_name": "mcp_server.py",
       "file_type": "code",
-      "norm_label": "area()",
-      "source_file": "tests/test_demand.py",
-      "source_location": "L37"
+      "norm_label": "load_calibration()",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L110"
     },
     {
-      "id": "tests_test_demand_bts_frame",
-      "label": "bts_frame()",
+      "id": "src_rushlab_demand_calibration_sink_overrides",
+      "label": "sink_overrides()",
       "_callable": true,
       "_origin": "ast",
       "community": 32,
-      "community_name": "test_demand.py",
+      "community_name": "mcp_server.py",
       "file_type": "code",
-      "norm_label": "bts_frame()",
-      "source_file": "tests/test_demand.py",
-      "source_location": "L42"
+      "norm_label": "sink_overrides()",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L92"
     },
     {
-      "id": "tests_test_demand_snapshot",
-      "label": "snapshot()",
+      "id": "src_rushlab_mcp_server_area_analysis",
+      "label": "area_analysis()",
       "_callable": true,
       "_origin": "ast",
       "community": 32,
-      "community_name": "test_demand.py",
+      "community_name": "mcp_server.py",
       "file_type": "code",
-      "norm_label": "snapshot()",
-      "source_file": "tests/test_demand.py",
-      "source_location": "L51"
+      "norm_label": "area_analysis()",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L99"
     },
     {
-      "id": "tests_test_demand_test_calibration_roundtrip",
-      "label": "test_calibration_roundtrip()",
+      "id": "src_rushlab_mcp_server_area_calibration",
+      "label": "area_calibration()",
       "_callable": true,
       "_origin": "ast",
       "community": 32,
-      "community_name": "test_demand.py",
+      "community_name": "mcp_server.py",
       "file_type": "code",
-      "norm_label": "test_calibration_roundtrip()",
-      "source_file": "tests/test_demand.py",
-      "source_location": "L118"
+      "norm_label": "area_calibration()",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L115"
     },
     {
-      "id": "tests_test_demand_test_capacity_range_math",
-      "label": "test_capacity_range_math()",
+      "id": "src_rushlab_mcp_server_area_or_error",
+      "label": "_area_or_error()",
       "_callable": true,
       "_origin": "ast",
       "community": 32,
-      "community_name": "test_demand.py",
+      "community_name": "mcp_server.py",
       "file_type": "code",
-      "norm_label": "test_capacity_range_math()",
-      "source_file": "tests/test_demand.py",
-      "source_location": "L94"
+      "norm_label": "_area_or_error()",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L49"
     },
     {
-      "id": "tests_test_demand_test_cbp_normalization",
-      "label": "test_cbp_normalization()",
+      "id": "src_rushlab_mcp_server_compare_scenarios",
+      "label": "compare_scenarios()",
       "_callable": true,
       "_origin": "ast",
       "community": 32,
-      "community_name": "test_demand.py",
+      "community_name": "mcp_server.py",
       "file_type": "code",
-      "norm_label": "test_cbp_normalization()",
-      "source_file": "tests/test_demand.py",
-      "source_location": "L85"
+      "norm_label": "compare_scenarios()",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L139"
     },
     {
-      "id": "tests_test_demand_test_peak_share_in_plausible_range",
-      "label": "test_peak_share_in_plausible_range()",
+      "id": "src_rushlab_mcp_server_list_areas",
+      "label": "list_areas()",
       "_callable": true,
       "_origin": "ast",
       "community": 32,
-      "community_name": "test_demand.py",
+      "community_name": "mcp_server.py",
       "file_type": "code",
-      "norm_label": "test_peak_share_in_plausible_range()",
-      "source_file": "tests/test_demand.py",
-      "source_location": "L65"
+      "norm_label": "list_areas()",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L86"
     },
     {
-      "id": "tests_test_demand_test_snapshot_series_deduplicates",
-      "label": "test_snapshot_series_deduplicates()",
+      "id": "src_rushlab_mcp_server_main",
+      "label": "main()",
       "_callable": true,
       "_origin": "ast",
       "community": 32,
-      "community_name": "test_demand.py",
+      "community_name": "mcp_server.py",
       "file_type": "code",
-      "norm_label": "test_snapshot_series_deduplicates()",
-      "source_file": "tests/test_demand.py",
-      "source_location": "L130"
+      "norm_label": "main()",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L267"
     },
     {
-      "id": "src_rushlab_cli_demand",
-      "label": "demand()",
+      "id": "src_rushlab_mcp_server_optimize_signals",
+      "label": "optimize_signals()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "code",
+      "norm_label": "optimize_signals()",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L185"
+    },
+    {
+      "id": "src_rushlab_mcp_server_parse_window",
+      "label": "_parse_window()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "code",
+      "norm_label": "_parse_window()",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L56"
+    },
+    {
+      "id": "src_rushlab_mcp_server_run_simulation",
+      "label": "run_simulation()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "code",
+      "norm_label": "run_simulation()",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L151"
+    },
+    {
+      "id": "src_rushlab_mcp_server_safe_output_path",
+      "label": "_safe_output_path()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "code",
+      "norm_label": "_safe_output_path()",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L68"
+    },
+    {
+      "id": "src_rushlab_mcp_server_safe_repo_path",
+      "label": "_safe_repo_path()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "code",
+      "norm_label": "_safe_repo_path()",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L79"
+    },
+    {
+      "id": "src_rushlab_mcp_server_scenario_metrics",
+      "label": "scenario_metrics()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "code",
+      "norm_label": "scenario_metrics()",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L124"
+    },
+    {
+      "id": "src_rushlab_config_init_area_osmnx_bbox",
+      "label": ".osmnx_bbox()",
       "_callable": true,
       "_origin": "ast",
       "community": 33,
-      "community_name": "demand",
+      "community_name": "Area",
       "file_type": "code",
-      "norm_label": "demand()",
-      "source_file": "src/rushlab/cli.py",
-      "source_location": "L113"
+      "norm_label": ".osmnx_bbox()",
+      "source_file": "src/rushlab/config/__init__.py",
+      "source_location": "L45"
     },
     {
       "id": "src_rushlab_demand_bts_fetch_volumes",
@@ -1504,23 +1384,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 33,
-      "community_name": "demand",
+      "community_name": "Area",
       "file_type": "code",
       "norm_label": "fetch_volumes()",
       "source_file": "src/rushlab/demand/bts.py",
       "source_location": "L31"
-    },
-    {
-      "id": "src_rushlab_demand_bts_latest_month",
-      "label": "latest_month()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 33,
-      "community_name": "demand",
-      "file_type": "code",
-      "norm_label": "latest_month()",
-      "source_file": "src/rushlab/demand/bts.py",
-      "source_location": "L77"
     },
     {
       "id": "src_rushlab_demand_bts_load_volumes",
@@ -1528,23 +1396,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 33,
-      "community_name": "demand",
+      "community_name": "Area",
       "file_type": "code",
       "norm_label": "load_volumes()",
       "source_file": "src/rushlab/demand/bts.py",
       "source_location": "L56"
-    },
-    {
-      "id": "src_rushlab_demand_bts_trailing_daily_average",
-      "label": "trailing_daily_average()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 33,
-      "community_name": "demand",
-      "file_type": "code",
-      "norm_label": "trailing_daily_average()",
-      "source_file": "src/rushlab/demand/bts.py",
-      "source_location": "L67"
     },
     {
       "id": "src_rushlab_demand_bts_volumes_from_rows",
@@ -1552,35 +1408,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 33,
-      "community_name": "demand",
+      "community_name": "Area",
       "file_type": "code",
       "norm_label": "volumes_from_rows()",
       "source_file": "src/rushlab/demand/bts.py",
       "source_location": "L20"
-    },
-    {
-      "id": "tests_test_demand_fetch_test_live_demand_sources",
-      "label": "test_live_demand_sources()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 33,
-      "community_name": "demand",
-      "file_type": "code",
-      "norm_label": "test_live_demand_sources()",
-      "source_file": "tests/test_demand_fetch.py",
-      "source_location": "L15"
-    },
-    {
-      "id": "tests_test_demand_test_bts_parsing_and_daily_average",
-      "label": "test_bts_parsing_and_daily_average()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 33,
-      "community_name": "demand",
-      "file_type": "code",
-      "norm_label": "test_bts_parsing_and_daily_average()",
-      "source_file": "tests/test_demand.py",
-      "source_location": "L75"
     },
     {
       "id": "tests_test_demand_test_bts_requires_expected_columns",
@@ -1588,11 +1420,23 @@
       "_callable": true,
       "_origin": "ast",
       "community": 33,
-      "community_name": "demand",
+      "community_name": "Area",
       "file_type": "code",
       "norm_label": "test_bts_requires_expected_columns()",
       "source_file": "tests/test_demand.py",
       "source_location": "L80"
+    },
+    {
+      "id": "src_rushlab_cli_sim_network_command",
+      "label": "sim_network_command()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "demand.py",
+      "file_type": "code",
+      "norm_label": "sim_network_command()",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L204"
     },
     {
       "id": "src_rushlab_network_build_haversine_m",
@@ -1809,18 +1653,6 @@
       "norm_label": "apply_program_to_net()",
       "source_file": "src/rushlab/sim/metering.py",
       "source_location": "L241"
-    },
-    {
-      "id": "src_rushlab_sim_metering_apply_programs_to_net",
-      "label": "apply_programs_to_net()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 36,
-      "community_name": "runner.py",
-      "file_type": "code",
-      "norm_label": "apply_programs_to_net()",
-      "source_file": "src/rushlab/sim/metering.py",
-      "source_location": "L205"
     },
     {
       "id": "src_rushlab_sim_metering_find_metering_target",
@@ -2495,6 +2327,18 @@
       "source_location": "L66"
     },
     {
+      "id": "src_rushlab_sim_metering_apply_programs_to_net",
+      "label": "apply_programs_to_net()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "evaluator.py",
+      "file_type": "code",
+      "norm_label": "apply_programs_to_net()",
+      "source_file": "src/rushlab/sim/metering.py",
+      "source_location": "L205"
+    },
+    {
       "id": "tests_test_signals_optimizer_build_routes",
       "label": "build_routes()",
       "_callable": true,
@@ -2552,7 +2396,7 @@
       "file_type": "code",
       "norm_label": "test_agent_sources_parse()",
       "source_file": "tests/test_agent_configs.py",
-      "source_location": "L49"
+      "source_location": "L59"
     },
     {
       "id": "tests_test_agent_configs_test_claude_mcp_config",
@@ -2564,7 +2408,7 @@
       "file_type": "code",
       "norm_label": "test_claude_mcp_config()",
       "source_file": "tests/test_agent_configs.py",
-      "source_location": "L24"
+      "source_location": "L34"
     },
     {
       "id": "tests_test_agent_configs_test_codex_config_parses_with_mcp",
@@ -2576,7 +2420,7 @@
       "file_type": "code",
       "norm_label": "test_codex_config_parses_with_mcp()",
       "source_file": "tests/test_agent_configs.py",
-      "source_location": "L29"
+      "source_location": "L39"
     },
     {
       "id": "tests_test_agent_configs_test_opencode_config_has_instructions_and_mcp",
@@ -2591,6 +2435,18 @@
       "source_location": "L16"
     },
     {
+      "id": "tests_test_agent_configs_test_rushlab_mcp_registered_in_every_agent_config",
+      "label": "test_rushlab_mcp_registered_in_every_agent_config()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "test_agent_configs.py",
+      "file_type": "code",
+      "norm_label": "test_rushlab_mcp_registered_in_every_agent_config()",
+      "source_file": "tests/test_agent_configs.py",
+      "source_location": "L24"
+    },
+    {
       "id": "tests_test_agent_configs_test_session_start_hooks_exist",
       "label": "test_session_start_hooks_exist()",
       "_callable": true,
@@ -2600,7 +2456,7 @@
       "file_type": "code",
       "norm_label": "test_session_start_hooks_exist()",
       "source_file": "tests/test_agent_configs.py",
-      "source_location": "L34"
+      "source_location": "L44"
     },
     {
       "id": "tests_test_agent_configs_test_skill_mirrors_cover_agent_sources",
@@ -2612,19 +2468,7 @@
       "file_type": "code",
       "norm_label": "test_skill_mirrors_cover_agent_sources()",
       "source_file": "tests/test_agent_configs.py",
-      "source_location": "L41"
-    },
-    {
-      "id": "src_rushlab_cli_report",
-      "label": "report()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "report",
-      "file_type": "code",
-      "norm_label": "report()",
-      "source_file": "src/rushlab/cli.py",
-      "source_location": "L322"
+      "source_location": "L51"
     },
     {
       "id": "src_rushlab_report_compare_build_comparison",
@@ -2632,7 +2476,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 40,
-      "community_name": "report",
+      "community_name": "build_comparison",
       "file_type": "code",
       "norm_label": "build_comparison()",
       "source_file": "src/rushlab/report/compare.py",
@@ -2644,71 +2488,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 40,
-      "community_name": "report",
+      "community_name": "build_comparison",
       "file_type": "code",
       "norm_label": "load_scenario_summary()",
       "source_file": "src/rushlab/report/compare.py",
       "source_location": "L22"
-    },
-    {
-      "id": "src_rushlab_report_html_build_kpi_figure",
-      "label": "build_kpi_figure()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "report",
-      "file_type": "code",
-      "norm_label": "build_kpi_figure()",
-      "source_file": "src/rushlab/report/html.py",
-      "source_location": "L35"
-    },
-    {
-      "id": "src_rushlab_report_html_build_port_throughput_figure",
-      "label": "build_port_throughput_figure()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "report",
-      "file_type": "code",
-      "norm_label": "build_port_throughput_figure()",
-      "source_file": "src/rushlab/report/html.py",
-      "source_location": "L59"
-    },
-    {
-      "id": "src_rushlab_report_html_build_trip_duration_figure",
-      "label": "build_trip_duration_figure()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "report",
-      "file_type": "code",
-      "norm_label": "build_trip_duration_figure()",
-      "source_file": "src/rushlab/report/html.py",
-      "source_location": "L101"
-    },
-    {
-      "id": "src_rushlab_report_html_figure_to_base64",
-      "label": "_figure_to_base64()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "report",
-      "file_type": "code",
-      "norm_label": "_figure_to_base64()",
-      "source_file": "src/rushlab/report/html.py",
-      "source_location": "L28"
-    },
-    {
-      "id": "src_rushlab_report_html_render_report",
-      "label": "render_report()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "report",
-      "file_type": "code",
-      "norm_label": "render_report()",
-      "source_file": "src/rushlab/report/html.py",
-      "source_location": "L131"
     },
     {
       "id": "tests_test_report_fake_summary",
@@ -2716,7 +2500,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 40,
-      "community_name": "report",
+      "community_name": "build_comparison",
       "file_type": "code",
       "norm_label": "fake_summary()",
       "source_file": "tests/test_report.py",
@@ -2728,7 +2512,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 40,
-      "community_name": "report",
+      "community_name": "build_comparison",
       "file_type": "code",
       "norm_label": "test_build_comparison_deltas()",
       "source_file": "tests/test_report.py",
@@ -2740,11 +2524,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 40,
-      "community_name": "report",
+      "community_name": "build_comparison",
       "file_type": "code",
       "norm_label": "test_render_report_without_figures()",
       "source_file": "tests/test_report.py",
-      "source_location": "L73"
+      "source_location": "L76"
     },
     {
       "id": "tests_test_report_test_render_report_writes_html",
@@ -2752,7 +2536,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 40,
-      "community_name": "report",
+      "community_name": "build_comparison",
       "file_type": "code",
       "norm_label": "test_render_report_writes_html()",
       "source_file": "tests/test_report.py",
@@ -2764,7 +2548,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 41,
-      "community_name": "calibration.py",
+      "community_name": "test_demand.py",
       "file_type": "code",
       "norm_label": "calibrate()",
       "source_file": "src/rushlab/demand/calibration.py",
@@ -2776,47 +2560,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 41,
-      "community_name": "calibration.py",
+      "community_name": "test_demand.py",
       "file_type": "code",
       "norm_label": "capacity_range()",
       "source_file": "src/rushlab/demand/calibration.py",
       "source_location": "L28"
-    },
-    {
-      "id": "src_rushlab_demand_calibration_load_calibration",
-      "label": "load_calibration()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "calibration.py",
-      "file_type": "code",
-      "norm_label": "load_calibration()",
-      "source_file": "src/rushlab/demand/calibration.py",
-      "source_location": "L110"
-    },
-    {
-      "id": "src_rushlab_demand_calibration_sink_overrides",
-      "label": "sink_overrides()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "calibration.py",
-      "file_type": "code",
-      "norm_label": "sink_overrides()",
-      "source_file": "src/rushlab/demand/calibration.py",
-      "source_location": "L92"
-    },
-    {
-      "id": "src_rushlab_demand_calibration_write_calibration",
-      "label": "write_calibration()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "calibration.py",
-      "file_type": "code",
-      "norm_label": "write_calibration()",
-      "source_file": "src/rushlab/demand/calibration.py",
-      "source_location": "L104"
     },
     {
       "id": "src_rushlab_demand_profile_hourly_demand",
@@ -2824,7 +2572,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 41,
-      "community_name": "calibration.py",
+      "community_name": "test_demand.py",
       "file_type": "code",
       "norm_label": "hourly_demand()",
       "source_file": "src/rushlab/demand/profile.py",
@@ -2836,7 +2584,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 41,
-      "community_name": "calibration.py",
+      "community_name": "test_demand.py",
       "file_type": "code",
       "norm_label": "normalized_profile()",
       "source_file": "src/rushlab/demand/profile.py",
@@ -2848,7 +2596,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 41,
-      "community_name": "calibration.py",
+      "community_name": "test_demand.py",
       "file_type": "code",
       "norm_label": "peak_hour_demand()",
       "source_file": "src/rushlab/demand/profile.py",
@@ -2860,11 +2608,59 @@
       "_callable": true,
       "_origin": "ast",
       "community": 41,
-      "community_name": "calibration.py",
+      "community_name": "test_demand.py",
       "file_type": "code",
       "norm_label": "peak_share()",
       "source_file": "src/rushlab/demand/profile.py",
       "source_location": "L47"
+    },
+    {
+      "id": "tests_test_demand_area",
+      "label": "area()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "area()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L37"
+    },
+    {
+      "id": "tests_test_demand_bts_frame",
+      "label": "bts_frame()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "bts_frame()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L42"
+    },
+    {
+      "id": "tests_test_demand_snapshot",
+      "label": "snapshot()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "snapshot()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L51"
+    },
+    {
+      "id": "tests_test_demand_test_bts_parsing_and_daily_average",
+      "label": "test_bts_parsing_and_daily_average()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "test_bts_parsing_and_daily_average()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L75"
     },
     {
       "id": "tests_test_demand_test_calibration_math_and_overrides",
@@ -2872,11 +2668,47 @@
       "_callable": true,
       "_origin": "ast",
       "community": 41,
-      "community_name": "calibration.py",
+      "community_name": "test_demand.py",
       "file_type": "code",
       "norm_label": "test_calibration_math_and_overrides()",
       "source_file": "tests/test_demand.py",
       "source_location": "L102"
+    },
+    {
+      "id": "tests_test_demand_test_calibration_roundtrip",
+      "label": "test_calibration_roundtrip()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "test_calibration_roundtrip()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L118"
+    },
+    {
+      "id": "tests_test_demand_test_capacity_range_math",
+      "label": "test_capacity_range_math()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "test_capacity_range_math()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L94"
+    },
+    {
+      "id": "tests_test_demand_test_cbp_normalization",
+      "label": "test_cbp_normalization()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "test_cbp_normalization()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L85"
     },
     {
       "id": "tests_test_demand_test_peak_hour_demand_uses_max_hour",
@@ -2884,11 +2716,23 @@
       "_callable": true,
       "_origin": "ast",
       "community": 41,
-      "community_name": "calibration.py",
+      "community_name": "test_demand.py",
       "file_type": "code",
       "norm_label": "test_peak_hour_demand_uses_max_hour()",
       "source_file": "tests/test_demand.py",
       "source_location": "L69"
+    },
+    {
+      "id": "tests_test_demand_test_peak_share_in_plausible_range",
+      "label": "test_peak_share_in_plausible_range()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "test_peak_share_in_plausible_range()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L65"
     },
     {
       "id": "tests_test_demand_test_profile_is_normalized",
@@ -2896,11 +2740,23 @@
       "_callable": true,
       "_origin": "ast",
       "community": 41,
-      "community_name": "calibration.py",
+      "community_name": "test_demand.py",
       "file_type": "code",
       "norm_label": "test_profile_is_normalized()",
       "source_file": "tests/test_demand.py",
       "source_location": "L59"
+    },
+    {
+      "id": "tests_test_demand_test_snapshot_series_deduplicates",
+      "label": "test_snapshot_series_deduplicates()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "test_snapshot_series_deduplicates()",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L130"
     },
     {
       "id": "src_rushlab_demand_cbp_append_snapshot",
@@ -2963,6 +2819,570 @@
       "source_location": "L18"
     },
     {
+      "id": "tests_test_demand_fetch_test_live_demand_sources",
+      "label": "test_live_demand_sources()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "cbp.py",
+      "file_type": "code",
+      "norm_label": "test_live_demand_sources()",
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L15"
+    },
+    {
+      "id": "tests_test_mcp_server_mcp_paths",
+      "label": "mcp_paths()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "mcp_paths()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L30"
+    },
+    {
+      "id": "tests_test_mcp_server_test_area_analysis_requires_cached_graph",
+      "label": "test_area_analysis_requires_cached_graph()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "test_area_analysis_requires_cached_graph()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L95"
+    },
+    {
+      "id": "tests_test_mcp_server_test_area_calibration_missing_raises",
+      "label": "test_area_calibration_missing_raises()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "test_area_calibration_missing_raises()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L81"
+    },
+    {
+      "id": "tests_test_mcp_server_test_area_calibration_roundtrip",
+      "label": "test_area_calibration_roundtrip()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "test_area_calibration_roundtrip()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L86"
+    },
+    {
+      "id": "tests_test_mcp_server_test_compare_scenarios_deltas",
+      "label": "test_compare_scenarios_deltas()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "test_compare_scenarios_deltas()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L107"
+    },
+    {
+      "id": "tests_test_mcp_server_test_in_memory_client_lists_and_calls_tools",
+      "label": "test_in_memory_client_lists_and_calls_tools()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "test_in_memory_client_lists_and_calls_tools()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L190"
+    },
+    {
+      "id": "tests_test_mcp_server_test_in_memory_client_lists_and_calls_tools_call",
+      "label": "call()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "call()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L191"
+    },
+    {
+      "id": "tests_test_mcp_server_test_list_areas_includes_san_ysidro",
+      "label": "test_list_areas_includes_san_ysidro()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "test_list_areas_includes_san_ysidro()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L75"
+    },
+    {
+      "id": "tests_test_mcp_server_test_optimize_signals_requires_confirm",
+      "label": "test_optimize_signals_requires_confirm()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "test_optimize_signals_requires_confirm()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L151"
+    },
+    {
+      "id": "tests_test_mcp_server_test_optimize_signals_requires_confirm_fake_optimize",
+      "label": "fake_optimize()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "fake_optimize()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L155"
+    },
+    {
+      "id": "tests_test_mcp_server_test_render_report_rejects_outside_paths",
+      "label": "test_render_report_rejects_outside_paths()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "test_render_report_rejects_outside_paths()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L124"
+    },
+    {
+      "id": "tests_test_mcp_server_test_render_report_writes_files",
+      "label": "test_render_report_writes_files()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "test_render_report_writes_files()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L115"
+    },
+    {
+      "id": "tests_test_mcp_server_test_run_simulation_parses_window_and_delegates",
+      "label": "test_run_simulation_parses_window_and_delegates()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "test_run_simulation_parses_window_and_delegates()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L129"
+    },
+    {
+      "id": "tests_test_mcp_server_test_run_simulation_parses_window_and_delegates_fake_run_scenario",
+      "label": "fake_run_scenario()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "fake_run_scenario()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L132"
+    },
+    {
+      "id": "tests_test_mcp_server_test_scenario_metrics",
+      "label": "test_scenario_metrics()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "test_scenario_metrics()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L100"
+    },
+    {
+      "id": "tests_test_mcp_server_test_stdio_server_lists_tools",
+      "label": "test_stdio_server_lists_tools()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "test_stdio_server_lists_tools()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L203"
+    },
+    {
+      "id": "tests_test_mcp_server_test_stdio_server_lists_tools_runner",
+      "label": "runner()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "runner()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L208"
+    },
+    {
+      "id": "tests_test_mcp_server_with_client",
+      "label": "_with_client()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "_with_client()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L170"
+    },
+    {
+      "id": "tests_test_mcp_server_with_client_runner",
+      "label": "runner()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "runner()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L171"
+    },
+    {
+      "id": "tests_test_mcp_server_with_stdio",
+      "label": "_with_stdio()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "_with_stdio()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L225"
+    },
+    {
+      "id": "tests_test_mcp_server_write_summary",
+      "label": "write_summary()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "write_summary()",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L39"
+    },
+    {
+      "id": "src_rushlab_config_init_get_area",
+      "label": "get_area()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "get_area",
+      "file_type": "code",
+      "norm_label": "get_area()",
+      "source_file": "src/rushlab/config/__init__.py",
+      "source_location": "L106"
+    },
+    {
+      "id": "src_rushlab_config_init_load_areas",
+      "label": "load_areas()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "get_area",
+      "file_type": "code",
+      "norm_label": "load_areas()",
+      "source_file": "src/rushlab/config/__init__.py",
+      "source_location": "L100"
+    },
+    {
+      "id": "tests_test_areas_test_border_metadata_parsed",
+      "label": "test_border_metadata_parsed()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "get_area",
+      "file_type": "code",
+      "norm_label": "test_border_metadata_parsed()",
+      "source_file": "tests/test_areas.py",
+      "source_location": "L21"
+    },
+    {
+      "id": "tests_test_areas_test_invalid_bbox_rejected",
+      "label": "test_invalid_bbox_rejected()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "get_area",
+      "file_type": "code",
+      "norm_label": "test_invalid_bbox_rejected()",
+      "source_file": "tests/test_areas.py",
+      "source_location": "L45"
+    },
+    {
+      "id": "tests_test_areas_test_load_areas_includes_san_ysidro",
+      "label": "test_load_areas_includes_san_ysidro()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "get_area",
+      "file_type": "code",
+      "norm_label": "test_load_areas_includes_san_ysidro()",
+      "source_file": "tests/test_areas.py",
+      "source_location": "L13"
+    },
+    {
+      "id": "tests_test_areas_test_osmnx_bbox_conversion",
+      "label": "test_osmnx_bbox_conversion()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "get_area",
+      "file_type": "code",
+      "norm_label": "test_osmnx_bbox_conversion()",
+      "source_file": "tests/test_areas.py",
+      "source_location": "L36"
+    },
+    {
+      "id": "tests_test_areas_test_terminals_parsed",
+      "label": "test_terminals_parsed()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "get_area",
+      "file_type": "code",
+      "norm_label": "test_terminals_parsed()",
+      "source_file": "tests/test_areas.py",
+      "source_location": "L31"
+    },
+    {
+      "id": "tests_test_areas_test_unknown_area_lists_available",
+      "label": "test_unknown_area_lists_available()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "get_area",
+      "file_type": "code",
+      "norm_label": "test_unknown_area_lists_available()",
+      "source_file": "tests/test_areas.py",
+      "source_location": "L40"
+    },
+    {
+      "id": "tests_test_network_fetch_test_fetch_area_downloads_and_caches",
+      "label": "test_fetch_area_downloads_and_caches()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "get_area",
+      "file_type": "code",
+      "norm_label": "test_fetch_area_downloads_and_caches()",
+      "source_file": "tests/test_network_fetch.py",
+      "source_location": "L14"
+    },
+    {
+      "id": "src_rushlab_cli_report",
+      "label": "report()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "report",
+      "file_type": "code",
+      "norm_label": "report()",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L322"
+    },
+    {
+      "id": "src_rushlab_mcp_server_render_report",
+      "label": "render_report()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "report",
+      "file_type": "code",
+      "norm_label": "render_report()",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L224"
+    },
+    {
+      "id": "src_rushlab_report_html_build_kpi_figure",
+      "label": "build_kpi_figure()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "report",
+      "file_type": "code",
+      "norm_label": "build_kpi_figure()",
+      "source_file": "src/rushlab/report/html.py",
+      "source_location": "L35"
+    },
+    {
+      "id": "src_rushlab_report_html_build_port_throughput_figure",
+      "label": "build_port_throughput_figure()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "report",
+      "file_type": "code",
+      "norm_label": "build_port_throughput_figure()",
+      "source_file": "src/rushlab/report/html.py",
+      "source_location": "L59"
+    },
+    {
+      "id": "src_rushlab_report_html_build_trip_duration_figure",
+      "label": "build_trip_duration_figure()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "report",
+      "file_type": "code",
+      "norm_label": "build_trip_duration_figure()",
+      "source_file": "src/rushlab/report/html.py",
+      "source_location": "L101"
+    },
+    {
+      "id": "src_rushlab_report_html_figure_to_base64",
+      "label": "_figure_to_base64()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "report",
+      "file_type": "code",
+      "norm_label": "_figure_to_base64()",
+      "source_file": "src/rushlab/report/html.py",
+      "source_location": "L28"
+    },
+    {
+      "id": "src_rushlab_report_html_render_report",
+      "label": "render_report()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "report",
+      "file_type": "code",
+      "norm_label": "render_report()",
+      "source_file": "src/rushlab/report/html.py",
+      "source_location": "L131"
+    },
+    {
+      "id": "src_rushlab_config_init_parse_area",
+      "label": "_parse_area()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 47,
+      "community_name": "config/__init__.py",
+      "file_type": "code",
+      "norm_label": "_parse_area()",
+      "source_file": "src/rushlab/config/__init__.py",
+      "source_location": "L81"
+    },
+    {
+      "id": "src_rushlab_config_init_parse_border",
+      "label": "_parse_border()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 47,
+      "community_name": "config/__init__.py",
+      "file_type": "code",
+      "norm_label": "_parse_border()",
+      "source_file": "src/rushlab/config/__init__.py",
+      "source_location": "L68"
+    },
+    {
+      "id": "src_rushlab_config_init_parse_coordinate",
+      "label": "_parse_coordinate()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 47,
+      "community_name": "config/__init__.py",
+      "file_type": "code",
+      "norm_label": "_parse_coordinate()",
+      "source_file": "src/rushlab/config/__init__.py",
+      "source_location": "L62"
+    },
+    {
+      "id": "src_rushlab_config_init_validate_bbox",
+      "label": "_validate_bbox()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 47,
+      "community_name": "config/__init__.py",
+      "file_type": "code",
+      "norm_label": "_validate_bbox()",
+      "source_file": "src/rushlab/config/__init__.py",
+      "source_location": "L51"
+    },
+    {
+      "id": "tests_conftest_mini_area",
+      "label": "mini_area()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 48,
+      "community_name": "conftest.py",
+      "file_type": "code",
+      "norm_label": "mini_area()",
+      "source_file": "tests/conftest.py",
+      "source_location": "L18"
+    },
+    {
+      "id": "tests_conftest_mini_cache",
+      "label": "mini_cache()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 48,
+      "community_name": "conftest.py",
+      "file_type": "code",
+      "norm_label": "mini_cache()",
+      "source_file": "tests/conftest.py",
+      "source_location": "L36"
+    },
+    {
+      "id": "tests_conftest_mini_net",
+      "label": "mini_net()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 48,
+      "community_name": "conftest.py",
+      "file_type": "code",
+      "norm_label": "mini_net()",
+      "source_file": "tests/conftest.py",
+      "source_location": "L44"
+    },
+    {
+      "id": "src_rushlab_network_fetch_area_cache_dir",
+      "label": "area_cache_dir()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 49,
+      "community_name": "fetch_area",
+      "file_type": "code",
+      "norm_label": "area_cache_dir()",
+      "source_file": "src/rushlab/network/fetch.py",
+      "source_location": "L17"
+    },
+    {
+      "id": "src_rushlab_network_fetch_fetch_area",
+      "label": "fetch_area()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 49,
+      "community_name": "fetch_area",
+      "file_type": "code",
+      "norm_label": "fetch_area()",
+      "source_file": "src/rushlab/network/fetch.py",
+      "source_location": "L21"
+    },
+    {
       "id": "scripts_graphify_reminder_main",
       "label": "main()",
       "_callable": true,
@@ -3022,6 +3442,17 @@
       "source_location": "L1"
     },
     {
+      "id": "opencode_graphify_command",
+      "label": "command",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "opencode.json",
+      "file_type": "code",
+      "norm_label": "command",
+      "source_file": "opencode.json",
+      "source_location": "L12"
+    },
+    {
       "id": "opencode_graphify_enabled",
       "label": "enabled",
       "_origin": "ast",
@@ -3077,6 +3508,17 @@
       "source_location": "L10"
     },
     {
+      "id": "opencode_mcp_rushlab",
+      "label": "rushlab",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "opencode.json",
+      "file_type": "code",
+      "norm_label": "rushlab",
+      "source_file": "opencode.json",
+      "source_location": "L21"
+    },
+    {
       "id": "opencode_plugin",
       "label": "plugin",
       "_origin": "ast",
@@ -3086,6 +3528,39 @@
       "norm_label": "plugin",
       "source_file": "opencode.json",
       "source_location": "L6"
+    },
+    {
+      "id": "opencode_rushlab_command",
+      "label": "command",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "opencode.json",
+      "file_type": "code",
+      "norm_label": "command",
+      "source_file": "opencode.json",
+      "source_location": "L23"
+    },
+    {
+      "id": "opencode_rushlab_enabled",
+      "label": "enabled",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "opencode.json",
+      "file_type": "code",
+      "norm_label": "enabled",
+      "source_file": "opencode.json",
+      "source_location": "L29"
+    },
+    {
+      "id": "opencode_rushlab_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "opencode.json",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "opencode.json",
+      "source_location": "L22"
     },
     {
       "id": "opencode_schema",
@@ -3144,7 +3619,7 @@
       "node_kind": "heading",
       "norm_label": "data sources",
       "source_file": "AGENTS.md",
-      "source_location": "L82"
+      "source_location": "L83"
     },
     {
       "id": "agents_domain_rules",
@@ -3156,7 +3631,7 @@
       "node_kind": "heading",
       "norm_label": "domain rules",
       "source_file": "AGENTS.md",
-      "source_location": "L62"
+      "source_location": "L63"
     },
     {
       "id": "agents_knowledge_graph",
@@ -3168,7 +3643,7 @@
       "node_kind": "heading",
       "norm_label": "knowledge graph",
       "source_file": "AGENTS.md",
-      "source_location": "L73"
+      "source_location": "L74"
     },
     {
       "id": "agents_rushlab_agent_guide",
@@ -3192,7 +3667,7 @@
       "node_kind": "heading",
       "norm_label": "working rules",
       "source_file": "AGENTS.md",
-      "source_location": "L43"
+      "source_location": "L44"
     },
     {
       "id": "agent_skills_run_scenario_study_skill",
@@ -3221,6 +3696,18 @@
       "norm_label": "goal",
       "source_file": "agent/skills/run-scenario-study/SKILL.md",
       "source_location": "L8"
+    },
+    {
+      "id": "agent_skills_run_scenario_study_skill_mcp_alternative",
+      "label": "MCP alternative",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "Run a Scenario Study",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "mcp alternative",
+      "source_file": "agent/skills/run-scenario-study/SKILL.md",
+      "source_location": "L54"
     },
     {
       "id": "agent_skills_run_scenario_study_skill_procedure",
@@ -3429,6 +3916,18 @@
       "source_location": "L8"
     },
     {
+      "id": "agents_skills_run_scenario_study_skill_mcp_alternative",
+      "label": "MCP alternative",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "Run a Scenario Study",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "mcp alternative",
+      "source_file": ".agents/skills/run-scenario-study/SKILL.md",
+      "source_location": "L54"
+    },
+    {
       "id": "agents_skills_run_scenario_study_skill_procedure",
       "label": "Procedure",
       "_origin": "ast",
@@ -3619,6 +4118,18 @@
       "norm_label": "goal",
       "source_file": ".claude/skills/run-scenario-study/SKILL.md",
       "source_location": "L8"
+    },
+    {
+      "id": "claude_skills_run_scenario_study_skill_mcp_alternative",
+      "label": "MCP alternative",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "Run a Scenario Study",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "mcp alternative",
+      "source_file": ".claude/skills/run-scenario-study/SKILL.md",
+      "source_location": "L54"
     },
     {
       "id": "claude_skills_run_scenario_study_skill_procedure",
@@ -4141,6 +4652,66 @@
       "source_location": "L38"
     },
     {
+      "id": "docs_decisions_0007_mcp_server",
+      "label": "0007-mcp-server.md",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "RushLab",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "0007-mcp-server.md",
+      "source_file": "docs/decisions/0007-mcp-server.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_decisions_0007_mcp_server_0007_mcp_server_for_agent_driven_workflows",
+      "label": "0007 \u2014 MCP server for agent-driven workflows",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "RushLab",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "0007 \u2014 mcp server for agent-driven workflows",
+      "source_file": "docs/decisions/0007-mcp-server.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_decisions_0007_mcp_server_consequences",
+      "label": "Consequences",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "RushLab",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "consequences",
+      "source_file": "docs/decisions/0007-mcp-server.md",
+      "source_location": "L41"
+    },
+    {
+      "id": "docs_decisions_0007_mcp_server_context",
+      "label": "Context",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "RushLab",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "context",
+      "source_file": "docs/decisions/0007-mcp-server.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "docs_decisions_0007_mcp_server_decisions",
+      "label": "Decisions",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "RushLab",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "decisions",
+      "source_file": "docs/decisions/0007-mcp-server.md",
+      "source_location": "L13"
+    },
+    {
       "id": "readme",
       "label": "README.md",
       "_origin": "ast",
@@ -4162,7 +4733,7 @@
       "node_kind": "heading",
       "norm_label": "data",
       "source_file": "README.md",
-      "source_location": "L165"
+      "source_location": "L182"
     },
     {
       "id": "readme_demand_baseline_2026_09_15",
@@ -4174,7 +4745,19 @@
       "node_kind": "heading",
       "norm_label": "demand baseline (2026-09-15)",
       "source_file": "README.md",
-      "source_location": "L91"
+      "source_location": "L108"
+    },
+    {
+      "id": "readme_mcp_server",
+      "label": "MCP server",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "RushLab",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "mcp server",
+      "source_file": "README.md",
+      "source_location": "L48"
     },
     {
       "id": "readme_network_baseline_2026_09_15",
@@ -4186,7 +4769,7 @@
       "node_kind": "heading",
       "norm_label": "network baseline (2026-09-15)",
       "source_file": "README.md",
-      "source_location": "L73"
+      "source_location": "L90"
     },
     {
       "id": "readme_quickstart",
@@ -4198,7 +4781,7 @@
       "node_kind": "heading",
       "norm_label": "quickstart",
       "source_file": "README.md",
-      "source_location": "L48"
+      "source_location": "L65"
     },
     {
       "id": "readme_recon_baseline_2026_09",
@@ -4210,7 +4793,7 @@
       "node_kind": "heading",
       "norm_label": "recon baseline (2026-09)",
       "source_file": "README.md",
-      "source_location": "L146"
+      "source_location": "L163"
     },
     {
       "id": "readme_rushlab",
@@ -4234,7 +4817,7 @@
       "node_kind": "heading",
       "norm_label": "scope and honesty rules",
       "source_file": "README.md",
-      "source_location": "L159"
+      "source_location": "L176"
     },
     {
       "id": "readme_signal_optimization_study_2026_09_15",
@@ -4246,7 +4829,7 @@
       "node_kind": "heading",
       "norm_label": "signal optimization study (2026-09-15)",
       "source_file": "README.md",
-      "source_location": "L126"
+      "source_location": "L143"
     },
     {
       "id": "readme_sumo_baseline_2026_09_15_06_00_10_00",
@@ -4258,7 +4841,7 @@
       "node_kind": "heading",
       "norm_label": "sumo baseline (2026-09-15, 06:00-10:00)",
       "source_file": "README.md",
-      "source_location": "L108"
+      "source_location": "L125"
     },
     {
       "id": "readme_usage",
@@ -4270,7 +4853,7 @@
       "node_kind": "heading",
       "norm_label": "usage",
       "source_file": "README.md",
-      "source_location": "L56"
+      "source_location": "L73"
     },
     {
       "id": "readme_what_it_does",
@@ -4389,6 +4972,18 @@
       "source_location": "L8"
     },
     {
+      "id": "opencode_skills_run_scenario_study_skill_mcp_alternative",
+      "label": "MCP alternative",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Run a Scenario Study",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "mcp alternative",
+      "source_file": ".opencode/skills/run-scenario-study/SKILL.md",
+      "source_location": "L54"
+    },
+    {
       "id": "opencode_skills_run_scenario_study_skill_procedure",
       "label": "Procedure",
       "_origin": "ast",
@@ -4467,6 +5062,20 @@
       "source_location": "L1"
     },
     {
+      "id": "mcp_mcp_server_rushlab",
+      "label": "rushlab",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "graphify",
+      "file_type": "code",
+      "metadata": {
+        "mcp_kind": "mcp_server"
+      },
+      "norm_label": "rushlab",
+      "source_file": ".mcp.json",
+      "source_location": "L1"
+    },
+    {
       "id": "mcp_package_graphify_mcp",
       "label": "graphify-mcp",
       "_origin": "ast",
@@ -4477,6 +5086,20 @@
         "mcp_kind": "mcp_package"
       },
       "norm_label": "graphify-mcp",
+      "source_file": ".mcp.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "mcp_package_rushlab_mcp",
+      "label": "rushlab-mcp",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "graphify",
+      "file_type": "code",
+      "metadata": {
+        "mcp_kind": "mcp_package"
+      },
+      "norm_label": "rushlab-mcp",
       "source_file": ".mcp.json",
       "source_location": "L1"
     },
@@ -4815,77 +5438,11 @@
       "source_location": "L1"
     },
     {
-      "id": "bbox",
-      "label": "BBox",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "bbox",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "coordinate",
-      "label": "Coordinate",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "coordinate",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_config_init",
-      "label": "config/__init__.py",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "config/__init__.py",
-      "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_rushlab_config_init_py_path",
-      "label": "Path",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_network_fetch",
-      "label": "fetch.py",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "fetch.py",
-      "source_file": "src/rushlab/network/fetch.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_rushlab_network_fetch_py_path",
-      "label": "Path",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "src_rushlab_sim_network",
       "label": "network.py",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "code",
       "norm_label": "network.py",
       "source_file": "src/rushlab/sim/network.py",
@@ -4896,7 +5453,7 @@
       "label": "Any",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "code",
       "norm_label": "any",
       "source_file": "",
@@ -4907,95 +5464,7 @@
       "label": "Path",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "tests_conftest",
-      "label": "conftest.py",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "conftest.py",
-      "source_file": "tests/conftest.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "tests_conftest_py_fixture",
-      "label": "fixture",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "fixture",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "tests_conftest_py_path",
-      "label": "Path",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "tests_test_areas",
-      "label": "test_areas.py",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "test_areas.py",
-      "source_file": "tests/test_areas.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "tests_test_areas_py_path",
-      "label": "Path",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "tests_test_network_fetch",
-      "label": "test_network_fetch.py",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "test_network_fetch.py",
-      "source_file": "tests/test_network_fetch.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "tests_test_network_fetch_py_integration",
-      "label": "integration",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "code",
-      "norm_label": "integration",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "tests_test_network_fetch_py_path",
-      "label": "Path",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "code",
       "norm_label": "path",
       "source_file": "",
@@ -5006,7 +5475,7 @@
       "label": "test_sim_network.py",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "code",
       "norm_label": "test_sim_network.py",
       "source_file": "tests/test_sim_network.py",
@@ -5017,7 +5486,7 @@
       "label": "integration",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "code",
       "norm_label": "integration",
       "source_file": "",
@@ -5028,73 +5497,18 @@
       "label": "Path",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "code",
       "norm_label": "path",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "src_rushlab_config_init_rationale_1",
-      "label": "Study-area registry loaded from areas.yaml.",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "rationale",
-      "norm_label": "study-area registry loaded from areas.yaml.",
-      "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_rushlab_config_init_rationale_30",
-      "label": "Named gateway used as a source in capacity analysis.",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "rationale",
-      "norm_label": "named gateway used as a source in capacity analysis.",
-      "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L30"
-    },
-    {
-      "id": "src_rushlab_config_init_rationale_46",
-      "label": "osmnx expects (left, bottom, right, top) == (west, south, east, north).",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "rationale",
-      "norm_label": "osmnx expects (left, bottom, right, top) == (west, south, east, north).",
-      "source_file": "src/rushlab/config/__init__.py",
-      "source_location": "L46"
-    },
-    {
-      "id": "src_rushlab_network_fetch_rationale_1",
-      "label": "Download and cache the OSM drive network for a study area.",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "rationale",
-      "norm_label": "download and cache the osm drive network for a study area.",
-      "source_file": "src/rushlab/network/fetch.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_rushlab_network_fetch_rationale_22",
-      "label": "Return the cached GraphML path, downloading via Overpass when needed. osmnx\u2026",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "rationale",
-      "norm_label": "return the cached graphml path, downloading via overpass when needed. osmnx...",
-      "source_file": "src/rushlab/network/fetch.py",
-      "source_location": "L22"
-    },
-    {
       "id": "src_rushlab_sim_network_rationale_1",
       "label": "SUMO network construction from OpenStreetMap XML.",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "rationale",
       "norm_label": "sumo network construction from openstreetmap xml.",
       "source_file": "src/rushlab/sim/network.py",
@@ -5105,7 +5519,7 @@
       "label": "Build (or reuse) the SUMO network and return its path plus stats.",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "rationale",
       "norm_label": "build (or reuse) the sumo network and return its path plus stats.",
       "source_file": "src/rushlab/sim/network.py",
@@ -5116,51 +5530,18 @@
       "label": "Return the cached OSM XML path for the simulation bbox, downloading if needed.",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "rationale",
       "norm_label": "return the cached osm xml path for the simulation bbox, downloading if needed.",
       "source_file": "src/rushlab/sim/network.py",
       "source_location": "L55"
     },
     {
-      "id": "tests_conftest_rationale_1",
-      "label": "Shared fixtures for SUMO tests; no network access.",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "rationale",
-      "norm_label": "shared fixtures for sumo tests; no network access.",
-      "source_file": "tests/conftest.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "tests_test_areas_rationale_1",
-      "label": "Study-area registry tests.",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "rationale",
-      "norm_label": "study-area registry tests.",
-      "source_file": "tests/test_areas.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "tests_test_network_fetch_rationale_1",
-      "label": "Live Overpass integration test. Excluded from CI via the integration marker.",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Area",
-      "file_type": "rationale",
-      "norm_label": "live overpass integration test. excluded from ci via the integration marker.",
-      "source_file": "tests/test_network_fetch.py",
-      "source_location": "L1"
-    },
-    {
       "id": "tests_test_sim_network_rationale_1",
       "label": "SUMO network build tests on the committed mini.osm fixture.",
       "_origin": "ast",
       "community": 28,
-      "community_name": "Area",
+      "community_name": "network.py",
       "file_type": "rationale",
       "norm_label": "sumo network build tests on the committed mini.osm fixture.",
       "source_file": "tests/test_sim_network.py",
@@ -5178,15 +5559,15 @@
       "source_location": ""
     },
     {
-      "id": "opencode_graphify_command",
+      "id": "command",
       "label": "command",
       "_origin": "ast",
       "community": 29,
       "community_name": "cli.py",
       "file_type": "code",
       "norm_label": "command",
-      "source_file": "opencode.json",
-      "source_location": "L12"
+      "source_file": "",
+      "source_location": ""
     },
     {
       "id": "src_rushlab_cli",
@@ -5222,6 +5603,28 @@
       "source_location": ""
     },
     {
+      "id": "src_rushlab_demand_bts_py_dataframe",
+      "label": "DataFrame",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "dataframe",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_demand_calibration_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
       "id": "src_rushlab_cli_rationale_1",
       "label": "RushLab command line interface.",
       "_origin": "ast",
@@ -5244,6 +5647,17 @@
       "source_location": "L106"
     },
     {
+      "id": "src_rushlab_cli_rationale_122",
+      "label": "Fetch demand data, calibrate the border sink, and write derived evidence.",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "cli.py",
+      "file_type": "rationale",
+      "norm_label": "fetch demand data, calibrate the border sink, and write derived evidence.",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L122"
+    },
+    {
       "id": "src_rushlab_cli_rationale_152",
       "label": "Build the analytic graph for an area and print summary stats.",
       "_origin": "ast",
@@ -5264,17 +5678,6 @@
       "norm_label": "run resilience and bottleneck analysis; write results json.",
       "source_file": "src/rushlab/cli.py",
       "source_location": "L176"
-    },
-    {
-      "id": "src_rushlab_cli_rationale_208",
-      "label": "Build the SUMO network for an area and print stats.",
-      "_origin": "ast",
-      "community": 29,
-      "community_name": "cli.py",
-      "file_type": "rationale",
-      "norm_label": "build the sumo network for an area and print stats.",
-      "source_file": "src/rushlab/cli.py",
-      "source_location": "L208"
     },
     {
       "id": "src_rushlab_cli_rationale_242",
@@ -5442,55 +5845,165 @@
       "source_location": "L1"
     },
     {
-      "id": "tests_test_demand",
-      "label": "test_demand.py",
+      "id": "src_rushlab_demand_calibration_py_any",
+      "label": "Any",
       "_origin": "ast",
       "community": 32,
-      "community_name": "test_demand.py",
+      "community_name": "mcp_server.py",
       "file_type": "code",
-      "norm_label": "test_demand.py",
-      "source_file": "tests/test_demand.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "tests_test_demand_py_fixture",
-      "label": "fixture",
-      "_origin": "ast",
-      "community": 32,
-      "community_name": "test_demand.py",
-      "file_type": "code",
-      "norm_label": "fixture",
+      "norm_label": "any",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "tests_test_demand_py_path",
+      "id": "src_rushlab_mcp_server",
+      "label": "mcp_server.py",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "code",
+      "norm_label": "mcp_server.py",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_mcp_server_py_any",
+      "label": "Any",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "code",
+      "norm_label": "any",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_mcp_server_py_path",
       "label": "Path",
       "_origin": "ast",
       "community": 32,
-      "community_name": "test_demand.py",
+      "community_name": "mcp_server.py",
       "file_type": "code",
       "norm_label": "path",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "tests_test_demand_rationale_1",
-      "label": "Demand-layer tests using committed fixtures; no network access.",
+      "id": "src_rushlab_demand_calibration_rationale_93",
+      "label": "Graph build overrides derived from a calibration result.",
       "_origin": "ast",
       "community": 32,
-      "community_name": "test_demand.py",
+      "community_name": "mcp_server.py",
       "file_type": "rationale",
-      "norm_label": "demand-layer tests using committed fixtures; no network access.",
-      "source_file": "tests/test_demand.py",
+      "norm_label": "graph build overrides derived from a calibration result.",
+      "source_file": "src/rushlab/demand/calibration.py",
+      "source_location": "L93"
+    },
+    {
+      "id": "src_rushlab_mcp_server_rationale_1",
+      "label": "RushLab MCP server exposing domain tools over stdio (MCP 2.x).",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "rationale",
+      "norm_label": "rushlab mcp server exposing domain tools over stdio (mcp 2.x).",
+      "source_file": "src/rushlab/mcp_server.py",
       "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_mcp_server_rationale_100",
+      "label": "Bottlenecks, connectivity, and min-cut analysis from the cached OSM graph.",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "rationale",
+      "norm_label": "bottlenecks, connectivity, and min-cut analysis from the cached osm graph.",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L100"
+    },
+    {
+      "id": "src_rushlab_mcp_server_rationale_116",
+      "label": "Derived demand calibration (volume, capacity range, provenance) for an area.",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "rationale",
+      "norm_label": "derived demand calibration (volume, capacity range, provenance) for an area.",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L116"
+    },
+    {
+      "id": "src_rushlab_mcp_server_rationale_125",
+      "label": "KPI metrics for one simulation scenario summary.",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "rationale",
+      "norm_label": "kpi metrics for one simulation scenario summary.",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L125"
+    },
+    {
+      "id": "src_rushlab_mcp_server_rationale_140",
+      "label": "Ranked KPI comparison with percent deltas against the first scenario.",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "rationale",
+      "norm_label": "ranked kpi comparison with percent deltas against the first scenario.",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L140"
+    },
+    {
+      "id": "src_rushlab_mcp_server_rationale_159",
+      "label": "Run one SUMO scenario (takes minutes) and return its KPI summary.",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "rationale",
+      "norm_label": "run one sumo scenario (takes minutes) and return its kpi summary.",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L159"
+    },
+    {
+      "id": "src_rushlab_mcp_server_rationale_195",
+      "label": "Webster + GA signal optimization. Long-running (tens of minutes): needs\u2026",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "rationale",
+      "norm_label": "webster + ga signal optimization. long-running (tens of minutes): needs...",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L195"
+    },
+    {
+      "id": "src_rushlab_mcp_server_rationale_268",
+      "label": "Run the MCP server over stdio.",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "rationale",
+      "norm_label": "run the mcp server over stdio.",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L268"
+    },
+    {
+      "id": "src_rushlab_mcp_server_rationale_87",
+      "label": "Registered study areas with bounding boxes and descriptions.",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "mcp_server.py",
+      "file_type": "rationale",
+      "norm_label": "registered study areas with bounding boxes and descriptions.",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L87"
     },
     {
       "id": "src_rushlab_demand_bts",
       "label": "bts.py",
       "_origin": "ast",
       "community": 33,
-      "community_name": "demand",
+      "community_name": "Area",
       "file_type": "code",
       "norm_label": "bts.py",
       "source_file": "src/rushlab/demand/bts.py",
@@ -5501,20 +6014,9 @@
       "label": "Any",
       "_origin": "ast",
       "community": 33,
-      "community_name": "demand",
+      "community_name": "Area",
       "file_type": "code",
       "norm_label": "any",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_demand_bts_py_dataframe",
-      "label": "DataFrame",
-      "_origin": "ast",
-      "community": 33,
-      "community_name": "demand",
-      "file_type": "code",
-      "norm_label": "dataframe",
       "source_file": "",
       "source_location": ""
     },
@@ -5523,73 +6025,29 @@
       "label": "Path",
       "_origin": "ast",
       "community": 33,
-      "community_name": "demand",
+      "community_name": "Area",
       "file_type": "code",
       "norm_label": "path",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "tests_test_demand_fetch",
-      "label": "test_demand_fetch.py",
+      "id": "src_rushlab_config_init_rationale_46",
+      "label": "osmnx expects (left, bottom, right, top) == (west, south, east, north).",
       "_origin": "ast",
       "community": 33,
-      "community_name": "demand",
-      "file_type": "code",
-      "norm_label": "test_demand_fetch.py",
-      "source_file": "tests/test_demand_fetch.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "tests_test_demand_fetch_py_integration",
-      "label": "integration",
-      "_origin": "ast",
-      "community": 33,
-      "community_name": "demand",
-      "file_type": "code",
-      "norm_label": "integration",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "tests_test_demand_fetch_py_path",
-      "label": "Path",
-      "_origin": "ast",
-      "community": 33,
-      "community_name": "demand",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "tests_test_demand_py_dataframe",
-      "label": "DataFrame",
-      "_origin": "ast",
-      "community": 33,
-      "community_name": "demand",
-      "file_type": "code",
-      "norm_label": "dataframe",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_cli_rationale_122",
-      "label": "Fetch demand data, calibrate the border sink, and write derived evidence.",
-      "_origin": "ast",
-      "community": 33,
-      "community_name": "demand",
+      "community_name": "Area",
       "file_type": "rationale",
-      "norm_label": "fetch demand data, calibrate the border sink, and write derived evidence.",
-      "source_file": "src/rushlab/cli.py",
-      "source_location": "L122"
+      "norm_label": "osmnx expects (left, bottom, right, top) == (west, south, east, north).",
+      "source_file": "src/rushlab/config/__init__.py",
+      "source_location": "L46"
     },
     {
       "id": "src_rushlab_demand_bts_rationale_1",
       "label": "BTS Border Crossing/Entry Data client (Socrata).",
       "_origin": "ast",
       "community": 33,
-      "community_name": "demand",
+      "community_name": "Area",
       "file_type": "rationale",
       "norm_label": "bts border crossing/entry data client (socrata).",
       "source_file": "src/rushlab/demand/bts.py",
@@ -5600,22 +6058,11 @@
       "label": "Return the cached raw BTS payload path, downloading when needed.",
       "_origin": "ast",
       "community": 33,
-      "community_name": "demand",
+      "community_name": "Area",
       "file_type": "rationale",
       "norm_label": "return the cached raw bts payload path, downloading when needed.",
       "source_file": "src/rushlab/demand/bts.py",
       "source_location": "L38"
-    },
-    {
-      "id": "tests_test_demand_fetch_rationale_1",
-      "label": "Live BTS/CBP integration test. Excluded from CI via the integration marker.",
-      "_origin": "ast",
-      "community": 33,
-      "community_name": "demand",
-      "file_type": "rationale",
-      "norm_label": "live bts/cbp integration test. excluded from ci via the integration marker.",
-      "source_file": "tests/test_demand_fetch.py",
-      "source_location": "L1"
     },
     {
       "id": "src_rushlab_demand_init",
@@ -5715,6 +6162,17 @@
       "norm_label": "path",
       "source_file": "",
       "source_location": ""
+    },
+    {
+      "id": "src_rushlab_cli_rationale_208",
+      "label": "Build the SUMO network for an area and print stats.",
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "demand.py",
+      "file_type": "rationale",
+      "norm_label": "build the sumo network for an area and print stats.",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L208"
     },
     {
       "id": "src_rushlab_sim_demand_rationale_1",
@@ -5924,17 +6382,6 @@
       "norm_label": "retime the port phases so the metered movement matches target throughput. the...",
       "source_file": "src/rushlab/sim/metering.py",
       "source_location": "L135"
-    },
-    {
-      "id": "src_rushlab_sim_metering_rationale_212",
-      "label": "Replace one or more junction tlLogic programs in a net file. Offsets are\u2026",
-      "_origin": "ast",
-      "community": 36,
-      "community_name": "runner.py",
-      "file_type": "rationale",
-      "norm_label": "replace one or more junction tllogic programs in a net file. offsets are...",
-      "source_file": "src/rushlab/sim/metering.py",
-      "source_location": "L212"
     },
     {
       "id": "src_rushlab_sim_metering_rationale_244",
@@ -6465,6 +6912,17 @@
       "source_location": "L52"
     },
     {
+      "id": "src_rushlab_sim_metering_rationale_212",
+      "label": "Replace one or more junction tlLogic programs in a net file. Offsets are\u2026",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "evaluator.py",
+      "file_type": "rationale",
+      "norm_label": "replace one or more junction tllogic programs in a net file. offsets are...",
+      "source_file": "src/rushlab/sim/metering.py",
+      "source_location": "L212"
+    },
+    {
       "id": "tests_test_signals_optimizer_rationale_1",
       "label": "GA offset optimization smoke test on the mini fixture (local SUMO).",
       "_origin": "ast",
@@ -6502,7 +6960,7 @@
       "label": "compare.py",
       "_origin": "ast",
       "community": 40,
-      "community_name": "report",
+      "community_name": "build_comparison",
       "file_type": "code",
       "norm_label": "compare.py",
       "source_file": "src/rushlab/report/compare.py",
@@ -6513,7 +6971,7 @@
       "label": "Any",
       "_origin": "ast",
       "community": 40,
-      "community_name": "report",
+      "community_name": "build_comparison",
       "file_type": "code",
       "norm_label": "any",
       "source_file": "",
@@ -6524,40 +6982,7 @@
       "label": "Path",
       "_origin": "ast",
       "community": 40,
-      "community_name": "report",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_report_html",
-      "label": "html.py",
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "report",
-      "file_type": "code",
-      "norm_label": "html.py",
-      "source_file": "src/rushlab/report/html.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_rushlab_report_html_py_any",
-      "label": "Any",
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "report",
-      "file_type": "code",
-      "norm_label": "any",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_report_html_py_path",
-      "label": "Path",
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "report",
+      "community_name": "build_comparison",
       "file_type": "code",
       "norm_label": "path",
       "source_file": "",
@@ -6568,7 +6993,7 @@
       "label": "test_report.py",
       "_origin": "ast",
       "community": 40,
-      "community_name": "report",
+      "community_name": "build_comparison",
       "file_type": "code",
       "norm_label": "test_report.py",
       "source_file": "tests/test_report.py",
@@ -6579,29 +7004,18 @@
       "label": "Path",
       "_origin": "ast",
       "community": 40,
-      "community_name": "report",
+      "community_name": "build_comparison",
       "file_type": "code",
       "norm_label": "path",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "src_rushlab_cli_rationale_329",
-      "label": "Compare scenario summaries and write a self-contained HTML report.",
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "report",
-      "file_type": "rationale",
-      "norm_label": "compare scenario summaries and write a self-contained html report.",
-      "source_file": "src/rushlab/cli.py",
-      "source_location": "L329"
-    },
-    {
       "id": "src_rushlab_report_compare_rationale_1",
       "label": "Scenario comparison tables.",
       "_origin": "ast",
       "community": 40,
-      "community_name": "report",
+      "community_name": "build_comparison",
       "file_type": "rationale",
       "norm_label": "scenario comparison tables.",
       "source_file": "src/rushlab/report/compare.py",
@@ -6612,29 +7026,18 @@
       "label": "Ranked KPI table with percent deltas against the first scenario (baseline).",
       "_origin": "ast",
       "community": 40,
-      "community_name": "report",
+      "community_name": "build_comparison",
       "file_type": "rationale",
       "norm_label": "ranked kpi table with percent deltas against the first scenario (baseline).",
       "source_file": "src/rushlab/report/compare.py",
       "source_location": "L33"
     },
     {
-      "id": "src_rushlab_report_html_rationale_1",
-      "label": "Self-contained HTML comparison report with embedded figures.",
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "report",
-      "file_type": "rationale",
-      "norm_label": "self-contained html comparison report with embedded figures.",
-      "source_file": "src/rushlab/report/html.py",
-      "source_location": "L1"
-    },
-    {
       "id": "tests_test_report_rationale_1",
       "label": "Report comparison and rendering tests.",
       "_origin": "ast",
       "community": 40,
-      "community_name": "report",
+      "community_name": "build_comparison",
       "file_type": "rationale",
       "norm_label": "report comparison and rendering tests.",
       "source_file": "tests/test_report.py",
@@ -6645,73 +7048,84 @@
       "label": "calibration.py",
       "_origin": "ast",
       "community": 41,
-      "community_name": "calibration.py",
+      "community_name": "test_demand.py",
       "file_type": "code",
       "norm_label": "calibration.py",
       "source_file": "src/rushlab/demand/calibration.py",
       "source_location": "L1"
     },
     {
-      "id": "src_rushlab_demand_calibration_py_any",
-      "label": "Any",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "calibration.py",
-      "file_type": "code",
-      "norm_label": "any",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_rushlab_demand_calibration_py_path",
-      "label": "Path",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "calibration.py",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "src_rushlab_demand_profile",
       "label": "profile.py",
       "_origin": "ast",
       "community": 41,
-      "community_name": "calibration.py",
+      "community_name": "test_demand.py",
       "file_type": "code",
       "norm_label": "profile.py",
       "source_file": "src/rushlab/demand/profile.py",
       "source_location": "L1"
     },
     {
+      "id": "tests_test_demand",
+      "label": "test_demand.py",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "test_demand.py",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_test_demand_py_dataframe",
+      "label": "DataFrame",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "dataframe",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_demand_py_fixture",
+      "label": "fixture",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "fixture",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_demand_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "test_demand.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
       "id": "src_rushlab_demand_calibration_rationale_1",
       "label": "Demand-anchored border sink calibration with explicit ranges.",
       "_origin": "ast",
       "community": 41,
-      "community_name": "calibration.py",
+      "community_name": "test_demand.py",
       "file_type": "rationale",
       "norm_label": "demand-anchored border sink calibration with explicit ranges.",
       "source_file": "src/rushlab/demand/calibration.py",
       "source_location": "L1"
     },
     {
-      "id": "src_rushlab_demand_calibration_rationale_93",
-      "label": "Graph build overrides derived from a calibration result.",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "calibration.py",
-      "file_type": "rationale",
-      "norm_label": "graph build overrides derived from a calibration result.",
-      "source_file": "src/rushlab/demand/calibration.py",
-      "source_location": "L93"
-    },
-    {
       "id": "src_rushlab_demand_profile_rationale_1",
       "label": "Documented northbound demand profile (assumption, refinable from snapshots).",
       "_origin": "ast",
       "community": 41,
-      "community_name": "calibration.py",
+      "community_name": "test_demand.py",
       "file_type": "rationale",
       "norm_label": "documented northbound demand profile (assumption, refinable from snapshots).",
       "source_file": "src/rushlab/demand/profile.py",
@@ -6722,11 +7136,22 @@
       "label": "Arrival rate (veh/h) of the busiest hour under the profile.",
       "_origin": "ast",
       "community": 41,
-      "community_name": "calibration.py",
+      "community_name": "test_demand.py",
       "file_type": "rationale",
       "norm_label": "arrival rate (veh/h) of the busiest hour under the profile.",
       "source_file": "src/rushlab/demand/profile.py",
       "source_location": "L61"
+    },
+    {
+      "id": "tests_test_demand_rationale_1",
+      "label": "Demand-layer tests using committed fixtures; no network access.",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "test_demand.py",
+      "file_type": "rationale",
+      "norm_label": "demand-layer tests using committed fixtures; no network access.",
+      "source_file": "tests/test_demand.py",
+      "source_location": "L1"
     },
     {
       "id": "src_rushlab_demand_cbp",
@@ -6752,6 +7177,39 @@
     },
     {
       "id": "src_rushlab_demand_cbp_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "cbp.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_demand_fetch",
+      "label": "test_demand_fetch.py",
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "cbp.py",
+      "file_type": "code",
+      "norm_label": "test_demand_fetch.py",
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_test_demand_fetch_py_integration",
+      "label": "integration",
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "cbp.py",
+      "file_type": "code",
+      "norm_label": "integration",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_demand_fetch_py_path",
       "label": "Path",
       "_origin": "ast",
       "community": 42,
@@ -6795,6 +7253,17 @@
       "source_location": "L83"
     },
     {
+      "id": "tests_test_demand_fetch_rationale_1",
+      "label": "Live BTS/CBP integration test. Excluded from CI via the integration marker.",
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "cbp.py",
+      "file_type": "rationale",
+      "norm_label": "live bts/cbp integration test. excluded from ci via the integration marker.",
+      "source_file": "tests/test_demand_fetch.py",
+      "source_location": "L1"
+    },
+    {
       "id": "src_rushlab_report_init",
       "label": "report/__init__.py",
       "_origin": "ast",
@@ -6815,6 +7284,358 @@
       "norm_label": "scenario comparison tables and reports.",
       "source_file": "src/rushlab/report/__init__.py",
       "source_location": "L1"
+    },
+    {
+      "id": "tests_test_mcp_server",
+      "label": "test_mcp_server.py",
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "test_mcp_server.py",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_test_mcp_server_py_fixture",
+      "label": "fixture",
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "fixture",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_mcp_server_py_integration",
+      "label": "integration",
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "integration",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_mcp_server_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_mcp_server_rationale_1",
+      "label": "MCP server tool tests, including an in-memory client round trip.",
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "test_mcp_server.py",
+      "file_type": "rationale",
+      "norm_label": "mcp server tool tests, including an in-memory client round trip.",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_config_init_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "get_area",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_areas",
+      "label": "test_areas.py",
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "get_area",
+      "file_type": "code",
+      "norm_label": "test_areas.py",
+      "source_file": "tests/test_areas.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_test_areas_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "get_area",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_network_fetch_py_integration",
+      "label": "integration",
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "get_area",
+      "file_type": "code",
+      "norm_label": "integration",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_network_fetch_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "get_area",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_test_areas_rationale_1",
+      "label": "Study-area registry tests.",
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "get_area",
+      "file_type": "rationale",
+      "norm_label": "study-area registry tests.",
+      "source_file": "tests/test_areas.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_report_html",
+      "label": "html.py",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "report",
+      "file_type": "code",
+      "norm_label": "html.py",
+      "source_file": "src/rushlab/report/html.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_report_html_py_any",
+      "label": "Any",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "report",
+      "file_type": "code",
+      "norm_label": "any",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_report_html_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "report",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_cli_rationale_329",
+      "label": "Compare scenario summaries and write a self-contained HTML report.",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "report",
+      "file_type": "rationale",
+      "norm_label": "compare scenario summaries and write a self-contained html report.",
+      "source_file": "src/rushlab/cli.py",
+      "source_location": "L329"
+    },
+    {
+      "id": "src_rushlab_mcp_server_rationale_225",
+      "label": "Render the comparison HTML report (seconds); output stays under results/ or\u2026",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "report",
+      "file_type": "rationale",
+      "norm_label": "render the comparison html report (seconds); output stays under results/ or...",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L225"
+    },
+    {
+      "id": "src_rushlab_report_html_rationale_1",
+      "label": "Self-contained HTML comparison report with embedded figures.",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "report",
+      "file_type": "rationale",
+      "norm_label": "self-contained html comparison report with embedded figures.",
+      "source_file": "src/rushlab/report/html.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "bbox",
+      "label": "BBox",
+      "_origin": "ast",
+      "community": 47,
+      "community_name": "config/__init__.py",
+      "file_type": "code",
+      "norm_label": "bbox",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "coordinate",
+      "label": "Coordinate",
+      "_origin": "ast",
+      "community": 47,
+      "community_name": "config/__init__.py",
+      "file_type": "code",
+      "norm_label": "coordinate",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_config_init",
+      "label": "config/__init__.py",
+      "_origin": "ast",
+      "community": 47,
+      "community_name": "config/__init__.py",
+      "file_type": "code",
+      "norm_label": "config/__init__.py",
+      "source_file": "src/rushlab/config/__init__.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_test_network_fetch",
+      "label": "test_network_fetch.py",
+      "_origin": "ast",
+      "community": 47,
+      "community_name": "config/__init__.py",
+      "file_type": "code",
+      "norm_label": "test_network_fetch.py",
+      "source_file": "tests/test_network_fetch.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_config_init_rationale_1",
+      "label": "Study-area registry loaded from areas.yaml.",
+      "_origin": "ast",
+      "community": 47,
+      "community_name": "config/__init__.py",
+      "file_type": "rationale",
+      "norm_label": "study-area registry loaded from areas.yaml.",
+      "source_file": "src/rushlab/config/__init__.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_config_init_rationale_30",
+      "label": "Named gateway used as a source in capacity analysis.",
+      "_origin": "ast",
+      "community": 47,
+      "community_name": "config/__init__.py",
+      "file_type": "rationale",
+      "norm_label": "named gateway used as a source in capacity analysis.",
+      "source_file": "src/rushlab/config/__init__.py",
+      "source_location": "L30"
+    },
+    {
+      "id": "tests_test_network_fetch_rationale_1",
+      "label": "Live Overpass integration test. Excluded from CI via the integration marker.",
+      "_origin": "ast",
+      "community": 47,
+      "community_name": "config/__init__.py",
+      "file_type": "rationale",
+      "norm_label": "live overpass integration test. excluded from ci via the integration marker.",
+      "source_file": "tests/test_network_fetch.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_conftest",
+      "label": "conftest.py",
+      "_origin": "ast",
+      "community": 48,
+      "community_name": "conftest.py",
+      "file_type": "code",
+      "norm_label": "conftest.py",
+      "source_file": "tests/conftest.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_conftest_py_fixture",
+      "label": "fixture",
+      "_origin": "ast",
+      "community": 48,
+      "community_name": "conftest.py",
+      "file_type": "code",
+      "norm_label": "fixture",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_conftest_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 48,
+      "community_name": "conftest.py",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "tests_conftest_rationale_1",
+      "label": "Shared fixtures for SUMO tests; no network access.",
+      "_origin": "ast",
+      "community": 48,
+      "community_name": "conftest.py",
+      "file_type": "rationale",
+      "norm_label": "shared fixtures for sumo tests; no network access.",
+      "source_file": "tests/conftest.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_network_fetch",
+      "label": "fetch.py",
+      "_origin": "ast",
+      "community": 49,
+      "community_name": "fetch_area",
+      "file_type": "code",
+      "norm_label": "fetch.py",
+      "source_file": "src/rushlab/network/fetch.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_network_fetch_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 49,
+      "community_name": "fetch_area",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_rushlab_network_fetch_rationale_1",
+      "label": "Download and cache the OSM drive network for a study area.",
+      "_origin": "ast",
+      "community": 49,
+      "community_name": "fetch_area",
+      "file_type": "rationale",
+      "norm_label": "download and cache the osm drive network for a study area.",
+      "source_file": "src/rushlab/network/fetch.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_rushlab_network_fetch_rationale_22",
+      "label": "Return the cached GraphML path, downloading via Overpass when needed. osmnx\u2026",
+      "_origin": "ast",
+      "community": 49,
+      "community_name": "fetch_area",
+      "file_type": "rationale",
+      "norm_label": "return the cached graphml path, downloading via overpass when needed. osmnx...",
+      "source_file": "src/rushlab/network/fetch.py",
+      "source_location": "L22"
     },
     {
       "id": "scripts_graphify_reminder",
@@ -8092,6 +8913,366 @@
       "weight": 1.0
     },
     {
+      "source": "src_rushlab_mcp_server_area_analysis",
+      "target": "src_rushlab_mcp_server_area_or_error",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_area_analysis",
+      "target": "src_rushlab_network_fetch_area_cache_dir",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_area_analysis",
+      "target": "src_rushlab_demand_calibration_load_calibration",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_area_analysis",
+      "target": "src_rushlab_demand_calibration_sink_overrides",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_area_analysis",
+      "target": "src_rushlab_network_build_build_analysis_graph",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_area_analysis",
+      "target": "src_rushlab_network_metrics_analyze_area",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_area_calibration",
+      "target": "src_rushlab_mcp_server_area_or_error",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_area_calibration",
+      "target": "src_rushlab_demand_calibration_load_calibration",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_area_or_error",
+      "target": "src_rushlab_config_init_get_area",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_compare_scenarios",
+      "target": "src_rushlab_mcp_server_area_or_error",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_compare_scenarios",
+      "target": "src_rushlab_report_compare_load_scenario_summary",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_compare_scenarios",
+      "target": "src_rushlab_report_compare_build_comparison",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_list_areas",
+      "target": "src_rushlab_config_init_load_areas",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_optimize_signals",
+      "target": "src_rushlab_mcp_server_area_or_error",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L201",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_optimize_signals",
+      "target": "src_rushlab_signals_study_optimize_area_signals",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L202",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_optimize_signals",
+      "target": "src_rushlab_mcp_server_parse_window",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L206",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_render_report",
+      "target": "src_rushlab_mcp_server_area_or_error",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L226",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_render_report",
+      "target": "src_rushlab_mcp_server_safe_output_path",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L230",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_render_report",
+      "target": "src_rushlab_report_compare_load_scenario_summary",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_render_report",
+      "target": "src_rushlab_report_compare_build_comparison",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L236",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_render_report",
+      "target": "src_rushlab_report_html_build_kpi_figure",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L238",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_render_report",
+      "target": "src_rushlab_report_html_build_port_throughput_figure",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L241",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_render_report",
+      "target": "src_rushlab_report_html_build_trip_duration_figure",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L244",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_render_report",
+      "target": "src_rushlab_report_html_render_report",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_run_simulation",
+      "target": "src_rushlab_mcp_server_area_or_error",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_run_simulation",
+      "target": "src_rushlab_mcp_server_parse_window",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L161",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_run_simulation",
+      "target": "src_rushlab_mcp_server_safe_repo_path",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_run_simulation",
+      "target": "src_rushlab_sim_runner_run_scenario",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_scenario_metrics",
+      "target": "src_rushlab_mcp_server_area_or_error",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_scenario_metrics",
+      "target": "src_rushlab_report_compare_load_scenario_summary",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
       "source": "src_rushlab_network_build_attach_border_sink",
       "target": "src_rushlab_network_build_nearest_node",
       "relation": "calls",
@@ -9252,7 +10433,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "tests/test_agent_configs.py",
-      "source_location": "L50",
+      "source_location": "L60",
       "weight": 1.0
     },
     {
@@ -9264,7 +10445,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "tests/test_agent_configs.py",
-      "source_location": "L25",
+      "source_location": "L35",
       "weight": 1.0
     },
     {
@@ -9280,6 +10461,18 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_agent_configs_test_rushlab_mcp_registered_in_every_agent_config",
+      "target": "tests_test_agent_configs_load_json",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_agent_configs.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
       "source": "tests_test_agent_configs_test_session_start_hooks_exist",
       "target": "tests_test_agent_configs_load_json",
       "relation": "calls",
@@ -9288,7 +10481,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "tests/test_agent_configs.py",
-      "source_location": "L35",
+      "source_location": "L45",
       "weight": 1.0
     },
     {
@@ -9628,6 +10821,102 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_mcp_server_test_area_calibration_roundtrip",
+      "target": "src_rushlab_demand_calibration_write_calibration",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_test_compare_scenarios_deltas",
+      "target": "tests_test_mcp_server_write_summary",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_test_in_memory_client_lists_and_calls_tools",
+      "target": "tests_test_mcp_server_with_client",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L197",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_test_render_report_writes_files",
+      "target": "tests_test_mcp_server_write_summary",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_test_scenario_metrics",
+      "target": "tests_test_mcp_server_write_summary",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_test_stdio_server_lists_tools",
+      "target": "tests_test_mcp_server_with_stdio",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L222",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_with_client_runner",
+      "target": "tests_test_mcp_server_test_in_memory_client_lists_and_calls_tools_call",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_with_stdio",
+      "target": "tests_test_mcp_server_with_client_runner",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L226",
+      "weight": 1.0
+    },
+    {
       "source": "tests_test_network_build_border_graph",
       "target": "src_rushlab_network_build_build_analysis_graph",
       "relation": "calls",
@@ -9936,7 +11225,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "tests/test_report.py",
-      "source_location": "L74",
+      "source_location": "L77",
       "weight": 1.0
     },
     {
@@ -9948,7 +11237,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "tests/test_report.py",
-      "source_location": "L77",
+      "source_location": "L80",
       "weight": 1.0
     },
     {
@@ -9960,7 +11249,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "tests/test_report.py",
-      "source_location": "L82",
+      "source_location": "L85",
       "weight": 1.0
     },
     {
@@ -10732,6 +12021,18 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_mcp_server_with_client",
+      "target": "tests_test_mcp_server_with_client_runner",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L171",
+      "weight": 1.0
+    },
+    {
       "source": "mcp_mcp_server_graphify",
       "target": "mcp_command_uv",
       "relation": "references",
@@ -10744,8 +12045,20 @@
       "weight": 1.0
     },
     {
+      "source": "mcp_mcp_server_rushlab",
+      "target": "mcp_command_uv",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "command",
+      "source_file": ".mcp.json",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
       "source": "src_rushlab_cli_analyze",
-      "target": "opencode_graphify_command",
+      "target": "command",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -10757,7 +12070,7 @@
     },
     {
       "source": "src_rushlab_cli_areas",
-      "target": "opencode_graphify_command",
+      "target": "command",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -10769,7 +12082,7 @@
     },
     {
       "source": "src_rushlab_cli_build_area_command",
-      "target": "opencode_graphify_command",
+      "target": "command",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -10781,7 +12094,7 @@
     },
     {
       "source": "src_rushlab_cli_demand",
-      "target": "opencode_graphify_command",
+      "target": "command",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -10793,7 +12106,7 @@
     },
     {
       "source": "src_rushlab_cli_fetch_area_command",
-      "target": "opencode_graphify_command",
+      "target": "command",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -10817,7 +12130,7 @@
     },
     {
       "source": "src_rushlab_cli_optimize_signals_command",
-      "target": "opencode_graphify_command",
+      "target": "command",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -10829,7 +12142,7 @@
     },
     {
       "source": "src_rushlab_cli_report",
-      "target": "opencode_graphify_command",
+      "target": "command",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -10841,7 +12154,7 @@
     },
     {
       "source": "src_rushlab_cli_sim_network_command",
-      "target": "opencode_graphify_command",
+      "target": "command",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -10853,7 +12166,7 @@
     },
     {
       "source": "src_rushlab_cli_simulate",
-      "target": "opencode_graphify_command",
+      "target": "command",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -10945,6 +12258,30 @@
       "context": "decorator",
       "source_file": "tests/test_demand.py",
       "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_mcp_paths",
+      "target": "tests_test_mcp_server_py_fixture",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "decorator",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_test_stdio_server_lists_tools",
+      "target": "tests_test_mcp_server_py_integration",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "decorator",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L202",
       "weight": 1.0
     },
     {
@@ -11149,6 +12486,102 @@
       "context": "generic_arg",
       "source_file": "src/rushlab/demand/cbp.py",
       "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_area_analysis",
+      "target": "src_rushlab_mcp_server_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_area_calibration",
+      "target": "src_rushlab_mcp_server_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_compare_scenarios",
+      "target": "src_rushlab_mcp_server_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_list_areas",
+      "target": "src_rushlab_mcp_server_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_optimize_signals",
+      "target": "src_rushlab_mcp_server_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L185",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_render_report",
+      "target": "src_rushlab_mcp_server_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L224",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_run_simulation",
+      "target": "src_rushlab_mcp_server_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_scenario_metrics",
+      "target": "src_rushlab_mcp_server_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L124",
       "weight": 1.0
     },
     {
@@ -12184,6 +13617,198 @@
       "weight": 1.0
     },
     {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_config_init_area",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_config_init_get_area",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_config_init_load_areas",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_demand_calibration_load_calibration",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_demand_calibration_sink_overrides",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_network_build_build_analysis_graph",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_network_fetch_area_cache_dir",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_network_metrics_analyze_area",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_report_compare_build_comparison",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_report_compare_load_scenario_summary",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_report_html_build_kpi_figure",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_report_html_build_port_throughput_figure",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_report_html_build_trip_duration_figure",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_report_html_render_report",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_signals_study_optimize_area_signals",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_sim_runner_run_scenario",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
       "source": "src_rushlab_network_build",
       "target": "src_rushlab_config_init_area",
       "relation": "imports",
@@ -12916,6 +14541,126 @@
       "weight": 1.0
     },
     {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_init",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_config_init",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_demand_calibration",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_network_build",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_network_fetch",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_network_metrics",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_report_compare",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_report_html",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_signals_study",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_sim_runner",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
       "source": "src_rushlab_network_build",
       "target": "src_rushlab_config_init",
       "relation": "imports_from",
@@ -13372,6 +15117,30 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_mcp_server",
+      "target": "src_rushlab_init",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server",
+      "target": "src_rushlab_demand_calibration",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
       "source": "tests_test_network_build",
       "target": "src_rushlab_network_build",
       "relation": "imports_from",
@@ -13722,6 +15491,18 @@
     {
       "source": "mcp_mcp_server_graphify",
       "target": "mcp_package_graphify_mcp",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "package",
+      "source_file": ".mcp.json",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "mcp_mcp_server_rushlab",
+      "target": "mcp_package_rushlab_mcp",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -14824,6 +16605,126 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_mcp_server_test_area_analysis_requires_cached_graph",
+      "target": "tests_test_mcp_server_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_test_area_calibration_missing_raises",
+      "target": "tests_test_mcp_server_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_test_area_calibration_roundtrip",
+      "target": "tests_test_mcp_server_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_test_compare_scenarios_deltas",
+      "target": "tests_test_mcp_server_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_test_optimize_signals_requires_confirm",
+      "target": "tests_test_mcp_server_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_test_render_report_rejects_outside_paths",
+      "target": "tests_test_mcp_server_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_test_render_report_writes_files",
+      "target": "tests_test_mcp_server_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_test_run_simulation_parses_window_and_delegates",
+      "target": "tests_test_mcp_server_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_test_scenario_metrics",
+      "target": "tests_test_mcp_server_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_write_summary",
+      "target": "tests_test_mcp_server_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
       "source": "tests_test_network_fetch_test_fetch_area_downloads_and_caches",
       "target": "tests_test_network_fetch_py_path",
       "relation": "references",
@@ -14844,7 +16745,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "tests/test_report.py",
-      "source_location": "L73",
+      "source_location": "L76",
       "weight": 1.0
     },
     {
@@ -15184,6 +17085,42 @@
       "weight": 1.0
     },
     {
+      "source": "src_rushlab_mcp_server_area_or_error",
+      "target": "src_rushlab_config_init_area",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_safe_output_path",
+      "target": "src_rushlab_mcp_server_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_safe_repo_path",
+      "target": "src_rushlab_mcp_server_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
       "source": "src_rushlab_network_build_build_analysis_graph",
       "target": "src_rushlab_network_build_py_digraph",
       "relation": "references",
@@ -15400,6 +17337,18 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_mcp_server_mcp_paths",
+      "target": "tests_test_mcp_server_py_path",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
       "source": "tests_test_network_build_mini_area",
       "target": "src_rushlab_config_init_area",
       "relation": "references",
@@ -15581,6 +17530,17 @@
     },
     {
       "source": "agent_skills_run_scenario_study_skill_run_a_scenario_study",
+      "target": "agent_skills_run_scenario_study_skill_mcp_alternative",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agent/skills/run-scenario-study/SKILL.md",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_skills_run_scenario_study_skill_run_a_scenario_study",
       "target": "agent_skills_run_scenario_study_skill_goal",
       "relation": "contains",
       "_origin": "ast",
@@ -15620,7 +17580,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "AGENTS.md",
-      "source_location": "L43",
+      "source_location": "L44",
       "weight": 1.0
     },
     {
@@ -15631,7 +17591,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "AGENTS.md",
-      "source_location": "L62",
+      "source_location": "L63",
       "weight": 1.0
     },
     {
@@ -15642,7 +17602,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "AGENTS.md",
-      "source_location": "L73",
+      "source_location": "L74",
       "weight": 1.0
     },
     {
@@ -15664,7 +17624,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "AGENTS.md",
-      "source_location": "L82",
+      "source_location": "L83",
       "weight": 1.0
     },
     {
@@ -15786,6 +17746,17 @@
       "confidence_score": 1.0,
       "source_file": ".agents/skills/run-scenario-study/SKILL.md",
       "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_skills_run_scenario_study_skill_run_a_scenario_study",
+      "target": "agents_skills_run_scenario_study_skill_mcp_alternative",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/skills/run-scenario-study/SKILL.md",
+      "source_location": "L54",
       "weight": 1.0
     },
     {
@@ -15929,6 +17900,17 @@
       "confidence_score": 1.0,
       "source_file": ".claude/skills/run-scenario-study/SKILL.md",
       "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "claude_skills_run_scenario_study_skill_run_a_scenario_study",
+      "target": "claude_skills_run_scenario_study_skill_mcp_alternative",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".claude/skills/run-scenario-study/SKILL.md",
+      "source_location": "L54",
       "weight": 1.0
     },
     {
@@ -16284,8 +18266,63 @@
       "weight": 1.0
     },
     {
+      "source": "docs_decisions_0007_mcp_server",
+      "target": "docs_decisions_0007_mcp_server_0007_mcp_server_for_agent_driven_workflows",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/decisions/0007-mcp-server.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_decisions_0007_mcp_server_0007_mcp_server_for_agent_driven_workflows",
+      "target": "docs_decisions_0007_mcp_server_decisions",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/decisions/0007-mcp-server.md",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_decisions_0007_mcp_server_0007_mcp_server_for_agent_driven_workflows",
+      "target": "docs_decisions_0007_mcp_server_consequences",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/decisions/0007-mcp-server.md",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_decisions_0007_mcp_server_0007_mcp_server_for_agent_driven_workflows",
+      "target": "docs_decisions_0007_mcp_server_context",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/decisions/0007-mcp-server.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
       "source": "mcp",
       "target": "mcp_mcp_server_graphify",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".mcp.json",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "mcp",
+      "target": "mcp_mcp_server_rushlab",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16350,6 +18387,17 @@
       "weight": 1.0
     },
     {
+      "source": "opencode_mcp",
+      "target": "opencode_mcp_rushlab",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opencode.json",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
       "source": "opencode_mcp_graphify",
       "target": "opencode_graphify_type",
       "relation": "contains",
@@ -16380,6 +18428,39 @@
       "confidence_score": 1.0,
       "source_file": "opencode.json",
       "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_mcp_rushlab",
+      "target": "opencode_rushlab_type",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opencode.json",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_mcp_rushlab",
+      "target": "opencode_rushlab_command",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opencode.json",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_mcp_rushlab",
+      "target": "opencode_rushlab_enabled",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opencode.json",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -16516,6 +18597,17 @@
     },
     {
       "source": "opencode_skills_run_scenario_study_skill_run_a_scenario_study",
+      "target": "opencode_skills_run_scenario_study_skill_mcp_alternative",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/run-scenario-study/SKILL.md",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "opencode_skills_run_scenario_study_skill_run_a_scenario_study",
       "target": "opencode_skills_run_scenario_study_skill_goal",
       "relation": "contains",
       "_origin": "ast",
@@ -16538,7 +18630,7 @@
     },
     {
       "source": "readme_rushlab",
-      "target": "readme_sumo_baseline_2026_09_15_06_00_10_00",
+      "target": "readme_demand_baseline_2026_09_15",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16560,13 +18652,24 @@
     },
     {
       "source": "readme_rushlab",
+      "target": "readme_sumo_baseline_2026_09_15_06_00_10_00",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_rushlab",
       "target": "readme_signal_optimization_study_2026_09_15",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L126",
+      "source_location": "L143",
       "weight": 1.0
     },
     {
@@ -16577,7 +18680,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L146",
+      "source_location": "L163",
       "weight": 1.0
     },
     {
@@ -16588,7 +18691,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L159",
+      "source_location": "L176",
       "weight": 1.0
     },
     {
@@ -16599,7 +18702,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L165",
+      "source_location": "L182",
       "weight": 1.0
     },
     {
@@ -16615,7 +18718,7 @@
     },
     {
       "source": "readme_rushlab",
-      "target": "readme_quickstart",
+      "target": "readme_mcp_server",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16626,18 +18729,18 @@
     },
     {
       "source": "readme_rushlab",
-      "target": "readme_usage",
+      "target": "readme_quickstart",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L56",
+      "source_location": "L65",
       "weight": 1.0
     },
     {
       "source": "readme_rushlab",
-      "target": "readme_network_baseline_2026_09_15",
+      "target": "readme_usage",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16648,13 +18751,13 @@
     },
     {
       "source": "readme_rushlab",
-      "target": "readme_demand_baseline_2026_09_15",
+      "target": "readme_network_baseline_2026_09_15",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L91",
+      "source_location": "L90",
       "weight": 1.0
     },
     {
@@ -17359,6 +19462,149 @@
       "confidence_score": 1.0,
       "source_file": "src/rushlab/demand/profile.py",
       "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_mcp_server_area_calibration",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_mcp_server_scenario_metrics",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_mcp_server_compare_scenarios",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_mcp_server_run_simulation",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_mcp_server_optimize_signals",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L185",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_mcp_server_render_report",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L224",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_mcp_server_main",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L267",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_mcp_server_area_or_error",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_mcp_server_parse_window",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_mcp_server_safe_output_path",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_mcp_server_safe_repo_path",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_mcp_server_list_areas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server",
+      "target": "src_rushlab_mcp_server_area_analysis",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L99",
       "weight": 1.0
     },
     {
@@ -18331,7 +20577,7 @@
     },
     {
       "source": "tests_test_agent_configs",
-      "target": "tests_test_agent_configs_test_claude_mcp_config",
+      "target": "tests_test_agent_configs_test_rushlab_mcp_registered_in_every_agent_config",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -18342,18 +20588,7 @@
     },
     {
       "source": "tests_test_agent_configs",
-      "target": "tests_test_agent_configs_test_codex_config_parses_with_mcp",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "tests/test_agent_configs.py",
-      "source_location": "L29",
-      "weight": 1.0
-    },
-    {
-      "source": "tests_test_agent_configs",
-      "target": "tests_test_agent_configs_test_session_start_hooks_exist",
+      "target": "tests_test_agent_configs_test_claude_mcp_config",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -18364,13 +20599,35 @@
     },
     {
       "source": "tests_test_agent_configs",
+      "target": "tests_test_agent_configs_test_codex_config_parses_with_mcp",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_agent_configs.py",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_agent_configs",
+      "target": "tests_test_agent_configs_test_session_start_hooks_exist",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_agent_configs.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_agent_configs",
       "target": "tests_test_agent_configs_test_skill_mirrors_cover_agent_sources",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_agent_configs.py",
-      "source_location": "L41",
+      "source_location": "L51",
       "weight": 1.0
     },
     {
@@ -18381,7 +20638,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_agent_configs.py",
-      "source_location": "L49",
+      "source_location": "L59",
       "weight": 1.0
     },
     {
@@ -18693,6 +20950,193 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_mcp_server",
+      "target": "tests_test_mcp_server_test_scenario_metrics",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server",
+      "target": "tests_test_mcp_server_test_compare_scenarios_deltas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server",
+      "target": "tests_test_mcp_server_test_render_report_writes_files",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server",
+      "target": "tests_test_mcp_server_test_render_report_rejects_outside_paths",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server",
+      "target": "tests_test_mcp_server_test_run_simulation_parses_window_and_delegates",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server",
+      "target": "tests_test_mcp_server_test_optimize_signals_requires_confirm",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server",
+      "target": "tests_test_mcp_server_with_client",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server",
+      "target": "tests_test_mcp_server_test_in_memory_client_lists_and_calls_tools",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L190",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server",
+      "target": "tests_test_mcp_server_test_stdio_server_lists_tools",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L203",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server",
+      "target": "tests_test_mcp_server_with_stdio",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L225",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server",
+      "target": "tests_test_mcp_server_mcp_paths",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server",
+      "target": "tests_test_mcp_server_write_summary",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server",
+      "target": "tests_test_mcp_server_test_list_areas_includes_san_ysidro",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server",
+      "target": "tests_test_mcp_server_test_area_calibration_missing_raises",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server",
+      "target": "tests_test_mcp_server_test_area_calibration_roundtrip",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server",
+      "target": "tests_test_mcp_server_test_area_analysis_requires_cached_graph",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_test_stdio_server_lists_tools",
+      "target": "tests_test_mcp_server_test_stdio_server_lists_tools_runner",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
       "source": "tests_test_network_build",
       "target": "tests_test_network_build_mini_area",
       "relation": "contains",
@@ -18953,7 +21397,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "tests/test_report.py",
-      "source_location": "L73",
+      "source_location": "L76",
       "weight": 1.0
     },
     {
@@ -19683,6 +22127,116 @@
       "weight": 1.0
     },
     {
+      "source": "src_rushlab_mcp_server_rationale_1",
+      "target": "src_rushlab_mcp_server",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_rationale_100",
+      "target": "src_rushlab_mcp_server_area_analysis",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_rationale_116",
+      "target": "src_rushlab_mcp_server_area_calibration",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_rationale_125",
+      "target": "src_rushlab_mcp_server_scenario_metrics",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_rationale_140",
+      "target": "src_rushlab_mcp_server_compare_scenarios",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_rationale_159",
+      "target": "src_rushlab_mcp_server_run_simulation",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L159",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_rationale_195",
+      "target": "src_rushlab_mcp_server_optimize_signals",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L195",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_rationale_225",
+      "target": "src_rushlab_mcp_server_render_report",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L225",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_rationale_268",
+      "target": "src_rushlab_mcp_server_main",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L268",
+      "weight": 1.0
+    },
+    {
+      "source": "src_rushlab_mcp_server_rationale_87",
+      "target": "src_rushlab_mcp_server_list_areas",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/rushlab/mcp_server.py",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
       "source": "src_rushlab_network_build_rationale_1",
       "target": "src_rushlab_network_build",
       "relation": "rationale_for",
@@ -20343,6 +22897,17 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_mcp_server_rationale_1",
+      "target": "tests_test_mcp_server",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
       "source": "tests_test_network_build_rationale_1",
       "target": "tests_test_network_build",
       "relation": "rationale_for",
@@ -20454,13 +23019,24 @@
     },
     {
       "source": "readme",
+      "target": "docs_decisions_0004_demand_model",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
       "target": "docs_decisions_0005_sumo_model",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L112",
+      "source_location": "L129",
       "weight": 1.0
     },
     {
@@ -20471,7 +23047,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L131",
+      "source_location": "L148",
       "weight": 1.0
     },
     {
@@ -20482,7 +23058,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L163",
+      "source_location": "L180",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "docs_decisions_0007_mcp_server",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L62",
       "weight": 1.0
     },
     {
@@ -20493,18 +23080,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L76",
-      "weight": 1.0
-    },
-    {
-      "source": "readme",
-      "target": "docs_decisions_0004_demand_model",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L94",
+      "source_location": "L93",
       "weight": 1.0
     },
     {
@@ -20568,6 +23144,54 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_mcp_server_test_in_memory_client_lists_and_calls_tools",
+      "target": "tests_test_mcp_server_test_in_memory_client_lists_and_calls_tools_call",
+      "relation": "indirect_call",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "argument",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L197",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_test_optimize_signals_requires_confirm",
+      "target": "tests_test_mcp_server_test_optimize_signals_requires_confirm_fake_optimize",
+      "relation": "indirect_call",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "argument",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_test_run_simulation_parses_window_and_delegates",
+      "target": "tests_test_mcp_server_test_run_simulation_parses_window_and_delegates_fake_run_scenario",
+      "relation": "indirect_call",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "argument",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_mcp_server_test_stdio_server_lists_tools",
+      "target": "tests_test_mcp_server_with_client_runner",
+      "relation": "indirect_call",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "argument",
+      "source_file": "tests/test_mcp_server.py",
+      "source_location": "L222",
+      "weight": 1.0
+    },
+    {
       "source": "src_rushlab_signals_optimizer_evaluate_individual",
       "target": "src_rushlab_signals_evaluator_evaluatorconfig",
       "relation": "uses",
@@ -20615,5 +23239,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "58c51abc5cf2cd57bb91b5a74fbc0cb675c59e1b"
+  "built_at_commit": "90a4a132af9ba3e728f5240d58211841c754bb9b"
 }

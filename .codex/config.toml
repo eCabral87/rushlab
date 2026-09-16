@@ -3,3 +3,7 @@
 [mcp_servers.graphify]
 command = "uv"
 args = ["run", "--no-sync", "graphify-mcp", "graphify-out/graph.json"]
+
+[mcp_servers.rushlab]
+command = "uv"
+args = ["run", "--no-sync", "rushlab-mcp"]

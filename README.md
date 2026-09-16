@@ -45,6 +45,23 @@ Two one-time prompts cannot be pre-accepted from the repo: Codex asks to trust
 the project and approve its hooks (`/hooks`); Claude Code asks to trust the
 workspace and its MCP server on first use.
 
+## MCP server
+
+`rushlab-mcp` exposes the pipeline as typed tools to any MCP client (registered
+automatically for all three agents from `agent/mcp.json`):
+
+| Tool | Kind | Duration |
+|---|---|---|
+| `list_areas`, `area_analysis`, `area_calibration`, `scenario_metrics`, `compare_scenarios` | read-only | seconds |
+| `render_report` | action | seconds |
+| `run_simulation` | action | minutes |
+| `optimize_signals` | action | tens of minutes (`confirm=true` required) |
+
+Safety: area names are validated, reports can only be written under `results/`
+or `docs/reports/`, and the server runs on stdio only. See
+[ADR-0007](docs/decisions/0007-mcp-server.md). Run it standalone with
+`uv run rushlab-mcp`.
+
 ## Quickstart
 
 ```bash

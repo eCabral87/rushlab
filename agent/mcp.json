@@ -3,6 +3,10 @@
     "graphify": {
       "command": "uv",
       "args": ["run", "--no-sync", "graphify-mcp", "graphify-out/graph.json"]
+    },
+    "rushlab": {
+      "command": "uv",
+      "args": ["run", "--no-sync", "rushlab-mcp"]
     }
   }
 }

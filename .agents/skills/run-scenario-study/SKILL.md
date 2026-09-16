@@ -50,3 +50,10 @@ for a registered area.
 - Never phrase results as predictions of the real world; phrase as
   "under assumptions A, B, C, scenario X ranks above Y".
 - If calibration to BTS/CBP data is stale or missing, say so at the top of the report.
+
+## MCP alternative
+
+When the RushLab MCP server is available, prefer its typed tools over shelling
+out: `area_analysis`, `area_calibration`, `run_simulation`, `compare_scenarios`,
+`render_report`. `optimize_signals` requires `confirm=true` because it runs for
+tens of minutes; announce long runs to the user before starting them.

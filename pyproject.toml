@@ -29,6 +29,7 @@ dependencies = [
 
 [project.scripts]
 rushlab = "rushlab.cli:app"
+rushlab-mcp = "rushlab.mcp_server:main"
 
 [dependency-groups]
 dev = [
