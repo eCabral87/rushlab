@@ -6,8 +6,8 @@ Ask *"what's the cheapest way to cut the morning wait at San Ysidro?"* — RushL
 loads the corridor from OpenStreetMap, simulates rush-hour traffic in SUMO, tests
 interventions, and returns a ranked before/after comparison with stated assumptions.
 
-> Status: D4 — SUMO microsimulation baseline running (network, metering,
-> demand, KPIs). Signal-optimization scenarios land next.
+> Status: D5 — signal optimization (Webster + GA offsets) and the comparison
+> report pipeline are done. Demand-side and policy scenarios land next.
 
 ## What it does
 
@@ -63,6 +63,8 @@ uv run rushlab build-area san-ysidro      # analytic graph with calibrated sink
 uv run rushlab analyze san-ysidro --top 15  # bottleneck ranking -> results/<area>/analysis.json
 uv run rushlab sim-network san-ysidro     # build the SUMO network (main roads + signals)
 uv run rushlab simulate san-ysidro        # 06:00-10:00 baseline microsim -> KPIs
+uv run rushlab optimize-signals san-ysidro --budget light   # Webster + GA offsets
+uv run rushlab report san-ysidro --scenarios baseline,optimized
 ```
 
 `build-area` and `analyze` use the derived calibration automatically when it
@@ -120,6 +122,26 @@ Main-road network (567 nodes, 952 edges, 48 signals) with a metered port entry
 
 Artifacts: `results/san-ysidro/sumo/baseline/` (gitignored, regenerable with
 the command above).
+
+## Signal optimization study (2026-09-15)
+
+Top-8 busiest non-port signals retimed with Webster, offsets optimized with a
+genetic algorithm (166 evaluations, `--budget light`), validated on the full
+window. Full report: [`docs/reports/san-ysidro-signal-optimization.html`](docs/reports/san-ysidro-signal-optimization.html)
+(see [ADR-0006](docs/decisions/0006-signal-optimization.md)):
+
+| KPI | Baseline | Optimized | Δ |
+|---|---|---|---|
+| Mean time loss | 1,026.7 s | 1,019.6 s | -0.7% |
+| Mean trip duration | 1,148.1 s | 1,140.6 s | -0.7% |
+| Port throughput | 1,779 veh/h | 1,841 veh/h | +3.5% |
+| Teleports | 448 | 486 | +8.5% |
+| Arrived vehicles | 7,117 | 7,364 | +3.5% |
+
+**Headline finding:** the metered port is the binding constraint — upstream
+signal retiming shifts throughput ~3.5% and delay <1%. The next levers are
+port metering policy, lane management, departure staggering, and rerouting, not
+green splits.
 
 ## Recon baseline (2026-09)
 

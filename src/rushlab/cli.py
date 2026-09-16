@@ -28,6 +28,15 @@ from rushlab.demand.cbp import append_snapshot, fetch_snapshot
 from rushlab.network.build import BORDER_SINK, build_analysis_graph
 from rushlab.network.fetch import fetch_area
 from rushlab.network.metrics import analyze_area
+from rushlab.report.compare import build_comparison, load_scenario_summary
+from rushlab.report.html import (
+    build_kpi_figure,
+    build_port_throughput_figure,
+    build_trip_duration_figure,
+    render_report,
+)
+from rushlab.signals.optimizer import BUDGETS
+from rushlab.signals.study import optimize_area_signals
 from rushlab.sim.demand import destination_edge, gateway_edges
 from rushlab.sim.network import build_sumo_network, read_net
 from rushlab.sim.runner import run_scenario
@@ -225,6 +234,9 @@ def simulate(
     demand_factor: float = typer.Option(
         0.75, "--demand-factor", min=0.05, max=1.0, help="Gateway capture share of BTS demand."
     ),
+    signals: Path | None = typer.Option(
+        None, "--signals", help="Signal program file to apply (from optimize-signals)."
+    ),
     refresh: bool = typer.Option(False, "--refresh", help="Rebuild network and re-fetch data."),
 ) -> None:
     """Run a SUMO microsimulation scenario and write KPIs."""
@@ -236,6 +248,7 @@ def simulate(
         window=parsed,
         seed=seed,
         demand_factor=demand_factor,
+        signals_path=signals,
         refresh=refresh,
         derived_root=DERIVED_ROOT,
         results_root=RESULTS_ROOT,
@@ -262,6 +275,86 @@ def simulate(
             f"(ratio {metering['port_green_ratio']}), "
             f"est. capacity {metering['estimated_capacity_veh_h']:,.0f} veh/h"
         )
+
+
+@app.command("optimize-signals")
+def optimize_signals_command(
+    name: str,
+    budget: str = typer.Option(
+        "light", "--budget", help=f"GA budget: {', '.join(sorted(BUDGETS))}."
+    ),
+    top: int = typer.Option(8, "--top", min=1, max=20, help="Busiest signals to optimize."),
+    window: str = typer.Option("06:00-10:00", "--window", help="Validation window."),
+    eval_window: str = typer.Option("06:00-08:00", "--eval-window", help="GA evaluation window."),
+    seed: int = typer.Option(42, "--seed", help="GA and routing seed."),
+    workers: int = typer.Option(4, "--workers", min=1, max=16, help="Parallel evaluations."),
+) -> None:
+    """Optimize signal timing (Webster + GA offsets) and validate the result."""
+    area = _area_or_exit(name)
+    study = optimize_area_signals(
+        area,
+        budget=budget,
+        top_k=top,
+        window=_parse_window(window),
+        eval_window=_parse_window(eval_window),
+        seed=seed,
+        workers=workers,
+        derived_root=DERIVED_ROOT,
+        results_root=RESULTS_ROOT,
+    )
+    console.print(
+        f"selected {len(study['selected'])} signals | common cycle "
+        f"{study['common_cycle_s']:.1f} s | budget {study['ga']['budget']} | "
+        f"evaluations {study['ga']['evaluations']}"
+    )
+    console.print(
+        f"best GA fitness {study['ga']['best_fitness']:,.1f} | signal file: {study['signal_file']}"
+    )
+    metrics = study["validation"]["metrics"]
+    console.print(
+        f"optimized validation: time loss {metrics.get('mean_trip_time_loss_s')} s | "
+        f"port throughput {metrics.get('port_throughput_veh_h')} veh/h | "
+        f"teleports {metrics.get('teleports')}"
+    )
+
+
+@app.command()
+def report(
+    name: str,
+    scenarios: str = typer.Option(
+        "baseline", "--scenarios", help="Comma-separated scenario names (first is baseline)."
+    ),
+    output: Path | None = typer.Option(None, "--output", help="HTML output path."),
+) -> None:
+    """Compare scenario summaries and write a self-contained HTML report."""
+    area = _area_or_exit(name)
+    names = [item.strip() for item in scenarios.split(",") if item.strip()]
+    if not names:
+        raise typer.BadParameter("at least one scenario is required")
+    summaries = {
+        scenario: load_scenario_summary(RESULTS_ROOT, area.name, scenario) for scenario in names
+    }
+    comparison = build_comparison(area.name, summaries)
+    figures: dict[str, str] = {}
+    kpi_figure = build_kpi_figure(comparison)
+    if kpi_figure:
+        figures["kpis"] = kpi_figure
+    throughput_figure = build_port_throughput_figure(RESULTS_ROOT, area.name, names)
+    if throughput_figure:
+        figures["throughput"] = throughput_figure
+    duration_figure = build_trip_duration_figure(RESULTS_ROOT, area.name, names)
+    if duration_figure:
+        figures["durations"] = duration_figure
+
+    out_path = output or (RESULTS_ROOT / area.name / "report.html")
+    render_report(out_path, comparison, figures)
+    comparison_path = out_path.with_suffix(".json")
+    comparison_path.write_text(json.dumps(comparison, indent=2, ensure_ascii=False) + "\n")
+    table = Table("KPI", *names)
+    for row in comparison["rows"]:
+        table.add_row(row["label"], *[str(row["values"][scenario]) for scenario in names])
+    console.print(table)
+    console.print(f"wrote [bold]{out_path}[/bold] and {comparison_path}")
 
 
 def _print_calibration(calibration: dict[str, Any]) -> None:

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>RushLab scenario report — {{ comparison.area }}</title>
+<style>
+  :root { color-scheme: light; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; margin: 2rem auto; max-width: 60rem; color: #1a202c; }
+  h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
+  h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.3rem; }
+  .meta { color: #4a5568; font-size: 0.9rem; }
+  table { border-collapse: collapse; width: 100%; margin-top: 0.8rem; font-size: 0.92rem; }
+  th, td { border: 1px solid #e2e8f0; padding: 0.4rem 0.6rem; text-align: right; }
+  th:first-child, td:first-child { text-align: left; }
+  thead th { background: #f7fafc; }
+  .delta-bad { color: #c53030; }
+  .delta-good { color: #2f855a; }
+  .assumptions { background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 1rem; font-size: 0.9rem; }
+  img { max-width: 100%; margin-top: 0.8rem; border: 1px solid #e2e8f0; border-radius: 6px; }
+</style>
+</head>
+<body>
+<h1>RushLab scenario report — {{ comparison.area }}</h1>
+<p class="meta">Generated {{ comparison.generated_at }} · scenarios: {{ comparison.scenarios | join(", ") }}</p>
+
+<h2>Ranked comparison</h2>
+<p class="meta">Deltas are percent change against <strong>{{ comparison.baseline }}</strong>. Bold values are the better result per row.</p>
+<table>
+  <thead>
+    <tr>
+      <th>KPI</th>
+      {% for scenario in comparison.scenarios %}<th>{{ scenario }}</th>{% endfor %}
+      {% for scenario in comparison.scenarios %}<th>{{ scenario }} Δ%</th>{% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in comparison.rows %}
+    <tr>
+      <td>{{ row.label }} ({{ row.direction }})</td>
+      {% for scenario in comparison.scenarios %}
+      <td>{{ row.values[scenario] if row.values[scenario] is not none else "—" }}</td>
+      {% endfor %}
+      {% for scenario in comparison.scenarios %}
+      {% set delta = row.delta_pct[scenario] %}
+      {% if delta is none %}<td>—</td>
+      {% else %}<td class="{{ 'delta-good' if (row.direction == 'lower' and delta < 0) or (row.direction == 'higher' and delta > 0) else 'delta-bad' if delta != 0 else '' }}">{{ "%+.1f" | format(delta) }}%</td>
+      {% endif %}
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% if figures %}
+<h2>Figures</h2>
+{% for name, data in figures.items() %}
+<img alt="{{ name }}" src="data:image/png;base64,{{ data }}">
+{% endfor %}
+{% endif %}
+
+<h2>Assumptions and provenance</h2>
+<div class="assumptions">
+  <ul>
+    <li>Results are relative comparisons under documented assumptions — not real-world predictions.</li>
+    <li>All scenarios share the BTS-anchored demand (factor {{ comparison.provenance[comparison.baseline].demand_factor }}), seed {{ comparison.provenance[comparison.baseline].seed }}, and the metered port configuration.</li>
+    <li>Teleports (vehicles waiting over 900 s) are reported, never hidden; they distort travel-time tails in oversaturated runs.</li>
+    <li>Signal optimization scope: {{ comparison.provenance[comparison.scenarios[-1]].signals.junctions | length if comparison.provenance[comparison.scenarios[-1]].signals else 0 }} junctions; the metered port junction is excluded by design.</li>
+    <li>Method and limitations: docs/decisions/0003–0006.</li>
+  </ul>
+  <table>
+    <thead><tr><th>Scenario</th><th>Window</th><th>Seed</th><th>Planned vehicles</th><th>Demand factor</th><th>Signal program</th></tr></thead>
+    <tbody>
+      {% for scenario in comparison.scenarios %}
+      {% set prov = comparison.provenance[scenario] %}
+      <tr>
+        <td>{{ scenario }}</td>
+        <td>{{ prov.window }}</td>
+        <td>{{ prov.seed }}</td>
+        <td>{{ prov.plan_vehicles }}</td>
+        <td>{{ prov.demand_factor }}</td>
+        <td>{{ prov.signals.algorithm if prov.signals else "network default" }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+</body>
+</html>

@@ -10,6 +10,7 @@ from typing import Any
 
 from rushlab.config import Area
 from rushlab.demand.calibration import load_calibration
+from rushlab.signals.programs import load_signal_file
 from rushlab.sim.demand import (
     DEFAULT_DEMAND_FACTOR,
     DEFAULT_WINDOW,
@@ -21,6 +22,7 @@ from rushlab.sim.demand import (
 )
 from rushlab.sim.metering import (
     apply_program_to_net,
+    apply_programs_to_net,
     find_metering_target,
     metering_program,
     program_summary,
@@ -245,6 +247,7 @@ def run_scenario(
     window: tuple[int, int] = DEFAULT_WINDOW,
     seed: int = 42,
     demand_factor: float = DEFAULT_DEMAND_FACTOR,
+    signals_path: Path | None = None,
     refresh: bool = False,
     cache_root: Path = DEFAULT_CACHE_ROOT,
     derived_root: Path = DEFAULT_DERIVED_ROOT,
@@ -263,6 +266,24 @@ def run_scenario(
         refresh=refresh,
         cache_root=cache_root,
     )
+
+    signals_meta: dict[str, Any] | None = None
+    if signals_path is not None:
+        signal_file = load_signal_file(signals_path)
+        applied_net = signals_path.with_name(f"{signals_path.stem}.net.xml")
+        net_path = apply_programs_to_net(
+            prepared["net"],
+            signal_file["programs"],
+            applied_net,
+            offsets=signal_file.get("offsets", {}),
+        )
+        signals_meta = {
+            "path": str(signals_path),
+            "algorithm": signal_file.get("algorithm"),
+            "junctions": sorted(signal_file["programs"]),
+            "cycle_s": signal_file.get("cycle_s"),
+        }
+        prepared = {**prepared, "net": net_path}
     output_dir = results_root / area.name / "sumo" / scenario
     config_path = write_sumocfg(
         output_dir,
@@ -286,6 +307,7 @@ def run_scenario(
         "plan": prepared["plan"],
         "routed": prepared["routed"],
         "metering": prepared["metering"],
+        "signals": signals_meta,
         "metrics": metrics,
     }
     (output_dir / "summary.json").write_text(

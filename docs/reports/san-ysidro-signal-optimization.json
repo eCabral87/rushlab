@@ -1,0 +1,147 @@
+{
+  "area": "san-ysidro",
+  "baseline": "baseline",
+  "scenarios": [
+    "baseline",
+    "optimized"
+  ],
+  "rows": [
+    {
+      "key": "mean_trip_time_loss_s",
+      "label": "Mean time loss (s)",
+      "direction": "lower",
+      "values": {
+        "baseline": 1026.7,
+        "optimized": 1019.6
+      },
+      "delta_pct": {
+        "baseline": 0.0,
+        "optimized": -0.7
+      }
+    },
+    {
+      "key": "mean_trip_duration_s",
+      "label": "Mean trip duration (s)",
+      "direction": "lower",
+      "values": {
+        "baseline": 1148.1,
+        "optimized": 1140.6
+      },
+      "delta_pct": {
+        "baseline": 0.0,
+        "optimized": -0.7
+      }
+    },
+    {
+      "key": "port_throughput_veh_h",
+      "label": "Port throughput (veh/h)",
+      "direction": "higher",
+      "values": {
+        "baseline": 1779.2,
+        "optimized": 1841.0
+      },
+      "delta_pct": {
+        "baseline": 0.0,
+        "optimized": 3.5
+      }
+    },
+    {
+      "key": "port_throughput_peak_veh_h",
+      "label": "Port throughput peak (veh/h)",
+      "direction": "higher",
+      "values": {
+        "baseline": 2244.0,
+        "optimized": 2244.0
+      },
+      "delta_pct": {
+        "baseline": 0.0,
+        "optimized": 0.0
+      }
+    },
+    {
+      "key": "port_approach_waiting_time_s",
+      "label": "Port approach waiting (s)",
+      "direction": "lower",
+      "values": {
+        "baseline": 3617.0,
+        "optimized": 3661.0
+      },
+      "delta_pct": {
+        "baseline": 0.0,
+        "optimized": 1.2
+      }
+    },
+    {
+      "key": "teleports",
+      "label": "Teleports",
+      "direction": "lower",
+      "values": {
+        "baseline": 448,
+        "optimized": 486
+      },
+      "delta_pct": {
+        "baseline": 0.0,
+        "optimized": 8.5
+      }
+    },
+    {
+      "key": "arrived",
+      "label": "Arrived vehicles",
+      "direction": "higher",
+      "values": {
+        "baseline": 7117,
+        "optimized": 7364
+      },
+      "delta_pct": {
+        "baseline": 0.0,
+        "optimized": 3.5
+      }
+    },
+    {
+      "key": "inserted",
+      "label": "Inserted vehicles",
+      "direction": "higher",
+      "values": {
+        "baseline": 9019,
+        "optimized": 9128
+      },
+      "delta_pct": {
+        "baseline": 0.0,
+        "optimized": 1.2
+      }
+    }
+  ],
+  "generated_at": "2026-09-16T01:14:53+00:00",
+  "provenance": {
+    "baseline": {
+      "window": "06:00-10:00",
+      "seed": 42,
+      "metering": true,
+      "signals": null,
+      "plan_vehicles": 10676,
+      "demand_factor": 0.75
+    },
+    "optimized": {
+      "window": "06:00-10:00",
+      "seed": 42,
+      "metering": true,
+      "signals": {
+        "path": "data/cache/sumo/san-ysidro/signals/optimized.json",
+        "algorithm": "webster+ga-offsets(light)",
+        "junctions": [
+          "158126256",
+          "285738150",
+          "4313438982",
+          "4464162895",
+          "4707278588",
+          "cluster_1845912073_285739212",
+          "cluster_285738981_285739440",
+          "cluster_4846957671_7244647979"
+        ],
+        "cycle_s": 48.103637919093984
+      },
+      "plan_vehicles": 10676,
+      "demand_factor": 0.75
+    }
+  }
+}

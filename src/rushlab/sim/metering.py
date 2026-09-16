@@ -21,7 +21,8 @@ class MeteringTarget:
     approach_edges: tuple[str, ...] = ()
 
 
-def _parse_net(net_path: Path) -> dict[str, object]:
+def parse_net_structure(net_path: Path) -> dict[str, object]:
+    """Parse junctions, edges, connections, and tlLogic from a net file."""
     root = ET.parse(net_path).getroot()
     junctions = {element.get("id"): element.get("type") for element in root.findall("junction")}
     edge_from: dict[str, str] = {}
@@ -65,7 +66,7 @@ def find_metering_target(
     net_path: Path, destination_edge: str, *, max_hops: int = 3
 ) -> MeteringTarget | None:
     """First traffic-light junction upstream of the destination edge."""
-    data = _parse_net(net_path)
+    data = parse_net_structure(net_path)
     junctions = data["junctions"]
     edge_from = data["edge_from"]
     edge_to = data["edge_to"]
@@ -201,23 +202,28 @@ def program_summary(
     }
 
 
-def apply_program_to_net(
-    net_path: Path, junction_id: str, program: list[dict], output_path: Path
+def apply_programs_to_net(
+    net_path: Path,
+    programs: dict[str, list[dict]],
+    output_path: Path,
+    *,
+    offsets: dict[str, float] | None = None,
 ) -> Path:
-    """Replace the junction's tlLogic phases in a net file and write it out.
+    """Replace one or more junction tlLogic programs in a net file.
 
-    Patching the generated net avoids netconvert's ordering limitation where
-    ``--tllogic-files`` is loaded before ``--tls.set`` creates the junction.
+    Offsets are written to the ``offset`` attribute of the tlLogic element.
     """
     tree = ET.parse(net_path)
     root = tree.getroot()
-    matched = False
-    for logic in root.findall("tlLogic"):
-        if logic.get("id") != junction_id:
-            continue
+    logics = {logic.get("id"): logic for logic in root.findall("tlLogic")}
+    missing = sorted(junction for junction in programs if junction not in logics)
+    if missing:
+        raise ValueError(f"traffic lights not found in net: {missing}")
+    for junction_id, phases in programs.items():
+        logic = logics[junction_id]
         for phase in list(logic.findall("phase")):
             logic.remove(phase)
-        for phase in program:
+        for phase in phases:
             attributes = {
                 "duration": str(phase["duration"]),
                 "state": str(phase["state"]),
@@ -225,13 +231,22 @@ def apply_program_to_net(
             if phase.get("name"):
                 attributes["name"] = str(phase["name"])
             ET.SubElement(logic, "phase", attrib=attributes)
-        matched = True
-        break
-    if not matched:
-        raise ValueError(f"traffic light {junction_id!r} not found in {net_path}")
+        if offsets is not None and junction_id in offsets:
+            logic.set("offset", str(offsets[junction_id]))
     output_path.parent.mkdir(parents=True, exist_ok=True)
     tree.write(output_path, encoding="utf-8", xml_declaration=True)
     return output_path
+
+
+def apply_program_to_net(
+    net_path: Path, junction_id: str, program: list[dict], output_path: Path
+) -> Path:
+    """Single-junction convenience wrapper around :func:`apply_programs_to_net`.
+
+    Patching the generated net avoids netconvert's ordering limitation where
+    ``--tllogic-files`` is loaded before ``--tls.set`` creates the junction.
+    """
+    return apply_programs_to_net(net_path, {junction_id: program}, output_path)
 
 
 def write_tllogic_file(path: Path, target: MeteringTarget, program: list[dict]) -> Path:
