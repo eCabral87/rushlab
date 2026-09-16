@@ -28,6 +28,9 @@ from rushlab.demand.cbp import append_snapshot, fetch_snapshot
 from rushlab.network.build import BORDER_SINK, build_analysis_graph
 from rushlab.network.fetch import fetch_area
 from rushlab.network.metrics import analyze_area
+from rushlab.sim.demand import destination_edge, gateway_edges
+from rushlab.sim.network import build_sumo_network, read_net
+from rushlab.sim.runner import run_scenario
 
 app = typer.Typer(
     name="rushlab",
@@ -174,6 +177,91 @@ def analyze(
     out_path.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n")
     _print_report(report)
     console.print(f"wrote [bold]{out_path}[/bold]")
+
+
+def _parse_window(value: str) -> tuple[int, int]:
+    try:
+        start_text, end_text = value.split("-", 1)
+        start = int(start_text.split(":", 1)[0])
+        end = int(end_text.split(":", 1)[0])
+    except (ValueError, IndexError):
+        raise typer.BadParameter("window must look like 06:00-10:00") from None
+    if not 0 <= start < end <= 24:
+        raise typer.BadParameter("window hours must satisfy 0 <= start < end <= 24")
+    return start, end
+
+
+@app.command("sim-network")
+def sim_network_command(
+    name: str,
+    refresh: bool = typer.Option(False, "--refresh", help="Re-fetch OSM XML and rebuild."),
+) -> None:
+    """Build the SUMO network for an area and print stats."""
+    area = _area_or_exit(name)
+    net_path, stats = build_sumo_network(area, refresh=refresh)
+    if area.sim_bbox is None or area.border is None:
+        console.print("[red]area needs sim_bbox and border metadata[/red]")
+        raise typer.Exit(code=2)
+    net = read_net(net_path)
+    crossing = area.border.crossing_points[0]
+    destination = destination_edge(net, crossing)
+    gateways = gateway_edges(net, area.sim_bbox, crossing, destination=destination)
+    console.print(
+        f"{area.name}: {stats['nodes']} nodes, {stats['edges']} edges, "
+        f"{stats['traffic_lights']} traffic lights"
+    )
+    console.print(
+        f"destination edge: {destination} | northbound gateways: {len(gateways)} | "
+        f"network: {net_path}"
+    )
+
+
+@app.command()
+def simulate(
+    name: str,
+    window: str = typer.Option("06:00-10:00", "--window", help="Simulation window HH:MM-HH:MM."),
+    seed: int = typer.Option(42, "--seed", help="Random seed for departures and routing."),
+    scenario: str = typer.Option("baseline", "--scenario", help="Scenario name."),
+    demand_factor: float = typer.Option(
+        0.75, "--demand-factor", min=0.05, max=1.0, help="Gateway capture share of BTS demand."
+    ),
+    refresh: bool = typer.Option(False, "--refresh", help="Rebuild network and re-fetch data."),
+) -> None:
+    """Run a SUMO microsimulation scenario and write KPIs."""
+    area = _area_or_exit(name)
+    parsed = _parse_window(window)
+    summary = run_scenario(
+        area,
+        scenario=scenario,
+        window=parsed,
+        seed=seed,
+        demand_factor=demand_factor,
+        refresh=refresh,
+        derived_root=DERIVED_ROOT,
+        results_root=RESULTS_ROOT,
+    )
+    metrics = summary["metrics"]
+    metering = summary.get("metering")
+    console.print(
+        f"{area.name} [{scenario}] {summary['window']} seed {seed}: "
+        f"{summary['plan']['total_vehicles']} planned, "
+        f"{metrics.get('inserted', 0)} inserted, {metrics.get('arrived', 0)} arrived, "
+        f"{metrics.get('teleports', 0)} teleports"
+    )
+    console.print(
+        f"mean trip duration {metrics.get('mean_trip_duration_s')} s | "
+        f"mean time loss {metrics.get('mean_trip_time_loss_s')} s | "
+        f"port throughput {metrics.get('port_throughput_veh_h')} veh/h "
+        f"(peak {metrics.get('port_throughput_peak_veh_h')}) | "
+        f"port approach waiting {metrics.get('port_approach_waiting_time_s')} s"
+    )
+    if metering:
+        console.print(
+            f"port metering at junction {metering['junction']}: "
+            f"cycle {metering['cycle_s']} s, port green {metering['port_green_s']} s "
+            f"(ratio {metering['port_green_ratio']}), "
+            f"est. capacity {metering['estimated_capacity_veh_h']:,.0f} veh/h"
+        )
 
 
 def _print_calibration(calibration: dict[str, Any]) -> None:

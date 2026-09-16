@@ -6,8 +6,8 @@ Ask *"what's the cheapest way to cut the morning wait at San Ysidro?"* — RushL
 loads the corridor from OpenStreetMap, simulates rush-hour traffic in SUMO, tests
 interventions, and returns a ranked before/after comparison with stated assumptions.
 
-> Status: D3 — demand calibration complete (BTS volumes + CBP wait snapshots).
-> SUMO microsimulation lands next.
+> Status: D4 — SUMO microsimulation baseline running (network, metering,
+> demand, KPIs). Signal-optimization scenarios land next.
 
 ## What it does
 
@@ -61,6 +61,8 @@ uv run rushlab fetch-area san-ysidro      # download + cache the OSM drive netwo
 uv run rushlab demand san-ysidro          # BTS volumes + CBP snapshot -> calibration.json
 uv run rushlab build-area san-ysidro      # analytic graph with calibrated sink
 uv run rushlab analyze san-ysidro --top 15  # bottleneck ranking -> results/<area>/analysis.json
+uv run rushlab sim-network san-ysidro     # build the SUMO network (main roads + signals)
+uv run rushlab simulate san-ysidro        # 06:00-10:00 baseline microsim -> KPIs
 ```
 
 `build-area` and `analyze` use the derived calibration automatically when it
@@ -100,6 +102,24 @@ Calibrated from BTS volumes and a CBP wait snapshot
 
 Evidence lives in `data/derived/san-ysidro/` (`calibration.json` and the
 growing `wait_snapshots.jsonl`); raw API responses stay in the ignored cache.
+
+## SUMO baseline (2026-09-15, 06:00-10:00)
+
+Main-road network (567 nodes, 952 edges, 48 signals) with a metered port entry
+(53 s cycle, 2,720 veh/h target). Oversaturated baseline; see
+[ADR-0005](docs/decisions/0005-sumo-model.md):
+
+| KPI | Value |
+|---|---|
+| Demand planned / inserted | 10,676 / 9,019 |
+| Arrived / running at end | 7,117 / 1,902 |
+| Teleports (900 s wait) | 448 (~5%, reported, not hidden) |
+| Mean trip duration / time loss | 1,148 s / 1,027 s |
+| Port throughput mean / peak | 1,779 / 2,244 veh/h |
+| Port approach waiting time | 3,617 s |
+
+Artifacts: `results/san-ysidro/sumo/baseline/` (gitignored, regenerable with
+the command above).
 
 ## Recon baseline (2026-09)
 

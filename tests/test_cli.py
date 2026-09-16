@@ -81,3 +81,39 @@ def test_demand_writes_calibration(monkeypatch, tmp_path: Path) -> None:
     result = runner.invoke(app, ["demand", "san-ysidro", "--no-snapshot"])
     assert result.exit_code == 0, result.stdout
     assert (tmp_path / "san-ysidro" / "calibration.json").is_file()
+
+
+def test_simulate_prints_kpis(monkeypatch) -> None:
+    summary = {
+        "area": "san-ysidro",
+        "scenario": "baseline",
+        "window": "06:00-10:00",
+        "seed": 42,
+        "plan": {"total_vehicles": 100},
+        "metrics": {
+            "inserted": 100,
+            "arrived": 90,
+            "teleports": 0,
+            "mean_trip_duration_s": 120.0,
+            "mean_trip_time_loss_s": 30.0,
+            "max_port_queue_m": 50.0,
+        },
+        "metering": {
+            "junction": "2",
+            "cycle_s": 103.0,
+            "port_green_s": 52.0,
+            "port_green_ratio": 0.505,
+            "estimated_capacity_veh_h": 2727.0,
+        },
+    }
+    monkeypatch.setattr("rushlab.cli.run_scenario", lambda *args, **kwargs: summary)
+    result = runner.invoke(app, ["simulate", "san-ysidro"])
+    assert result.exit_code == 0, result.stdout
+    assert "inserted" in result.stdout
+    assert "port metering" in result.stdout
+
+
+def test_simulate_rejects_bad_window() -> None:
+    result = runner.invoke(app, ["simulate", "san-ysidro", "--window", "10:00-06:00"])
+    assert result.exit_code == 2
+    assert "window" in result.output

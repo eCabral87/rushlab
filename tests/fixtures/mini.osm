@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="rushlab-tests">
+  <bounds minlat="32.529" minlon="-117.045" maxlat="32.545" maxlon="-117.015"/>
+  <node id="1" lat="32.5300" lon="-117.0400"/>
+  <node id="2" lat="32.5350" lon="-117.0300">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="3" lat="32.5420" lon="-117.0290"/>
+  <node id="4" lat="32.5350" lon="-117.0150"/>
+  <way id="10">
+    <nd ref="1"/>
+    <nd ref="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="name" v="South Approach"/>
+    <tag k="oneway" v="no"/>
+  </way>
+  <way id="11">
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <tag k="highway" v="primary"/>
+    <tag k="name" v="Port Road"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+  <way id="12">
+    <nd ref="4"/>
+    <nd ref="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="name" v="East Approach"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</osm>
