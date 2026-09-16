@@ -6,6 +6,9 @@ Ask *"what's the cheapest way to cut the morning wait at San Ysidro?"* — RushL
 loads the corridor from OpenStreetMap, simulates rush-hour traffic in SUMO, tests
 interventions, and returns a ranked before/after comparison with stated assumptions.
 
+[![Release](https://img.shields.io/github/v/release/eCabral87/rushlab)](https://github.com/eCabral87/rushlab/releases)
+[![CI](https://github.com/eCabral87/rushlab/actions/workflows/ci.yml/badge.svg)](https://github.com/eCabral87/rushlab/actions/workflows/ci.yml)
+
 > Status: D5 — signal optimization (Webster + GA offsets) and the comparison
 > report pipeline are done. Demand-side and policy scenarios land next.
 

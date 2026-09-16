@@ -1,10 +1,9 @@
 # Changelog
 
 Format follows the project's own release procedure
-(`agent/skills/release-notes/SKILL.md`); versions are semver. Release checklist
-for v0.1.0: tag `v0.1.0` and create the GitHub release once the tree is reviewed.
+(`agent/skills/release-notes/SKILL.md`); versions are semver.
 
-## v0.1.0 — 2026-09-16 (tag pending)
+## v0.1.0 — 2026-09-16
 
 First public version: an agent-driven traffic scenario lab for the San Ysidro
 border approach, plus the agentic-development evidence layer.
